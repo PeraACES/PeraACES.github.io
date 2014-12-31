@@ -1,0 +1,541 @@
+/****************
+ *  ElvinLabs   *
+ ****************/
+
+/********************
+ *  for whole body  *
+ ********************/
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    background: url(../img/eventsBg.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;  
+}
+
+.sans-serif, .sans, body { font-family: 'helvetica neue', helvetica, "arial", "droid sans", "sans-serif"; }
+
+.condensed-black { font-family: 'helvetica-condensedblack', "helvetica bq", "arial black", "droid sans", "sans-serif"; }
+
+.serif, body { font-family: georgia, 'times new roman', times, serif; }
+
+.droid-sans { font-family: 'Droid Sans'; }
+
+.clear { clear: both; }
+
+.box-shadow { box-shadow: 0px 0px 10px #000; }
+
+.text-shadow { text-shadow: 0 0 6px black; }
+
+.hover-glow { text-shadow: 0 0 3px white; }
+
+a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+a:hover{
+    text-shadow: 0 0 3px #fff;
+}
+
+.tooltip {
+	display:none;
+	position:absolute;
+	border:1px solid #333;
+	background-color:#161616;
+	border-radius:5px;
+	padding:10px;
+	color:#fff;
+	font-size:12px;
+    z-index: 10;
+    font-family: 'helvetica neue', helvetica, "arial", "droid sans", "sans-serif";
+}
+
+/********************
+ *  for menu        *
+ ********************/
+
+.page-wrapper {
+    position: relative;
+    background-size: cover;
+    height: 100%
+}
+
+.navbar-container {
+    position: fixed;
+    right: 0;
+    z-index: 100;
+    width: 50px;
+    font-size: 0x;
+    
+    top: 0px;
+    height: 100%;
+}
+.navbar-wrapper {
+    height: 100%;
+    position: relative;
+}
+.navbar {
+    height: auto;
+    margin: auto;
+    /*padding-top: 50%;*/
+    text-align: center;
+}
+
+.ndiv {
+    border-bottom: 1px solid #333;
+}
+
+.ndiv1 {
+    background: url(../img/icons/homeW.png) no-repeat center;
+    background-size: auto 50%;
+    background-color: #444;
+    opacity: 0.6;
+    border-top-left-radius: 10px;
+}
+
+.ndiv1:hover {
+    background: url(../img/icons/homeB.png) no-repeat center;
+    background-size: auto 50%;
+    background-color: #FF4E00;
+}
+
+.ndiv2 {
+    background: url(../img/icons/newsW.png) no-repeat center;
+    background-size: auto 50%;
+    background-color: #444;
+    opacity: 0.6;
+}
+
+.ndiv2:hover {
+    background: url(../img/icons/newsB.png) no-repeat center;
+    background-size: auto 50%;
+    background-color: #FF4E00;
+}
+
+.ndiv3 {
+    background: url(../img/icons/aboutW.png) no-repeat center;
+    background-size: auto 50%;
+    background-color: #444;
+    opacity: 0.6;
+}
+
+.ndiv3:hover {
+    background: url(../img/icons/aboutB.png) no-repeat center;
+    background-size: auto 50%;
+    background-color: #FF4E00;
+}
+
+.ndiv4 {
+    background: url(../img/icons/eventsW.png) no-repeat center;
+    background-size: auto 50%;
+    background-color: #444;
+    opacity: 0.6;
+}
+
+.ndiv4:hover {
+    background: url(../img/icons/eventsB.png) no-repeat center;
+    background-size: auto 50%;
+    background-color: #FF4E00;
+}
+
+.ndiv5 {
+    background: url(../img/icons/councilW.png) no-repeat center;
+    background-size: auto 50%;
+    background-color: #444;
+    opacity: 0.6;
+    border-bottom-left-radius: 10px;
+}
+
+.ndiv5:hover {
+    background: url(../img/icons/councilB.png) no-repeat center;
+    background-size: auto 50%;
+    background-color: #FF4E00;
+}
+
+.navbar a {
+    line-height: 45px;
+    font-size: 16px;
+    display: inline-block;
+    width: 50px;
+    background-color: transparent;
+    padding: 8px;
+}
+
+/********************
+ *  for banner      *
+ ********************/
+
+.banner{
+    width: 100%;
+    background: url(../img/cover.jpg) no-repeat center;
+    background-size: auto 100%;
+    padding-bottom: 1.5%;
+    min-height: 100vh;
+}
+
+.title{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-content: center;
+    padding-top: 50px;
+    padding: 40px;
+}
+
+.title-img{
+    height: 100px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-txt{
+    text-align: center;
+    font-size: 30px;
+    color: #f4f4f4;
+}
+
+/********************
+ *  for news        *
+ ********************/
+
+.news{
+    max-width: 1000px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: auto;
+    align-content: center;
+    margin: 0px auto;
+    outline: 0px;
+    font-size: 0px;
+}
+
+.news-tab-container{
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.news-tab{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    height: 350px;
+    width: 240px;;
+    border-bottom: 4px solid #FF4E00;
+    margin: 0px;
+    outline: none;
+}
+
+.news-tab-t-c{
+    width: 176px;
+    height: 176px;
+    border-radius: 88px;
+    position: relative;
+    margin: 0 auto;
+    background-size: auto 100%;
+    border: 6px solid #222;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.news-tab-t-c:hover{
+    width: 176px;
+    height: 176px;
+    border-radius: 88px;
+    position: relative;
+    margin: 0 auto;
+    background-size: auto 100%;
+    border: 6px solid #f4f4f4;
+    padding: 10px; 
+}
+
+
+.news-tab-t-cc{
+    visibility: hidden;
+    width: 144px;
+    height: 144px;
+    border-radius: 88px;
+    position: relative;
+    margin: 0 auto;
+    background-color:#f4f4f4;
+    color: #111;
+}
+
+.news-tab p {
+    text-align: center;
+    margin: 35px 14px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #f4f4f4;
+}
+
+.t{
+    /*background:
+    radial-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../img/news1.jpg) no-repeat center;
+    background-size: auto 100%;*/
+    padding-top: 37px;
+    height: 100%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+.t:hover{
+    /*background:
+    radial-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(255, 78, 0, 0.8)
+    ),
+    url(../img/news1.jpg) no-repeat center;
+    background-size: auto 100%;*/
+    background-image: radial-gradient(rgba(0, 0, 0, 0.8), rgba(255, 78, 0, 0.8));
+}
+
+/********************
+ *  for about       *
+ ********************/
+
+.about-bg{
+    width: 100%;
+    background: url(../img/councilBg.jpg) no-repeat center;
+    background-size: 100%;
+    background-repeat: repeat-y;   
+}
+
+.about-container{
+    padding-left: 20px;
+    max-width: 1000px;
+    height: 100vh;
+    align-content: center;
+    margin: 0px auto;
+    outline: 0px;
+    font-size: 0px;
+    display: table;
+}
+
+.about-container-middle{
+    padding-left: 20px;
+    max-width: 980px;
+    height: 500px;
+    align-content: center;
+    margin: 0px auto;
+    outline: 0px;
+    font-size: 0px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.about-title{
+    font-size: 40px;
+    color: #f4f4f4;
+    width: 30%;
+    float: left;
+    padding-top: 7%;
+}
+
+.about-title p{
+    line-height: 36px;
+}
+
+.about-content{
+    color: #f4f4f4;
+    width: 70%;
+    float: left;
+    padding-right: 20px;
+}
+
+.about-content-big{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.about-content-small{
+    padding-top: 30px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/********************
+ *  for events      *
+ ********************/
+
+.events-container{
+    width: 100%;
+    height:100vh;
+    background: transparent;
+    display: table;
+}
+
+.events-content{
+    max-width: 900px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.events-tab{
+    padding-top: 30px;
+    width: 290px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.events-cc{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    position: relative;
+    margin: 0 auto;
+    border: 6px solid #f4f4f4
+}
+
+.events-cc:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    position: relative;
+    margin: 0 auto;
+    border: 6px solid #FF4E00;
+}
+
+.events-title{
+    font-size: 30px;
+    color: #f4f4f4;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.et1{
+    background: url(../img/coders.jpg) no-repeat center;
+    background-size: auto 100%;
+}
+
+.et2{
+    background: url(../img/hackathon.jpg) no-repeat center;
+    background-size: auto 100%;
+}
+
+.et3{
+    background: url(../img/spark.jpg) no-repeat center;
+    background-size: auto 100%;
+}
+
+.events-content-txt{
+    font-size: 16px;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 30px 10px 30px 10px;
+    line-height: 18px;
+}
+
+/********************
+ *  for council     *
+ ********************/
+
+.council-container{
+    width: 100%;
+    background: url(../img/councilBg.jpg) no-repeat center;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+}
+
+.council-content{
+    padding-left: 20px;
+    max-width: 1000px;
+    min-height: 850px;
+    align-content: center;
+    margin: 0px auto;
+    outline: 0px;
+    font-size: 0px;
+}
+
+.council-content-middle{
+    padding-left: 20px;
+    max-width: 980px;
+    min-height: 850px;
+    align-content: center;
+    margin: 0px auto;
+    outline: 0px;
+    font-size: 0px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.council-graph{
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 70%;
+}
+
+.council-graph-img{
+    width: 100%;
+}
+.council-title{
+    float: left;
+    font-size: 40px;
+    color: #f4f4f4;
+    width: 30%;
+    padding-top: 40%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.council-title p{
+    line-height: 36px;
+}
+
+/********************
+ *  for footer      *
+ ********************/
+
+.footer-orange{
+    width: 100%;
+    height: 30px;
+    background-color: #FF4E00;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 7px;
+    font-size: 12px;
+    color: #f4f4f4;
+}
+
+.footer-gray{
+    width: 100%;
+    height: 10px;
+    background-color: #333;
+}
+
+.footer-black{
+    width: 100%;
+    height: 40px;
+    background-color: #111;
+}
