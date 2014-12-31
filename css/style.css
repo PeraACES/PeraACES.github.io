@@ -256,8 +256,15 @@ a:hover{
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    min-height: 350px;
 }
 
+.news-group{
+    height: 350px;
+    font-size: 0px;
+    padding: 0px;
+    display: inline-block;
+}
 .news-tab{
     margin: 0px;
     padding: 0px;
