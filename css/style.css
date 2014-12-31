@@ -215,6 +215,28 @@ a:hover{
 /********************
  *  for news        *
  ********************/
+.news-link{
+    position: relative;
+    width: 100%;
+}
+
+
+.news-link-inner{
+    width: 100px;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 0.8);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.news-link p{
+    font-size:15px; 
+    text-align:center;
+    color: #f4f4f4;
+    text-shadow: 0 0 6px black;
+    padding: 5px;
+}
 
 .news{
     max-width: 1000px;
