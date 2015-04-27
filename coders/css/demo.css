@@ -44,7 +44,7 @@
 
 body{
 	font-family: 'Open Sans','Arial', serif;
-	background:url(../../img/eventsBg.jpg) repeat-x , url(../images/dark_leather.jpg) repeat;
+	background: #ddd url(../images/egg_shell.jpg) repeat top left;
 	font-weight: 400;
 	font-size: 15px;
 	color: #333;
