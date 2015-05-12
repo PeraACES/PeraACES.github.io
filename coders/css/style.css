@@ -432,3 +432,11 @@ li a:hover{
 .text-content-news .twitter-timeline .twitter-timeline-rendered{
     width: 100%;   
 }
+
+#countdown p {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 0 5px;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.5);
+}
+

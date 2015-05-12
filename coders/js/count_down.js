@@ -62,4 +62,8 @@
 		date: "13 June 2015 18:00:00", // Change this to your desired date to countdown to
 		format: "on"
 	});
+	$("#countdown").countdown({
+		date: "13 June 2015 18:00:00", // Change this to your desired date to countdown to
+		format: "on"
+	});
 });
