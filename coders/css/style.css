@@ -444,27 +444,28 @@ li a:hover{
 .sponsor{
     z-index: 1000;
     position: absolute;
-    top: 10px;
+    /*top: 10px;*/
     height: 100%;
+    top: 10%;
 }
 
-.sponsor{
-    text-align: center;  /* align the inline(-block) elements horizontally */
-    font: 0/0 a;         /* remove the gap between inline(-block) elements */
+/*.sponsor{
+    text-align: center;  
+    font: 0/0 a;         
 }
 
-.sponsor:before {    /* create a full-height inline block pseudo=element */
+.sponsor:before {    
     content: ' ';
     display: inline-block;
-    vertical-align: middle;  /* vertical alignment of the inline element */
+    vertical-align: middle;  
     height: 100%;
 }
 
 .sponsor img {
     display: inline-block;
-    vertical-align: middle;  /* vertical alignment of the inline element */
-    font: 16px/1 Arial sans-serif;        /* <-- reset the font property */
-}
+    vertical-align: middle;  
+    font: 16px/1 Arial sans-serif;        
+}*/
 
 @media only screen and (max-width: 800px) {
     .sponsor {
