@@ -441,13 +441,13 @@ li a:hover{
     font-weight: 600;
 }
 
-.sponsor{
+/*.sponsor{
     z-index: 1000;
     position: absolute;
-    /*top: 10px;*/
+    top: 10px;
     height: 100%;
     top: 10%;
-}
+}*/
 
 /*.sponsor{
     text-align: center;  
@@ -467,8 +467,16 @@ li a:hover{
     font: 16px/1 Arial sans-serif;        
 }*/
 
-@media only screen and (max-width: 800px) {
+/*@media only screen and (max-width: 800px) {
     .sponsor {
         display: none;
     }
+}*/
+.sponsor{
+    width: 100%;
+    display: inline;
+}
+.sponsor img{
+    display: block;
+    margin: 0 auto;
 }
