@@ -474,3 +474,23 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+
+.btnnn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnnn:hover {
+  background: #3cb0fd;
+    color: #ffffff;
+  text-decoration: none;
+}
