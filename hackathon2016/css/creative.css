@@ -60,6 +60,10 @@ p {
     background-color: #222;
 }
 
+.bg-light{
+    background-color: #fff;
+}
+
 .text-faded {
     color: rgba(255,255,255,.7);
 }
