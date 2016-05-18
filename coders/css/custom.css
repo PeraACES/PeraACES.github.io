@@ -1,0 +1,8 @@
+#imageCSS{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#imageHolder:nth-child(3n+1){
+	border: 2px solid;
+}
