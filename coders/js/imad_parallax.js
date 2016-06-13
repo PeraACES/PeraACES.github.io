@@ -9,11 +9,10 @@ $(document).bind("mousemove", function(e){
 	var motionSpan_0 = ((i_width/2) - e.pageX)/i_width * depth;
 	var motionSpan_1 = ((i_width/2) - e.pageX)/i_width * depth * 0.6;
 	var motionSpan_2 = ((i_width/2) - e.pageX)/i_width * depth * 0.2;
+	bg_0.css("transform", "translateX(" + motionSpan_0 + "px)");
 	bg_1.css("transform", "translateX(" + motionSpan_1 + "px)");
 	bg_2.css("transform", "translateX(" + motionSpan_2 + "px)");
-	bg_0.css("transform", "translateX(" + motionSpan_0 + "px)");
 });
-
 $(window).resize(function(){
 	i_width = $(window).width();
 });

@@ -2,7 +2,14 @@
 	padding-left: 0px;
 	padding-right: 0px;
 }
-
-#imageHolder:nth-child(3n+1){
-	border: 2px solid;
+#imageHolder img{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    transition: all .3s;
+    opacity: 0.6;
+}
+#imageHolder img:hover{
+	-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    opacity: 1;
 }
