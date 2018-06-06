@@ -52,7 +52,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #101123;
+    background-color: #485f40;
 }
 
 .bg-dark {
@@ -132,7 +132,7 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: #101123;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -142,7 +142,7 @@ aside {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+            color: #101123;
     }
 
     .navbar-default .nav > li>a:hover,
