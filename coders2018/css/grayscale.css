@@ -8,8 +8,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    color: #fff;
-    background-color: #93073e;
+    color: black;
+    background-color: #FF9933;
     font-weight: 300;
 }
 
@@ -159,7 +159,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #5b1647;
+        background: #FF6600;
     }
 }
 
@@ -173,11 +173,11 @@ a:focus {
     text-align: center;
     color: #fff;
     /*background: url(../img/theme-bg-mono.png) no-repeat bottom center scroll;*/
-    background: #5b1647; /* Old browsers */
-    background: -moz-linear-gradient(top, #93073e 0%, #5b1647 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #93073e 0%,#5b1647 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #93073e 0%,#5b1647 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93073e', endColorstr='#5b1647',GradientType=0 ); /* IE6-9 */
+    background: #FFCC00; /* Old browsers */
+    background: -moz-linear-gradient(top, #93073e 0%, #FFCC00 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #93073e 0%,#FFCC00 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #93073e 0%,#FFCC00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93073e', endColorstr='#FFCC00',GradientType=0 ); /* IE6-9 */
     -webkit-background-size: contain;
     -moz-background-size: contain;
     background-size: contain;
@@ -220,7 +220,7 @@ a:focus {
     position: relative;
     width: 100%;
     min-height: 200px;
-    background-color: #ff5627;
+    background-color: #02140D;
     padding-top: 50px;
 }
 
@@ -511,14 +511,19 @@ body {
 #bg_0{
     background: url("../img/theme-bg-mono.png") no-repeat center bottom;
     background-size: 100%;
+    margin-left: -64px;
+    width: 115%;
 }
 #bg_1{
     background: url("../img/bg_1.png") no-repeat center bottom;
     background-size: 100%;
+    width: 145%;
+    margin-left: -34px;    
 }
 #bg_2{
-    background: url("../img/tbg_2.png") no-repeat center bottom;
+    background: url("../img/bg_2.png") no-repeat center bottom;
     background-size: 100%;
+    width: 90%;
 }
 #lower_border{
     background: url("../img/bg_lower.png") no-repeat center top;
