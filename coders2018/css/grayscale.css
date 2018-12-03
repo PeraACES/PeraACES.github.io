@@ -8,9 +8,10 @@ body {
     width: 100%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    color: black;
-    background-color: #FF9933;
+    color: #fff;
+    background-color: #73666d;
     font-weight: 300;
+    overflow-x:hidden;
 }
 
 html {
@@ -53,7 +54,6 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    font-weight: bold;
 }
 
 a:hover,
@@ -90,7 +90,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #8a6d3b;
+    background-color: #d7cabb;
 }
 
 .navbar-custom .navbar-brand {
@@ -113,18 +113,19 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: orange;
+    color: #494a4a;
 }
 
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
+     font-weight: bold;
 }
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: black;
+    color: rgba(255,255,255,.8);
     background-color: transparent;
 }
 
@@ -139,7 +140,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: #8a6d3b;
+    background-color: rgba(255,255,255,.3);
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -160,7 +161,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #8a6d3b;
+        background: #d7cabb;
     }
 }
 
@@ -174,11 +175,11 @@ a:focus {
     text-align: center;
     color: #fff;
     /*background: url(../img/theme-bg-mono.png) no-repeat bottom center scroll;*/
-    background: #FFCC00; /* Old browsers */
-    background: -moz-linear-gradient(top, #93073e 0%, #FFCC00 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #93073e 0%,#FFCC00 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, white 0%,#FFCC00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93073e', endColorstr='#FFCC00',GradientType=0 ); /* IE6-9 */
+    background: #5b1647; /* Old browsers */
+    background: -moz-linear-gradient(top, #93073e 0%, #5b1647 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #93073e 0%,#5b1647 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ecdfcb 0%,#6d626a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93073e', endColorstr='#5b1647',GradientType=0 ); /* IE6-9 */
     -webkit-background-size: contain;
     -moz-background-size: contain;
     background-size: contain;
@@ -221,7 +222,7 @@ a:focus {
     position: relative;
     width: 100%;
     min-height: 200px;
-    background-color: #02140D;
+    background-color: #1c1c1b;
     padding-top: 50px;
 }
 
@@ -512,19 +513,14 @@ body {
 #bg_0{
     background: url("../img/theme-bg-mono.png") no-repeat center bottom;
     background-size: 100%;
-    margin-left: -64px;
-    width: 115%;
 }
 #bg_1{
     background: url("../img/bg_1.png") no-repeat center bottom;
     background-size: 100%;
-    width: 145%;
-    margin-left: -34px;    
 }
 #bg_2{
     background: url("../img/bg_2.png") no-repeat center bottom;
     background-size: 100%;
-    width: 90%;
 }
 #lower_border{
     background: url("../img/bg_lower.png") no-repeat center top;
