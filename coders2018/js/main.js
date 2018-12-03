@@ -29,10 +29,10 @@
 	$('div#counter').countdown(finalDate)
    	.on('update.countdown', function(event) {
 
-   		$(this).html(event.strftime('<span style="color:orange; font-weight: bold;">%D <em style="color:orange; font-weight: bold;">days</em></span>' + 
-   										 	 '<span style="color:orange; font-weight: bold;">%H <em style="color:orange; font-weight: bold;">hours</em></span>' + 
-   										 	 '<span style="color:orange; font-weight: bold;">%M <em style="color:orange; font-weight: bold;">minutes</em></span>' +
-   										 	 '<span style="color:orange; font-weight: bold;">%S <em style="color:orange; font-weight: bold;">seconds</em></span>'));
+   		$(this).html(event.strftime('<span style="font-weight: bold;">%D <em style="font-weight: bold;">days</em></span>' + 
+   										 	 '<span style="font-weight: bold;">%H <em style="font-weight: bold;">hours</em></span>' + 
+   										 	 '<span style="font-weight: bold;">%M <em style="font-weight: bold;">minutes</em></span>' +
+   										 	 '<span style="font-weight: bold;">%S <em style="font-weight: bold;">seconds</em></span>'));
 
    });
 
