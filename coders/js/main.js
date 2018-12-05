@@ -24,15 +24,15 @@
    /*---------------------------------------------------- */
 	/* Final Countdown Settings
 	------------------------------------------------------ */
-	var finalDate = '2016/07/23 18:00:00';
+	var finalDate = '2018/12/15 18:00:00';
 
 	$('div#counter').countdown(finalDate)
    	.on('update.countdown', function(event) {
 
-   		$(this).html(event.strftime('<span>%D <em>days</em></span>' + 
-   										 	 '<span>%H <em>hours</em></span>' + 
-   										 	 '<span>%M <em>minutes</em></span>' +
-   										 	 '<span>%S <em>seconds</em></span>'));
+   		$(this).html(event.strftime('<span style="font-weight: bold;">%D <em style="font-weight: bold;">days</em></span>' + 
+   										 	 '<span style="font-weight: bold;">%H <em style="font-weight: bold;">hours</em></span>' + 
+   										 	 '<span style="font-weight: bold;">%M <em style="font-weight: bold;">minutes</em></span>' +
+   										 	 '<span style="font-weight: bold;">%S <em style="font-weight: bold;">seconds</em></span>'));
 
    });
 
