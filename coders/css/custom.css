@@ -45,31 +45,36 @@
 @keyframes slidy {
 0% { left: 0%; }
 10% { left: 0%; }
-20% { left: -100%; }
+15% { left: -100%; }
 25% { left: -100%; }
-45% { left: -200%; }
-50% { left: -200%; }
-70% { left: -300%; }
-75% { left: -300%; }
-95% { left: -400%; }
-100% { left: -400%; }
+30% { left: -200%; }
+40% { left: -200%; }
+45% { left: -300%; }
+55% { left: -300%; }
+60% { left: -400%; }
+70% { left: -400%; }
+75% { left: -500%; }
+85% { left: -500%; }
+90% { left: -600%; }
+100% { left: -600%; }
 }
+
 
 div#slider { 
     overflow: hidden; 
-    max-width: 600px;
+    max-width: 800px;
     max-height: 360px;
     margin: 0 auto;
 }
 
-div#slider figure img { width: 20%; float: left; }
+div#slider figure img { width: 12.5%; float: left; }
 
 div#slider figure { 
   position: relative;
-  width: 500%;
+  width: 800%;
   margin: 0;
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite; 
+  animation: 35s slidy infinite; 
 }
