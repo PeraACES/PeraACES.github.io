@@ -44,34 +44,38 @@
 
 @keyframes slidy {
 0% { left: 0%; }
-10% { left: 0%; }
-15% { left: -100%; }
-25% { left: -100%; }
-30% { left: -200%; }
-40% { left: -200%; }
-45% { left: -300%; }
-55% { left: -300%; }
-60% { left: -400%; }
-70% { left: -400%; }
-75% { left: -500%; }
-85% { left: -500%; }
-90% { left: -600%; }
-100% { left: -600%; }
+4% { left: 0%; }
+8.5% { left: -100%; }
+16.5% { left: -100%; }
+21% { left: -200%; }
+29% { left: -200%; }
+33.5% { left: -300%; }
+41.5% { left: -300%; }
+46% { left: -400%; }
+54% { left: -400%; }
+58.5% { left: -500%; }
+66.5% { left: -500%; }
+71% { left: -600%; }
+79% { left: -600%; }
+83.5% { left: -700%; }
+91.5% { left: -700%; }
+96% { left: -800%; }
+100% { left: -800%; }
 }
 
 
 div#slider { 
     overflow: hidden; 
-    max-width: 800px;
-    max-height: 360px;
+    max-width: 900px;
+    max-height: 400px;
     margin: 0 auto;
 }
 
-div#slider figure img { width: 12.5%; float: left; }
+div#slider figure img { width: 11.1%; float: left; }
 
 div#slider figure { 
   position: relative;
-  width: 800%;
+  width: 900%;
   margin: 0;
   left: 0;
   text-align: left;
