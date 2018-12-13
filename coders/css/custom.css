@@ -56,29 +56,31 @@
 58.5% { left: -500%; }
 66.5% { left: -500%; }
 71% { left: -600%; }
-79% { left: -600%; }
-83.5% { left: -700%; }
-91.5% { left: -700%; }
-96% { left: -800%; }
-100% { left: -800%; }
+78% { left: -600%; }
+81.5% { left: -700%; }
+89.5% { left: -700%; }
+93% { left: -800%; }
+95% { left: -800%; }
+99% { left: -900%; }
+100% { left: -900%; }
 }
 
 
 div#slider { 
     overflow: hidden; 
-    max-width: 900px;
-    max-height: 400px;
+    max-width: 1000px;
+    max-height: 430px;
     margin: 0 auto;
 }
 
-div#slider figure img { width: 11.1%; float: left; }
+div#slider figure img { width: 10%; float: left; }
 
 div#slider figure { 
   position: relative;
-  width: 900%;
+  width: 1000%;
   margin: 0;
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 35s slidy infinite; 
+  animation: 40s slidy infinite; 
 }
