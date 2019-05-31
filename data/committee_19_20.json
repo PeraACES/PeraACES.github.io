@@ -1,0 +1,135 @@
+{
+   "year": "2019-2020",
+   "lastUpdate":"",
+   "membersPerRow":"6",
+   "members":{
+      "0":{
+         "position":"President",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "1":{
+         "position":"Secretary",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "2":{
+         "position":"Assistant Secretary",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "3":{
+         "position":"Senior Treasurer",
+         "name":"Dr. Suneth Namal",
+         "img":"img/team/treasurer.jpg",
+         "fb":"https://www.facebook.com/suneth.namal",
+         "linkedin":"https://www.linkedin.com/in/suneth-namal-b70b8688/",
+         "email":"namal@ce.pdn.ac.lk"
+      },
+      "4":{
+         "position":"Vice President",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "5":{
+         "position":"Junior Treasurer",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "6":{
+         "position":"Editor",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "7":{
+         "position":"Committee Member",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "8":{
+         "position":"Committee Member",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "9":{
+         "position":"Committee Member",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "10":{
+         "position":"Committee Member",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "11":{
+         "position":"Committee Member",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "12":{
+         "position":"Committee Member",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "13":{
+         "position":"Committee Member",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "14":{
+         "position":"Committee Member",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      },
+      "15":{
+         "position":"Committee Member",
+         "name":"",
+         "img":"",
+         "fb":"",
+         "linkedin":"",
+         "email":""
+      }
+   }
+}
