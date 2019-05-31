@@ -741,35 +741,51 @@ function loadMemberData() {
       $("#committee").append("<div class='row'>");
 
       $.each(dataList.members, function (key, val) {
-         console.log(key + " " + val.position);
-
          // Temp
          if (val.img == "") val.img = "img/team/male.jpg";
-         if (val.name == "") val.name = "First Last Names";
 
+         if(val.email.length >20) {
+            // Long email addresses will eb splited into two lines
+            val.email = val.email.replace("@", " @");
+         }
 
-         $("#committee").append(
-            "<figure class='team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated' data-wow-duration='500ms' data-wow-delay='1500ms'>" +
-            "<div class='member-thumb'>" +
-            "<img src='" + val.img + "' alt='Team Member' class='img-responsive'>" +
-            "<figcaption class='overlay'>" +
-            "<ul class='social-links text-center'>" +
-            "<li><a href='" + val.linkedin + "' target='_blank'><i class='fa fa-linkedin fa-sm'></i></a></li>" +
-            "<li><a href='" + val.fb + "' target='_blank'><i class='fa fa-facebook fa-sm'></i></a></li>" +
-            "<br><br><span><h6>" + val.email + "</h6></span><br>" +
-            "</ul>" +
-            "</figcaption></div><h4>" + val.name + "</h4><span>" + val.position + "</span></figure>");
+         /*$("#committee").append("<figure class='team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated' data-wow-duration='500ms' data-wow-delay='1500ms'>" +
+         "<div class='member-thumb'><img src='" + val.img + "' alt='Team Member' class='img-responsive'>" +
+         "<figcaption class='overlay'><ul class='social-links text-center'>");
 
-            if (i%6 == 5) {
-               // Add a new row
-               $("#committee").append("</div><div class='row'>");
-            }
-            i++;
-         });
-         $("#committee").append("</div>");
+         $("#committee").append("<br><br><span><h6>" + val.email + "</h6></span><br>" +
+         "</ul></figcaption></div><h4>" + val.name + "</h4><span>" + val.position + "</span></figure>");
+         */
 
+         if(val.linkedin !=""){
+            val.linkedin = "<li><a href='" + val.linkedin + "' target='_blank'><i class='fa fa-linkedin fa-sm'></i></a></li>";
+         }
+
+         if(val.fb !=""){
+            val.fb = "<li><a href='" + val.fb + "' target='_blank'><i class='fa fa-facebook fa-sm'></i></a></li>"
+         }else{
+            console.log(">" +  val.fb );
+         }
+
+         $("#committee").append("<figure class='team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated' data-wow-duration='500ms' data-wow-delay='1500ms'>" +
+         "<div class='member-thumb'>" +
+         "<img src='" + val.img + "' alt='Team Member' class='img-responsive'>" +
+         "<figcaption class='overlay'>" +
+         "<ul class='social-links text-center'>" + val.linkedin + val.fb +
+         "<br><br><span><h6>" + val.email + "</h6></span><br>" +
+         "</ul>" +
+         "</figcaption></div><h4>" + val.name + "</h4><span>" + val.position + "</span></figure>");
+
+         if (i%6 == 5) {
+            // Add a new row
+            $("#committee").append("</div><div class='row'>");
+         }
+         i++;
       });
-   }
+      $("#committee").append("</div>");
+
+   });
+}
 
 </script>
 

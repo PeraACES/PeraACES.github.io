@@ -5,27 +5,27 @@
    "members":{
       "0":{
          "position":"President",
-         "name":"",
+         "name":"Nirodha Suchinthana",
          "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
+         "fb":"https://www.facebook.com/nirodha.suchinthana",
+         "linkedin":"https://www.linkedin.com/in/nirodha-suchinthana-77a294137/",
+         "email":"suchinthanaapn@gmail.com"
       },
       "1":{
          "position":"Secretary",
-         "name":"",
+         "name":"Chamin Jayasooriya",
          "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
+         "fb":"https://www.facebook.com/chameennayanashan.jayasuriya",
+         "linkedin":"https://www.linkedin.com/in/chamin-jayasooriya/",
+         "email":"cn96@live.com"
       },
       "2":{
-         "position":"Assistant Secretary",
-         "name":"",
+         "position":"Vice President",
+         "name":"Shyaman Jayasundara",
          "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
+         "fb":"https://www.facebook.com/shyaman.madhawa",
+         "linkedin":"https://www.linkedin.com/in/shyaman-jayasundara/",
+         "email":"jmshyaman@eng.pdn.ac.lk"
       },
       "3":{
          "position":"Senior Treasurer",
@@ -36,100 +36,68 @@
          "email":"namal@ce.pdn.ac.lk"
       },
       "4":{
-         "position":"Vice President",
-         "name":"",
+         "position":"Junior Treasurer",
+         "name":"Hashan Maliththa",
          "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
+         "fb":"https://www.facebook.com/profile.php?id=100008810613120",
+         "linkedin":"https://www.linkedin.com/in/maliththa-k-h-h-b34ab9167/",
+         "email":"maliththamax3@gmail.com"
       },
       "5":{
-         "position":"Junior Treasurer",
-         "name":"",
+         "position":"Editor",
+         "name":"Kaveesha Dilshani",
          "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
+         "fb":"https://www.facebook.com/profile.php?id=100008810613120",
+         "linkedin":"https://www.linkedin.com/in/kaveesha-dilshani-9b3b79125/",
+         "email":"kaveeshadilshani1@gmail.com"
       },
       "6":{
-         "position":"Editor",
-         "name":"",
+         "position":"Committee Member",
+         "name":"Sathyanga Tharana",
          "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
+         "fb":"https://www.facebook.com/sathyangat",
+         "linkedin":"https://www.linkedin.com/in/stharana/",
+         "email":"stharana2013@gmail.com"
       },
       "7":{
          "position":"Committee Member",
-         "name":"",
+         "name":"Gayan Ranaweera",
          "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
+         "fb":"https://www.facebook.com/profile.php?id=100005541467536",
+         "linkedin":"https://www.linkedin.com/in/gayan-ranaweera-295636172/",
+         "email":"gayantrr@gmail.com"
       },
       "8":{
          "position":"Committee Member",
-         "name":"",
+         "name":"Chandima Samarasinghe",
          "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
+         "fb":"https://facebook.com/chandima.b.samarasinghe",
+         "linkedin":"https://linkedin.com/in/chandimab",
+         "email":"chandima.edu@gmail.com"
       },
       "9":{
          "position":"Committee Member",
-         "name":"",
+         "name":"Gayal Laksara",
          "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
+         "fb":"https://www.facebook.com/gayal.laksara",
+         "linkedin":"https://www.linkedin.com/in/gayal-laksara-218aa415a/",
+         "email":"Gayallaksara1996@gmail.com"
       },
       "10":{
          "position":"Committee Member",
-         "name":"",
+         "name":"Anjana Illankoon",
          "img":"",
          "fb":"",
          "linkedin":"",
-         "email":""
+         "email":"&nbsp;"
       },
       "11":{
          "position":"Committee Member",
-         "name":"",
+         "name":"Sandushi Dileka",
          "img":"",
-         "fb":"",
+         "fb":"https://www.facebook.com/sandushi.dileka",
          "linkedin":"",
-         "email":""
-      },
-      "12":{
-         "position":"Committee Member",
-         "name":"",
-         "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
-      },
-      "13":{
-         "position":"Committee Member",
-         "name":"",
-         "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
-      },
-      "14":{
-         "position":"Committee Member",
-         "name":"",
-         "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
-      },
-      "15":{
-         "position":"Committee Member",
-         "name":"",
-         "img":"",
-         "fb":"",
-         "linkedin":"",
-         "email":""
+         "email":"sandushidileka2@gmail.com"
       }
    }
 }
