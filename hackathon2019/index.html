@@ -29,11 +29,13 @@
 
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
-  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/v4-shims.js"></script>
   <!-- Nucleo Icons -->
   <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link href="./assets/css/blk-design-system.css" rel="stylesheet" />
+  <link href="./assets/scss/countdown.css" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <!-- <link href="./assets/demo/demo.css" rel="stylesheet" /> -->
 </head>
@@ -103,17 +105,104 @@
   <!-- End Navbar -->
   <div class="wrapper">
     <div class="page-header header-filter">
-      <!-- <div class="squares square1"></div>
-      <div class="squares square2"></div>
-      <div class="squares square3"></div>
-      <div class="squares square4"></div>
-      <div class="squares square5"></div>
-      <div class="squares square6"></div>
-      <div class="squares square7"></div> -->
       <div class="container">
         <div class="content-center brand">
-          <h1 class="h1-seo">BLK•</h1>
-          <h3>A beautiful Design System for Bootstrap 4. It's Free and Open Source.</h3>
+          <!-- <h1 class="h1-seo">BLK•</h1>
+          <h3>A beautiful Design System for Bootstrap 4. It's Free and Open Source.</h3> -->
+          <div class="row">
+            <div class="col">
+
+              <!-- ////// Countdown Start ////// -->
+              <div class="wrap">  
+                <h1>Draft <strong>Countdown</strong></h1>
+
+                <div class="countdown">
+                  <div class="bloc-time hours" data-init-value="24">
+                    <span class="count-title">Hours</span>
+
+                    <div class="figure hours hours-1">
+                      <span class="top">2</span>
+                      <span class="top-back">
+                        <span>2</span>
+                      </span>
+                      <span class="bottom">2</span>
+                      <span class="bottom-back">
+                        <span>2</span>
+                      </span>
+                    </div>
+
+                    <div class="figure hours hours-2">
+                      <span class="top">4</span>
+                      <span class="top-back">
+                        <span>4</span>
+                      </span>
+                      <span class="bottom">4</span>
+                      <span class="bottom-back">
+                        <span>4</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="bloc-time min" data-init-value="0">
+                    <span class="count-title">Minutes</span>
+
+                    <div class="figure min min-1">
+                      <span class="top">0</span>
+                      <span class="top-back">
+                        <span>0</span>
+                      </span>
+                      <span class="bottom">0</span>
+                      <span class="bottom-back">
+                        <span>0</span>
+                      </span>        
+                    </div>
+
+                    <div class="figure min min-2">
+                     <span class="top">0</span>
+                      <span class="top-back">
+                        <span>0</span>
+                      </span>
+                      <span class="bottom">0</span>
+                      <span class="bottom-back">
+                        <span>0</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="bloc-time sec" data-init-value="0">
+                    <span class="count-title">Seconds</span>
+
+                      <div class="figure sec sec-1">
+                      <span class="top">0</span>
+                      <span class="top-back">
+                        <span>0</span>
+                      </span>
+                      <span class="bottom">0</span>
+                      <span class="bottom-back">
+                        <span>0</span>
+                      </span>          
+                    </div>
+
+                    <div class="figure sec sec-2">
+                      <span class="top">0</span>
+                      <span class="top-back">
+                        <span>0</span>
+                      </span>
+                      <span class="bottom">0</span>
+                      <span class="bottom-back">
+                        <span>0</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- ////// Countdown End ////// -->
+              
+            </div>
+            <div class="col">
+              LOGO
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -125,70 +214,48 @@
     </div>
     <footer class="footer">
       <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <h1 class="title">BLK•</h1>
+        <div class="row ml-auto">
+          <div class="col-md-5 col-sm-12">
+            <div class="row">
+              <h5 class="text-white">
+                More Information  
+              </h5>
+            </div>
+            <div class="row text-left text-secondary">
+              <p class="pb-1">Association of Computer Engineering Students'</p>
+              <p class="pb-1">Faculty of Engineering,<br>University Of Peradeniya,<br>Peradeniya,<br>Kandy</p>
+            </div>
           </div>
-          <div class="col-md-3">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="./index.html" class="nav-link">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./examples/landing-page.html" class="nav-link">
-                  Landing
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./examples/register-page.html" class="nav-link">
-                  Register
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./examples/profile-page.html" class="nav-link">
-                  Profile
-                </a>
-              </li>
-            </ul>
+          <div class="col-md-3 col-sm-6">
+            <div class="row">
+              <h5 class="text-white">
+                Contact  
+              </h5>
+            </div>
+            <div class="row text-left text-secondary">
+              <p>Nirodha Suchinthana (President) <br><span>+94(0)71 123 4567</span></p>
+              <p>Chamin Jayasooriya (Secretary) <br><span>+94(0)71 123 4567</span></p>
+              <p>Shyaman Jayasundara (Vice President) <br><span>+94(0)71 123 4567</span></p>
+            </div>
+            <div class="row text-left">
+              <i class="fab fa-facebook-square mr-4"></i>
+              <i class="fab fa-twitter-square mr-4"></i>
+              <i class="fab fa-linkedin mr-4"></i>
+            </div>
           </div>
-          <div class="col-md-3">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="https://creative-tim.com/contact-us" class="nav-link">
-                  Contact Us
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://creative-tim.com/about-us" class="nav-link">
-                  About Us
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://creative-tim.com/blog" class="nav-link">
-                  Blog
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://opensource.org/licenses/MIT" class="nav-link">
-                  License
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h3 class="title">Follow us:</h3>
-            <div class="btn-wrapper profile">
-              <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Like us">
-                <i class="fab fa-facebook-square"></i>
-              </a>
-              <a target="_blank" href="https://dribbble.com/creativetim" class="btn btn-icon btn-neutral  btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
-                <i class="fab fa-dribbble"></i>
-              </a>
+          <div class="col-md-4 col-sm-6">
+            <div class="row">
+              <h5 class="text-whte">
+                Links
+              </h5>
+            </div>
+            <div class="row text-left text-info">
+              <ul class="pl-3">
+                <li><a href="#1">ACES</a></li>
+                <li><a href="#1">Department of Computer Engineering</a></li>
+                <li><a href="#1">Faculty of Engineering</a></li>
+                <li><a href="#1">University of Peradeniya</a></li>
+              </ul>
             </div>
           </div>
         </div>

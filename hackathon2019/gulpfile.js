@@ -14,7 +14,7 @@ var Paths = {
 };
 
 gulp.task('compile-scss', function() {
-  return gulp.src(Paths.SCSS_TOOLKIT_SOURCES)
+  return gulp.src('./assets/scss/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
