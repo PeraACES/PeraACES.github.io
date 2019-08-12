@@ -96,6 +96,7 @@ $colors: map-merge((
 $default-color-opacity:      rgba(182, 182, 182, .6) !default;
 $orange-color:               #f96332 !default;
 
+/* Original values from BLK> theme
 $default:       #344675 !default;
 $primary:       #e14eca !default;
 $secondary:     #f4f5f7 !default;
@@ -104,7 +105,16 @@ $info:          #1d8cf8 !default;
 $warning:       #ff8d72 !default;
 $danger:        #fd5d93 !default;
 $black:         #222a42 !default;
+*/
 
+$default:       #D1766A !default;
+$primary:       #FFCBBA !default;
+$secondary:     #D1766A !default;
+$success:       #344675 !default;
+$info:          #B76892 !default;
+$warning:       #F9D243 !default;
+$danger:        #E55A3B !default;
+$black:         #1A1E34 !default;
 
 // gradient
 $default-states:       #263148 !default;
@@ -115,7 +125,7 @@ $warning-states:       #ff6491 !default;
 $danger-states:        #ec250d !default;
 $black-states:         #1d253b !default;
 
-$background-black:           #171941 !default;
+$background-black:           $primary !default;
 $background-states-black:    #1e1e24 !default;
 
 // opacity
@@ -219,8 +229,8 @@ $theme-color-interval:      8% !default;
 $yiq-contrasted-threshold:  200 !default;
 
 // Customize the light and dark text colors for use in our YIQ color contrast function.
-$yiq-text-dark:             $gray-900 !default;
-$yiq-text-light:            $white !default;
+$yiq-text-dark:             $indigo - #111 !default;
+$yiq-text-light:            $info !default;
 
 // Action colors
 
@@ -740,7 +750,7 @@ $navbar-nav-link-letter-spacing:    0 !default;
 $navbar-nav-link-border-radius:     $border-radius !default;
 
 /* navbar color */
-$navbar-color:                      #1a1e34 !default;
+$navbar-color:                      #secondary !default;
 $navbar-dark-bg:                    transparent !default;
 $navbar-dark-hover-bg:              rgba(255, 255, 255, .1);
 $navbar-dark-active-bg:             rgba(255, 255, 255, .1);
@@ -895,7 +905,7 @@ $card-border-color:                 rgba($black, .05);
 $card-inner-border-radius:          calc(#{$card-border-radius} - #{$card-border-width});
 $card-cap-bg:                       $gray-100 !default;
 $card-bg:                           $white !default;
-$card-black-background:             #1f2251 !default;
+$card-black-background:             $secondary !default;
 $card-img-overlay-padding:          1.25rem !default;
 
 //$card-group-margin:                 ($grid-gutter-width / 2);
