@@ -1,0 +1,9 @@
+#demo-canvas {
+	height: 722px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    background-image: url(../img/design.jpg);
+    background-position: center bottom;
+}
