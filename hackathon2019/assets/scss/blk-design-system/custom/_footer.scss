@@ -1,7 +1,8 @@
 .footer{
     padding: 50px 0;
-    border-top: 2px solid #435DB5;
-    background: radial-gradient(ellipse at bottom, #292D61 30%, $background-black 80%);
+    border-top: 2px solid $primary;
+    //background: radial-gradient(ellipse at bottom, #292D61 30%, $background-black 80%);
+    background: $green;
 
     [class*="container-"] {
       padding: 0;
@@ -20,13 +21,14 @@
     }
 
     .nav-link {
-      color: $white;
-      padding: 10px 0;
+      color: $teal;
+      padding: 2px 0;
       font-size: $font-size-sm;
-      text-transform: uppercase;
+      //text-transform: uppercase;
       text-decoration: none;
 
       &:hover{
+          color: #22422c;
           text-decoration: none;
       }
     }

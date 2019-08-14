@@ -28,7 +28,8 @@
   <link rel="icon" type="image/png" href="./assets/img/favicon.png">
 
   <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" /> -->
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Noto+Sans|Teko:400,500&display=swap" rel="stylesheet"
   <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/all.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/v4-shims.js"></script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
@@ -52,7 +53,7 @@
     <div class="container">
       <div class="navbar-translate">
         <a class="navbar-brand" href="/">
-          <img src="../img/logo.png" alt="Brandi">
+          <img src="assets/img/logo.png" alt="Brandi">
         </a>
         <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-bar bar1"></span>
@@ -77,6 +78,9 @@
         </div>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item p-0">
+            <button type="button" class="btn btn-info">Register Now!</button>
+          </li>
+          <li class="nav-item p-0">
             <a class="nav-link" href="#about">
               <i class="d-lg-none d-xl-none tim-icons icon-alert-circle-exc"></i>
               <!-- <p class="d-lg-none d-xl-none">About</p> -->
@@ -84,28 +88,28 @@
             </a>
           </li>
           <li class="nav-item p-0">
-            <a class="nav-link" href="#events">
+            <a class="nav-link" href="#timeline">
               <i class="d-lg-none d-xl-none tim-icons icon-calendar-60"></i>
               <!-- <p class="d-lg-none d-xl-none">About</p> -->
               <p>Timeline</p>
             </a>
           </li>
           <li class="nav-item p-0">
-            <a class="nav-link" href="#council">
+            <a class="nav-link" href="#awards">
               <i class="d-lg-none d-xl-none tim-icons icon-trophy"></i>
               <!-- <p class="d-lg-none d-xl-none">About</p> -->
               <p>Awards</p>
             </a>
           </li>
           <li class="nav-item p-0">
-            <a class="nav-link" href="#contact">
+            <a class="nav-link" href="#sponsors">
               <i class="d-lg-none d-xl-none tim-icons icon-sound-wave"></i>
               <!-- <p class="d-lg-none d-xl-none">About</p> -->
               <p>Sponsors</p>
             </a>
           </li>
           <li class="nav-item p-0">
-            <a class="nav-link" href="#contact">
+            <a class="nav-link" href="#gallery">
               <i class="d-lg-none d-xl-none tim-icons icon-single-copy-04"></i>
               <!-- <p class="d-lg-none d-xl-none">About</p> -->
               <p>Gallery</p>
@@ -125,43 +129,222 @@
   <!-- End Navbar -->
   <div class="wrapper">
     <div class="page-header header-filter">
-      <div class="container">
-          <div class="content-center">
-            <div class="row">
-              <div class="col-md-3 order-md-1">
-                Something
+        <div class="col mx-0 px-0 mt-5 pt-5">
+          <img src="assets/img/design.jpg" alt="background image" class="img-fluid">
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="row content-center">
+              <div class="col-md-8 order-md-1">
+                <img src="assets/img/hackathon-logo.png" class="img-fluid" alt="Responsive image">
               </div>
-              <div class="col-md-9 order-md-12">
-                <div class="cd100"></div>
+              <div class="col-md-4 order-md-12">
+                <h1 class="text-dark display-1  text-center">Are You Ready?</h1>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-8">
+              <div class="cd100"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="main">
-      <div class="container">
-      </div>
+
+      <!-- ABOUT SECTION -->
+      <section class="container">
+        <div class="row">
+          <div class="col text-right"><h1 class="font-weight-bold text-dark">ABOUT</h1></div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <p class="text-justify">
+              ACES Hackathon 2018 is to be held for the 8th consecutive year starting from 8th of June extending for 3 days. The competition is to be held under two categories namely Network and Systems and Software Development covering a large range of Computer Engineering related disciplines. The event would be guided by the academic staff, the alumni of the computer engineering department as well as industrial experts. This time several changes have been made to the event to take the winning ideas to the next level by supporting them to initiate their own startup and by providing the necessary guidance to continue improving their product without limiting to the 3 days that the competition is held on. This opportunity would be one of the best platforms for the fresh undergraduates to present their innovative ideas to the experts of the field and to get an exposure to the industry’s expectation from them. At the end of the 3days the participants would not only be able to come with their own innovative product but will also be able to present a proper business plan that would take their solution to the next level.
+            </p>
+          </div>
+          <div id="carouselExampleIndicators" class="carousel slide col-md-7" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner shadow-lg">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/img/denys.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/fabien-bazanegue.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/mark-finn.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- END ABOUT SECTION -->
+
+      <!-- Category SECTION -->
+      <section class="container mt-4">
+        <div class="row">
+          <div class="col">
+            <!-- Tabs with Background on Card -->
+            <div class="card bg-danger shadow-sm">
+              <div class="row no-gutters">
+                <div class="col-xs-2" col-md-2>
+                  <div class="card-header">
+                    <ul class="nav nav-pills nav-pills-info nav-pills-icons flex-column" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active show" data-toggle="tab" href="#link4" role="tablist">
+                          <i class="tim-icons icon-atom"></i> Category 1
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#link5" role="tablist">
+                          <i class="tim-icons icon-settings-gear-63"></i> Category 2
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#link6" role="tablist">
+                          <i class="tim-icons icon-chat-33"></i> Category 3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xs-10 col-md-10">
+                  <div class="card-body">
+                    <!-- Tab panes -->
+                    <div class="tab-content tab-space">
+                      <div class="tab-pane active" id="link4">
+                        <p> Category 1 Description These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.
+                          <br/>But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures</p>
+                      </div>
+                      <div class="tab-pane" id="link5">
+                        <p> Category 2 Description I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                      </div>
+                      <div class="tab-pane" id="link6">
+                        <p>Category 3 Description I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End Tabs on plain Card -->
+          </div>
+        </div>
+      </section>
+      <!-- END Category SECTION -->
+
+      <!-- TIMELINE SECTION -->
+      <section class="container">
+        <div class="row">
+          <div class="col text-center"><h1 class="font-weight-bold text-dark">TIMELINE</h1></div>
+        </div>
+      </section>
+      <!-- END TIMELINE SECTION -->
+      
+      <!-- PRICES SECTION -->
+      <section class="container">
+        <div class="row mb-5">
+          <div class="col text-left"><h1 class="font-weight-bold text-dark">PRICES</h1></div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card-deck">
+              <div class="card mr-5 bg-info">
+                <div class="card-header shadow-sm">
+                  <img src="assets/img/bronze-medal.png" class="img-center img-fluid">
+                </div>
+                <div class="card-body text-center">
+                  <h2 class="card-title">3rd Place</h2>
+                  <h1 class="display-3">LKR. 25,000/=</h1>
+                </div>
+              </div>
+              <div class="card mr-5 bg-info">
+                <div class="card-header shadow-sm">
+                  <img src="assets/img/gold-medal.png" class="img-center img-fluid">
+                </div>
+                <div class="card-body text-center">
+                  <h2 class="card-title text-center">1st Place</h2>
+                  <h1 class="display-3">LKR. 75,000/=</h1>
+                </div>
+              </div>
+              <div class="card mr-5 bg-info">
+                <div class="card-header shadow-sm">
+                  <img src="assets/img/silver-medal.png" class="img-center img-fluid">
+                </div>
+                <div class="card-body text-center">
+                  <h2 class="card-title text-center">2nd Place</h2>
+                  <h1 class="display-3">LKR. 50,000/=</h1>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </section>
+      <!-- END PRICES SECTION -->
+
+      <!-- GALLERY SECTION -->
+      <section class="container">
+        <div class="row">
+          <div class="col text-right"><h1 class="font-weight-bold text-dark">PAST SNAPSHOTS</h1></div>
+        </div>
+      </section>
+      <!-- END GALLERY SECTION -->
+
+      <!-- SPONSORS SECTION -->
+      <section class="container">
+        <div class="row">
+          <div class="col text-center"><h1 class="font-weight-bold text-dark">SPONSORS</h1></div>
+        </div>
+      </section>
+      <!-- END SPONSORS SECTION -->
+
+      <!-- CONTACT SECTION -->
+      <section class="container">
+        <div class="row">
+          <div class="col text-left"><h1 class="font-weight-bold text-dark">CONTACT</h1></div>
+        </div>        
+      </section>
+      <!-- END CONTACT SECTION -->
+
     </div>
-    <footer class="footer">
+    <footer class="footer shadow-sm">
       <div class="container">
         <div class="row ml-auto">
           <div class="col-md-5 col-sm-12">
             <div class="row">
-              <h5 class="text-white">
+              <h4 class="text-dark">
                 More Information  
-              </h5>
+              </h4>
             </div>
             <div class="row text-left text-secondary">
               <p class="pb-1">Association of Computer Engineering Students'</p>
+            </div>
+            <div class="row text-left text-secondary">
               <p class="pb-1">Faculty of Engineering,<br>University Of Peradeniya,<br>Peradeniya,<br>Kandy</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-4 col-sm-6">
             <div class="row">
-              <h5 class="text-white">
+              <h4 class="text-dark">
                 Contact  
-              </h5>
+              </h4>
             </div>
             <div class="row text-left text-secondary">
               <p>Nirodha Suchinthana (President) <br><span>+94(0)71 123 4567</span></p>
@@ -174,18 +357,18 @@
               <i class="fab fa-linkedin mr-4"></i>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6">
+          <div class="col-md-3 col-sm-6">
             <div class="row">
-              <h5 class="text-whte">
+              <h4 class="text-dark">
                 Links
-              </h5>
+              </h4>
             </div>
             <div class="row text-left text-info">
               <ul class="pl-3">
-                <li><a href="#1">ACES</a></li>
-                <li><a href="#1">Department of Computer Engineering</a></li>
-                <li><a href="#1">Faculty of Engineering</a></li>
-                <li><a href="#1">University of Peradeniya</a></li>
+                <li><a class="nav-link" href="#1">ACES</a></li>
+                <li><a class="nav-link" href="#1">Department of Computer Engineering</a></li>
+                <li><a class="nav-link" href="#1">Faculty of Engineering</a></li>
+                <li><a class="nav-link" href="#1">University of Peradeniya</a></li>
               </ul>
             </div>
           </div>

@@ -102,7 +102,7 @@
                 &,
                 &:focus,
                 &:hover{
-                    @include diagonal-gradient($info, $info-states);
+                    background-color: $blue;
                 }
             }
         }

@@ -111,7 +111,7 @@ $default:       #D1766A !default;
 $primary:       #FFCBBA !default;
 $secondary:     #D1766A !default;
 $success:       #344675 !default;
-$info:          #B76892 !default;
+$info:          #445D9B !default;
 $warning:       #F9D243 !default;
 $danger:        #E55A3B !default;
 $black:         #1A1E34 !default;
@@ -387,7 +387,10 @@ $general-transition-time:     300ms             !default;
 // Fonts
 
 $font-family-base:            'Poppins', sans-serif !default;
-$font-family-alt:             'Poppins', sans-serif !default;
+$font-family-alt:             'Aldrich-Regular', sans-serif !default;
+$font-family-teko:            'Teko', sans-serif !default;
+$font-family-aleg:            'Alegreya Sans SC', sans-serif !default;
+$font-family-noto:            'Noto Sans', sans-serif !default;
 
 $font-size-dash:              .875rem !default;
 
@@ -728,9 +731,9 @@ $nav-pills-border-color:            theme-color("primary") !default;
 $nav-pills-border-radius:           $border-radius !default;
 
 $nav-pills-link-color:              theme-color("primary") !default;
-$nav-pills-link-hover-color:        darken(theme-color("primary"), 5%);
-$nav-pills-link-active-color:       color-yiq(theme-color("primary"));
-$nav-pills-link-active-bg:          theme-color("primary") !default;
+$nav-pills-link-hover-color:        darken(theme-color("primary"), 5%) !default;
+$nav-pills-link-active-color:       darken(theme-color("info"), 5%) !default;
+$nav-pills-link-active-bg:          darken(theme-color("primary"), 5%) !default;
 $nav-pills-box-shadow:              $btn-box-shadow !default;
 
 // Navbar
@@ -996,8 +999,10 @@ $datepicker-highlighted-bg: $datepicker-active-background !default;
 
 $footer-link-font-size: .85rem !default;
 $footer-bg: theme-color("secondary") !default;
-$footer-color: $gray-600 !default;
+//$footer-color: $gray-600 !default;
+$footer-color: $warning !default;
 $footer-link-color: $gray-600 !default;
-$footer-link-hover-color: $gray-700 !default;
+//$footer-link-hover-color: $gray-700 !default;
+$footer-link-hover-color: $gray-300 !default;
 $footer-heading-color: $gray-600 !default;
 $footer-heading-font-size: $font-size-sm !default;
