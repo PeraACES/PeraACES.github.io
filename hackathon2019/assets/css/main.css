@@ -49,11 +49,18 @@
   }
   
   .timeline-info {
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    vertical-align:middle;
+    height: 70px;
     max-width: 432px;
     margin-left: 6em;
   }
+
+  .timeline-info h3 {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
   .timeline-info small {
     color: #474559;
     font-size: 16px;
