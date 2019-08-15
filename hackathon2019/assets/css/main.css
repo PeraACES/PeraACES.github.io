@@ -1,9 +1,16 @@
 #demo-canvas {
 	height: 722px;
     max-width: 100%;
-    height: auto;
+    /*height: auto;*/
     vertical-align: middle;
     border-style: none;
-    background-image: url(../img/design.jpg);
+    background-image: url(../img/demo-2-bg.jpg);
     background-position: center bottom;
+    position: relative;
+    width: 100%;
+    /*background: #333;*/
+    overflow: hidden;
+    background-size: cover;
+    /*background-position: center center;*/
+    z-index: 1;
 }
