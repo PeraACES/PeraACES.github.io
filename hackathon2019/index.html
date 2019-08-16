@@ -12,6 +12,7 @@
 
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -20,7 +21,7 @@
 
   <meta name="description" content="ACES Hackathon 2019 - official website">
   <meta name="keywords"
-        content="Hackathon 2019, ACES Hackathon 2019, ACES Hackathon, Department of Computer Engineering, Computer Engineer, University of Peradeniya, Faculty of Engineering, Students Society, Society, Association, Association of Students, Association of Engineering Students, Association of Computer Engineering Students">
+    content="Hackathon 2019, ACES Hackathon 2019, ACES Hackathon, Department of Computer Engineering, Computer Engineer, University of Peradeniya, Faculty of Engineering, Students Society, Society, Association, Association of Students, Association of Engineering Students, Association of Computer Engineering Students">
   <meta name="author" content="ACES">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
@@ -28,10 +29,13 @@
   <!-- <link rel="icon" type="image/png" href="./assets/img/favicon.png"> -->
 
   <!-- Fonts and icons -->
-  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Noto+Sans|Teko:400,500&display=swap" rel="stylesheet"
-  <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Noto+Sans|Teko:400,500&display=swap"
+    rel="stylesheet" <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/all.js">
+  </script>
   <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/v4-shims.js"></script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+  
   <!-- Nucleo Icons -->
   <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
   <!-- CSS Files -->
@@ -47,7 +51,9 @@
 </head>
 
 <body class="index-page">
-
+  <div class="demo-1">
+    <div class="loader"></div>
+  </div>  
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top navbar-transparent shadow-lg" color-on-scroll="100">
     <div class="container">
@@ -55,7 +61,8 @@
         <a class="navbar-brand" href="/">
           <img src="assets/img/logo.png" alt="Brandi">
         </a>
-        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-bar bar1"></span>
           <span class="navbar-toggler-bar bar2"></span>
           <span class="navbar-toggler-bar bar3"></span>
@@ -70,7 +77,8 @@
               </a>
             </div>
             <div class="col-6 collapse-close text-right">
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation"
+                aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="tim-icons icon-simple-remove"></i>
               </button>
             </div>
@@ -123,7 +131,7 @@
   <!-- End Navbar -->
 
   <div class="wrapper">
-    
+
     <div class="page-header header-filter">
       <div id="large-header" class="large-header" style="height: 722px;">
         <canvas id="demo-canvas" width="1046" height="722"></canvas>
@@ -153,9 +161,19 @@
       </div> -->
       <div class="row mt-5 pt-3">
         <div class="col-md-5">
-          <h2 class="display-3 text-info">What is ACES Hackathon?</h2>
-          <p class="text-justify text-succes">
-            ACES Hackathon 2018 is to be held for the 8th consecutive year starting from 8th of June extending for 3 days. The competition is to be held under two categories namely Network and Systems and Software Development covering a large range of Computer Engineering related disciplines. The event would be guided by the academic staff, the alumni of the computer engineering department as well as industrial experts. This time several changes have been made to the event to take the winning ideas to the next level by supporting them to initiate their own startup and by providing the necessary guidance to continue improving their product without limiting to the 3 days that the competition is held on. This opportunity would be one of the best platforms for the fresh undergraduates to present their innovative ideas to the experts of the field and to get an exposure to the industry’s expectation from them. At the end of the 3days the participants would not only be able to come with their own innovative product but will also be able to present a proper business plan that would take their solution to the next level.
+          <h2 class="display-3 text-dark">What is ACES Hackathon?</h2>
+          <p class="text-justify text-dark">
+            ACES Hackathon 2018 is to be held for the 8th consecutive year starting from 8th of June extending for 3
+            days. The competition is to be held under two categories namely Network and Systems and Software Development
+            covering a large range of Computer Engineering related disciplines. The event would be guided by the
+            academic staff, the alumni of the computer engineering department as well as industrial experts. This time
+            several changes have been made to the event to take the winning ideas to the next level by supporting them
+            to initiate their own startup and by providing the necessary guidance to continue improving their product
+            without limiting to the 3 days that the competition is held on. This opportunity would be one of the best
+            platforms for the fresh undergraduates to present their innovative ideas to the experts of the field and to
+            get an exposure to the industry’s expectation from them. At the end of the 3days the participants would not
+            only be able to come with their own innovative product but will also be able to present a proper business
+            plan that would take their solution to the next level.
           </p>
         </div>
         <div id="carouselExampleIndicators" class="carousel slide col-md-7" data-ride="carousel">
@@ -279,43 +297,66 @@
                 <div class="card mb-0 bg-secondary">
                   <div class="card-header" id="headingOne">
                     <h2 class="mb-0 display-3 text-dark">
-                      <button class="btn btn-link text-succes" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <button class="btn btn-link text-succes" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Category #1
                       </button>
                     </h2>
                   </div>
 
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                      wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                      eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                      assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                      nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                      farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                      labore sustainable VHS.
                     </div>
                   </div>
                 </div>
                 <div class="card mb-0">
                   <div class="card-header" id="headingTwo">
                     <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Category #2
                       </button>
                     </h2>
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                      wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                      eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                      assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                      nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                      farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                      labore sustainable VHS.
                     </div>
                   </div>
                 </div>
                 <div class="card mb-3">
                   <div class="card-header" id="headingThree">
                     <h2 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Category #3
                       </button>
                     </h2>
                   </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                    data-parent="#accordionExample">
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                      wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                      eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                      assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                      nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                      farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                      labore sustainable VHS.
                     </div>
                   </div>
                 </div>
@@ -325,95 +366,98 @@
         </div>
       </section>
       <section class="section section-lg section-safe">
-      <img src="../assets/img/path5.png" class="path">
-      <div class="container">
-        <div class="row row-grid justify-content-between">
-          <div class="col-md-5">
-            <img src="../assets/img/sensors.webp" class="img-fluid floating">
-            <div class="card card-stats bg-danger">
-              <div class="card-body">
-                <div class="justify-content-center">
-                  <div class="numbers">
-                    <p class="card-title">100%</p>
-                    <p class="card-category text-white">Safe</p>
+        <img src="../assets/img/path5.png" class="path">
+        <div class="container">
+          <div class="row row-grid justify-content-between">
+            <div class="col-md-5">
+              <img src="../assets/img/sensors.webp" class="img-fluid floating">
+              <div class="card card-stats bg-danger">
+                <div class="card-body">
+                  <div class="justify-content-center">
+                    <div class="numbers">
+                      <p class="card-title">100%</p>
+                      <p class="card-category text-white">Safe</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-stats bg-info">
+                <div class="card-body">
+                  <div class="justify-content-center">
+                    <div class="numbers">
+                      <p class="card-title">573 K</p>
+                      <p class="card-category text-white">Satisfied customers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-stats bg-default">
+                <div class="card-body">
+                  <div class="justify-content-center">
+                    <div class="numbers">
+                      <p class="card-title">10 425</p>
+                      <p class="card-category text-white">Business</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="card card-stats bg-info">
-              <div class="card-body">
-                <div class="justify-content-center">
-                  <div class="numbers">
-                    <p class="card-title">573 K</p>
-                    <p class="card-category text-white">Satisfied customers</p>
-                  </div>
-                </div>
+            <div class="col-md-6">
+              <div class="px-md-5">
+                <hr class="line-success">
+                <h3>Awesome features</h3>
+                <p>The design system comes with three pre-built pages to help you get started faster. You can change the
+                  text and images and you're good to go.</p>
+                <ul class="list-unstyled mt-5">
+                  <li class="py-2">
+                    <div class="d-flex align-items-center">
+                      <div class="icon icon-success mb-2">
+                        <i class="tim-icons icon-vector"></i>
+                      </div>
+                      <div class="ml-3">
+                        <h6>Carefully crafted components</h6>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="d-flex align-items-center">
+                      <div class="icon icon-success mb-2">
+                        <i class="tim-icons icon-tap-02"></i>
+                      </div>
+                      <div class="ml-3">
+                        <h6>Amazing page examples</h6>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="d-flex align-items-center">
+                      <div class="icon icon-success mb-2">
+                        <i class="tim-icons icon-single-02"></i>
+                      </div>
+                      <div class="ml-3">
+                        <h6>Super friendly support team</h6>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
-            </div>
-            <div class="card card-stats bg-default">
-              <div class="card-body">
-                <div class="justify-content-center">
-                  <div class="numbers">
-                    <p class="card-title">10 425</p>
-                    <p class="card-category text-white">Business</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="px-md-5">
-              <hr class="line-success">
-              <h3>Awesome features</h3>
-              <p>The design system comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
-              <ul class="list-unstyled mt-5">
-                <li class="py-2">
-                  <div class="d-flex align-items-center">
-                    <div class="icon icon-success mb-2">
-                      <i class="tim-icons icon-vector"></i>
-                    </div>
-                    <div class="ml-3">
-                      <h6>Carefully crafted components</h6>
-                    </div>
-                  </div>
-                </li>
-                <li class="py-2">
-                  <div class="d-flex align-items-center">
-                    <div class="icon icon-success mb-2">
-                      <i class="tim-icons icon-tap-02"></i>
-                    </div>
-                    <div class="ml-3">
-                      <h6>Amazing page examples</h6>
-                    </div>
-                  </div>
-                </li>
-                <li class="py-2">
-                  <div class="d-flex align-items-center">
-                    <div class="icon icon-success mb-2">
-                      <i class="tim-icons icon-single-02"></i>
-                    </div>
-                    <div class="ml-3">
-                      <h6>Super friendly support team</h6>
-                    </div>
-                  </div>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     </section>
     <!-- END Category SECTION -->
 
     <!-- TIMELINE SECTION -->
     <section class="container" id="timeline">
       <div class="row">
-        <div class="col text-center mt-5 pt-5"><h1 class="font-weight-bold text-dark">TIMELINE</h1></div>
+        <div class="col text-center mt-5 pt-5">
+          <h1 class="font-weight-bold text-dark">TIMELINE</h1>
+        </div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-12">
-         
+
           <div class="timeline">
             <div class="timeline-wrapper">
               <div class="timeline-yr">
@@ -439,17 +483,17 @@
               </div>
               <div class="timeline-info">
                 <h3><span>Pre Idea Pitching</span></h3>
-                
+
               </div>
             </div>
-            
+
             <div class="timeline-wrapper">
               <div class="timeline-yr">
                 <span>4</span>
               </div>
               <div class="timeline-info">
                 <h3><span>Idea Pitching</span></h3>
-                
+
               </div>
             </div>
 
@@ -465,12 +509,12 @@
           </div>
         </div>
         <div class="col-lg-6 col-12">
-          <img src="assets/img/idea.png"/>
+          <img src="assets/img/idea.png" />
         </div>
       </div>
     </section>
     <!-- END TIMELINE SECTION -->
-    
+
     <!-- PRICES SECTION -->
     <section class="container" id="awards">
       <div class="row mb-5">
@@ -506,7 +550,7 @@
                 <h1 class="display-3">LKR. 10,000/=</h1>
               </div>
             </div>
-          </div>  
+          </div>
         </div>
       </div>
     </section>
@@ -523,7 +567,9 @@
     <!-- SPONSORS SECTION -->
     <section class="container" id="sponsors">
       <div class="row">
-        <div class="col text-center mt-5 pt-5"><h1 class="font-weight-bold text-dark">SPONSORS</h1></div>
+        <div class="col text-center mt-5 pt-5">
+          <h1 class="font-weight-bold text-dark">SPONSORS</h1>
+        </div>
       </div>
     </section>
     <!-- END SPONSORS SECTION -->
@@ -531,8 +577,10 @@
     <!-- CONTACT SECTION -->
     <section class="container" id="contact">
       <div class="row">
-        <div class="col text-left mt-5 pt-5"><h1 class="font-weight-bold text-dark">CONTACT</h1></div>
-      </div>        
+        <div class="col text-left mt-5 pt-5">
+          <h1 class="font-weight-bold text-dark">CONTACT</h1>
+        </div>
+      </div>
     </section>
     <!-- END CONTACT SECTION -->
 
@@ -543,7 +591,7 @@
         <div class="col-md-5 col-sm-12">
           <div class="row">
             <h3 class="text-dark">
-              More Information  
+              More Information
             </h3>
           </div>
           <div class="row text-left text-secondary">
@@ -556,7 +604,7 @@
         <div class="col-md-4 col-sm-6">
           <div class="row">
             <h3 class="text-dark">
-              Contact  
+              Contact
             </h3>
           </div>
           <div class="row text-left text-secondary">
@@ -615,6 +663,11 @@
   <script src="./assets/vendor/countdowntime/moment-timezone.min.js"></script>
   <script src="./assets/vendor/countdowntime/moment-timezone-with-data.min.js"></script>
   <script src="./assets/vendor/countdowntime/countdowntime.js"></script>
+  <script src="preloader/js/demo.js"></script>
+  <script src="preloader/js/vendor/three.min.js"></script>
+  <script src="preloader/js/vendor/OrbitControls.js"></script>
+  <script src="preloader/js/vendor/fast-simplex-noise.js"></script>
+  <script src="preloader/dist/js/demo-1/index.bundle.js"></script>
   <script>
     $('.cd100').countdown100({
       /*Set Endtime here*/
@@ -625,16 +678,16 @@
       endtimeHours: 18,
       endtimeMinutes: 0,
       endtimeSeconds: 0,
-      timeZone: "" 
+      timeZone: ""
       // ex:  timeZone: "America/New_York"
       //go to " http://momentjs.com/timezone/ " to get timezone
     });
 
-    
+
   </script>
-<!--===============================================================================================-->
+  <!--===============================================================================================-->
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
       blackKit.initDatePicker();
       blackKit.initSliders();
     });
