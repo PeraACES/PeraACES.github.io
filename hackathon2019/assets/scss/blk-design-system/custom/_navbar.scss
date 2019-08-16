@@ -2,7 +2,7 @@
   padding: $navbar-padding-x;
   width: $full-width;
   z-index: 1050;
-  background: #EDACA1;
+  background: #30B77E;
 
   .photo {
     display: inline-block;
@@ -42,6 +42,7 @@
   }
   p{
     margin: 0;
+    color: #344675;
   }
 
   &.navbar-absolute{
