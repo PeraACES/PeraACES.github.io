@@ -69,4 +69,66 @@
     vertical-align: middle;
     margin-left: 15px;
   }
+
+  /* Color schemes */
+.demo-1 {
+	--color-text: #fff;
+	--color-bg: #fff;
+	--color-link: #236554;
+	--color-link-hover: #fff;
+	--color-top-right: limegreen;
+	--color-bottom-left: cyan;
+}
+
+.completed .demo-1 {
+	--color-text: #222;
+	--color-link: #222;
+	--color-link-hover: #aaa;
+}
+
+
+/* Fade effect */
+.js body {
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+.js body.render {
+	opacity: 1;
+}
+
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+.loader {
+	background: linear-gradient(-135deg, var(--color-top-right), var(--color-bottom-left));
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+  transition: opacity 600ms;
+  z-index: 999999;
+}
+
+.loading .loader {
+	opacity: 1;
+}
+
+.completed .loader {
+	opacity: 0;
+	pointer-events: none;
+}
+@media screen and (max-width: 55em) {	
+	.loader {
+		z-index: 999999;
+	}	
+}
+
   
