@@ -23,31 +23,22 @@
   <meta name="keywords"
     content="Hackathon 2019, ACES Hackathon 2019, ACES Hackathon, Department of Computer Engineering, Computer Engineer, University of Peradeniya, Faculty of Engineering, Students Society, Society, Association, Association of Students, Association of Engineering Students, Association of Computer Engineering Students">
   <meta name="author" content="ACES">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
   <!-- <link rel="icon" type="image/png" href="./assets/img/favicon.png"> -->
 
-  <!-- Fonts and icons -->
-  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Noto+Sans|Teko:400,500&display=swap"
-    rel="stylesheet" <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/all.js">
-  </script>
+  <!-- Font and Icon CDNs -->
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Noto+Sans|Teko:400,500&display=swap" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/all.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/v4-shims.js"></script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
 
-  
   <!-- Nucleo Icons -->
   <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
   <!-- CSS Files -->
+  <link rel="stylesheet" href="./assets/dist/aos.css" />
   <link href="./assets/css/main.css" rel="stylesheet" />
   <link href="./assets/scss/blk-design-system.css" rel="stylesheet" />
-  <!--===============================================================================================-->
-  <!-- <link rel="stylesheet" type="text/css" href="./assets/vendor/countdowntime/main.css"> -->
-  <!-- <link rel="stylesheet" type="text/css" href="./assets/vendor/countdowntime/util.css"> -->
-  <link rel="stylesheet" type="text/css" href="./assets/vendor/countdowntime/flipclock.css">
-  <!--===============================================================================================-->
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  <!-- <link href="./assets/demo/demo.css" rel="stylesheet" /> -->
 </head>
 
 <body class="index-page">
@@ -86,7 +77,7 @@
         </div>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item p-0">
-            <button type="button" class="btn btn-warning">Register Now!</button>
+            <button type="button" class="btn btn-warning animated pulse">Register Now!</button>
           </li>
           <li class="nav-item p-0">
             <a class="nav-link" href="#about">
@@ -107,21 +98,15 @@
             </a>
           </li>
           <li class="nav-item p-0">
-            <a class="nav-link" href="#sponsors">
-              <i class="d-lg-none d-xl-none tim-icons icon-sound-wave"></i>
-              <p>Sponsors</p>
-            </a>
-          </li>
-          <li class="nav-item p-0">
             <a class="nav-link" href="#gallery">
               <i class="d-lg-none d-xl-none tim-icons icon-single-copy-04"></i>
               <p>Gallery</p>
             </a>
           </li>
           <li class="nav-item p-0">
-            <a class="nav-link" href="#contact">
-              <i class="d-lg-none d-xl-none tim-icons icon-chat-33"></i>
-              <p>Contact</p>
+            <a class="nav-link" href="#sponsors">
+              <i class="d-lg-none d-xl-none tim-icons icon-sound-wave"></i>
+              <p>Sponsors</p>
             </a>
           </li>
         </ul>
@@ -160,9 +145,9 @@
         <div class="col text-right"><h1 class="font-weight-bold text-dark">ABOUT</h1></div>
       </div> -->
       <div class="row mt-5 pt-3">
-        <div class="col-md-5">
-          <h2 class="display-3 text-dark">What is ACES Hackathon?</h2>
-          <p class="text-justify text-dark">
+        <div class="col-md-5" >
+          <h2 class="display-3 text-info" data-aos="fade-down">What is ACES Hackathon?</h2>
+          <p class="text-justify text-primary" data-aos="fade-right">
             ACES Hackathon 2018 is to be held for the 8th consecutive year starting from 8th of June extending for 3
             days. The competition is to be held under two categories namely Network and Systems and Software Development
             covering a large range of Computer Engineering related disciplines. The event would be guided by the
@@ -176,7 +161,7 @@
             plan that would take their solution to the next level.
           </p>
         </div>
-        <div id="carouselExampleIndicators" class="carousel slide col-md-7" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide col-md-7" data-aos="fade-left" data-ride="carousel">
           <div class="carousel-inner shadow-sm">
             <div class="carousel-item active">
               <img class="d-block w-100" src="assets/img/carousel-1.jpg" alt="First slide">
@@ -210,7 +195,7 @@
         <img src="../assets/img/path4.png" class="path">
         <div class="container">
           <div class="row row-grid justify-content-between">
-            <div class="col-md-5 mt-lg-5">
+            <div class="col-md-5 mt-lg-5" data-aos="fade-down-right">
               <div class="row">
                 <div class="col-lg-6 col-sm-12 px-2 py-2">
                   <div class="card card-stats bg-info shadow-sm">
@@ -292,7 +277,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-down-left">
               <div class="accordion" id="accordionExample">
                 <div class="card mb-0 bg-secondary">
                   <div class="card-header" id="headingOne">
@@ -369,7 +354,7 @@
         <img src="../assets/img/path5.png" class="path">
         <div class="container">
           <div class="row row-grid justify-content-between">
-            <div class="col-md-5">
+            <div class="col-md-5" data-aos="fade-up-right">
               <img src="../assets/img/sensors.webp" class="img-fluid floating">
               <div class="card card-stats bg-danger">
                 <div class="card-body">
@@ -402,7 +387,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-up-left">
               <div class="px-md-5">
                 <hr class="line-success">
                 <h3>Awesome features</h3>
@@ -452,11 +437,11 @@
     <section class="container" id="timeline">
       <div class="row">
         <div class="col text-center mt-5 pt-5">
-          <h1 class="font-weight-bold text-dark">TIMELINE</h1>
+          <h1 class="font-weight-bold text-secondary" data-aos="fade-down">TIMELINE</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-6 col-12" data-aos="fade-up">
 
           <div class="timeline">
             <div class="timeline-wrapper">
@@ -508,7 +493,7 @@
 
           </div>
         </div>
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-6 col-12" data-aos="fade-left">
           <img src="assets/img/idea.png" />
         </div>
       </div>
@@ -518,12 +503,12 @@
     <!-- PRICES SECTION -->
     <section class="container" id="awards">
       <div class="row mb-5">
-        <div class="col text-center mt-5 pt-5"><h1 class="font-weight-bold text-dark">AWARDS</h1></div>
+        <div class="col text-center mt-5 pt-5"><h1 class="font-weight-bold text-warning" data-aos="fade-down">AWARDS</h1></div>
       </div>
       <div class="row">
         <div class="col">
           <div class="card-deck">
-            <div class="card mr-5" style="background-color: #000000;">
+            <div class="card m-5" style="background-color: #000000;" data-aos="fade-right">
               <div class="card-header shadow-sm">
                 <img src="assets/img/famousWinner.png" class="img-center img-fluid">
               </div>
@@ -532,7 +517,7 @@
                 <h1 class="display-3">LKR. 10,000/=</h1>
               </div>
             </div>
-            <div class="card mr-5" style="background-color: #000000;">
+            <div class="card m-5" style="background-color: #000000;" data-aos="zoom-in">
               <div class="card-header shadow-sm">
                 <img src="assets/img/famousWinner.png" class="img-center img-fluid">
               </div>
@@ -541,7 +526,7 @@
                 <h1 class="display-3">LKR. 15,000/=</h1>
               </div>
             </div>
-            <div class="card mr-5" style="background-color: #000000;">
+            <div class="card m-5" style="background-color: #000000;" data-aos="fade-left">
               <div class="card-header shadow-sm">
                 <img src="assets/img/famousWinner.png" class="img-center img-fluid">
               </div>
@@ -558,8 +543,8 @@
 
     <!-- GALLERY SECTION -->
     <section class="container" id="gallery">
-      <div class="row">
-        <div class="col text-center"><h1 class="font-weight-bold text-dark">PAST SNAPSHOTS</h1></div>
+      <div class="row" data-aos="zoom-in">
+        <div class="col text-center mt-5 pt-5"><h1 class="font-weight-bold text-danger">PAST SNAPSHOTS</h1></div>
       </div>
     </section>
     <!-- END GALLERY SECTION -->
@@ -568,20 +553,20 @@
     <section class="container" id="sponsors">
       <div class="row">
         <div class="col text-center mt-5 pt-5">
-          <h1 class="font-weight-bold text-dark">SPONSORS</h1>
+          <h1 class="font-weight-bold text-info">SPONSORS</h1>
         </div>
       </div>
     </section>
     <!-- END SPONSORS SECTION -->
 
     <!-- CONTACT SECTION -->
-    <section class="container" id="contact">
+    <!-- <section class="container" id="contact">
       <div class="row">
         <div class="col text-left mt-5 pt-5">
           <h1 class="font-weight-bold text-dark">CONTACT</h1>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- END CONTACT SECTION -->
 
   </div>
@@ -642,17 +627,6 @@
   <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
   <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
   <script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-  <script src="./assets/js/plugins/bootstrap-switch.js"></script>
-  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <!-- Chart JS -->
-  <script src="./assets/js/plugins/chartjs.min.js"></script>
-  <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-  <script src="./assets/js/plugins/moment.min.js"></script>
-  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
-  <!-- Black Dashboard DEMO methods, don't include it in your project! -->
-  <!-- <script src="./assets/demo/demo.js"></script> -->
   <!-- Control Center for Black UI Kit: parallax effects, scripts for the example pages etc -->
   <script src="./assets/js/blk-design-system.min.js?v=1.0.0" type="text/javascript"></script>
   <script src="./assets/js/demo-2.js" type="text/javascript"></script>
@@ -700,6 +674,10 @@
         }, 1000);
       }
     }
+  </script>
+  <script src="./assets/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 </body>
 
