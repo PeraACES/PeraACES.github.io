@@ -1,0 +1,1 @@
+<?php header("Location: hackathon2019/index.php"); ?>
