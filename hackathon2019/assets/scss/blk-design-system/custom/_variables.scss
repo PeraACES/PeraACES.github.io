@@ -244,7 +244,7 @@ $love-color: $red !default;
 
 // Body
 
-$body-bg: $background-black !default;
+$body-bg: $black !default;
 $body-color: $gray-700 !default;
 
 
@@ -753,7 +753,7 @@ $navbar-nav-link-letter-spacing:    0 !default;
 $navbar-nav-link-border-radius:     $border-radius !default;
 
 /* navbar color */
-$navbar-color:                      #secondary !default;
+$navbar-color:                      $primary !default;
 $navbar-dark-bg:                    transparent !default;
 $navbar-dark-hover-bg:              rgba(255, 255, 255, .1);
 $navbar-dark-active-bg:             rgba(255, 255, 255, .1);
