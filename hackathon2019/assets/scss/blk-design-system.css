@@ -12605,6 +12605,7 @@ hr {
   color: #496619; }
 
 .section {
+  padding: 70px 0;
   position: relative;
   overflow: hidden; }
   .section .row + .category {
