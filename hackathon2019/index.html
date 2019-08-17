@@ -37,8 +37,8 @@
   <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
   <!-- CSS Files -->
   <link rel="stylesheet" href="./assets/dist/aos.css" />
-  <link href="./assets/css/main.css" rel="stylesheet" />
   <link href="./assets/scss/blk-design-system.css" rel="stylesheet" />
+  <link href="./assets/css/main.css" rel="stylesheet" />
 </head>
 
 <body class="index-page">
@@ -62,12 +62,12 @@
       <div class="collapse navbar-collapse justify-content-end" id="navigation">
         <div class="navbar-collapse-header">
           <div class="row">
-            <div class="col-6 collapse-brand">
+            <div class="col-10 collapse-brand">
               <a>
-                ACES
+                ACES Hackathon 2019
               </a>
             </div>
-            <div class="col-6 collapse-close text-right">
+            <div class="col-2 collapse-close text-right">
               <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation"
                 aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="tim-icons icon-simple-remove"></i>
@@ -136,7 +136,7 @@
     </div>
   </div>
 
-  <div class="main" style="background-color: #1A1E34;">
+  <div class="main" style="background-color: #1A1E34; overflow-x: hidden;">
 
     <!-- ABOUT SECTION -->
     <section class="container mt-5 pt-5" id="about">
@@ -145,12 +145,12 @@
       </div> -->
       <div class="row mt-5 pt-3">
         <div class="col-md-5" >
-          <h2 class="display-3 text-info" data-aos="fade-down">What is ACES Hackathon?</h2>
-          <p class="text-justify text-primary" data-aos="fade-right">
+          <h2 class="display-3 text-info aos-section" data-aos="fade-down">What is ACES Hackathon?</h2>  
+          <p class="text-justify text-primary aos-section" data-aos="fade-right">
             ACES Hackathon 2019 is to be held for the 8th consecutive year starting from 13th of September extending for 3 days. The competition is to be held under five categories covering a large range of Computer Engineering related disciplines. The event would be guided by the academic staff, the alumni of the computer engineering department as well as industrial experts. This time several changes have been made to the event to take the winning ideas to the next level by supporting them to initiate their own startup and by providing the necessary guidance to continue improving their product without limiting to the 3 days that the competition is held on. This opportunity would be one of the best platforms for the fresh undergraduates to present their innovative ideas to the experts of the field and to get an exposure to the industry’s expectation from them. At the end of the 3days the participants would not only be able to come with their own innovative product but will also be able to present a proper business plan that would take their solution to the next level.
           </p>
         </div>
-        <div id="carouselExampleIndicators" class="carousel slide col-md-7" data-aos="fade-left" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide col-md-7 aos-section" data-aos="fade-left" data-ride="carousel">
           <div class="carousel-inner shadow-sm">
             <div class="carousel-item active">
               <img class="d-block w-100" src="assets/img/carousel-1.jpg" alt="First slide">
@@ -266,14 +266,14 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6" data-aos="fade-down-left">
+            <div class="col-md-6 aos-section" data-aos="fade-down-left">
               <div class="accordion" id="accordionExample">
                 <div class="card mb-0" style="background: #30B77E">
                   <div class="card-header" id="headingOne">
                     <h2 class="mb-0 display-3">
                       <button class="btn btn-link text-dark" type="button" data-toggle="collapse"
                         data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        IOT/Embedded
+                        IOT/Embedded Systems
                       </button>
                     </h2>
                   </div>
@@ -348,7 +348,7 @@
                 <div class="card-body">
                   <div class="justify-content-center">
                     <div class="numbers">
-                      <p class="card-category">Innovation</p>
+                      <p class="card-category text-white">Innovation</p>
                     </div>
                   </div>
                 </div>
@@ -372,7 +372,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6" data-aos="fade-up-left">
+            <div class="col-md-6 aos-section" data-aos="fade-up-left">
               <div class="px-md-5">
                 <hr class="line-success">
                 <h3>Idea Pitching</h3>
@@ -408,6 +408,9 @@
                       </div>
                     </div>
                   </li>
+                  <li class="py-2">
+                    <a href='https://forms.gle/7APrBMoWMgU6qhWy7' target="_blank"><button type="button" class="btn btn-warning animated pulse">Register Now!</button></a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -421,12 +424,11 @@
     <section class="container" id="timeline">
       <div class="row">
         <div class="col text-center mt-5 pt-5">
-          <h1 class="font-weight-bold text-secondary" data-aos="fade-down">TIMELINE</h1>
+          <h1 class="font-weight-bold text-secondary aos-section" data-aos="fade-down">TIMELINE</h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-12" data-aos="fade-up">
-
+        <div class="col-lg-6 col-12 aos-section d-flex justify-content-around" data-aos="zoom-in-down">
           <div class="timeline">
             <div class="timeline-wrapper">
               <div class="timeline-yr">
@@ -442,7 +444,7 @@
                 <span>2</span>
               </div>
               <div class="timeline-info">
-                <h3><span>Idea Brainstroming</span></h3>
+                <h3><span>Idea Brainstorming</span></h3>
               </div>
             </div>
 
@@ -451,7 +453,7 @@
                 <span>3</span>
               </div>
               <div class="timeline-info">
-                <h3><span>Pre Idea Pitching</span></h3>
+                <h3><span>Pre-Idea Pitching</span></h3>
 
               </div>
             </div>
@@ -471,28 +473,39 @@
                 <span>5</span>
               </div>
               <div class="timeline-info">
+                <h3><span>Main Event</span></h3>
+              </div>
+            </div>
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>6</span>
+              </div>
+              <div class="timeline-info">
                 <h3><span>Event Closing</span></h3>
               </div>
             </div>
-
           </div>
         </div>
-        <div class="col-lg-6 col-12" data-aos="fade-left">
-          <img src="assets/img/idea.png" />
+        <div class="col-lg-6 col-12 d-flex justify-content-center" data-aos="zoom-in-down">
+          <div class="row">
+            <div class="col">
+              <img src="./assets/img/idea.png" class="img-fluid"/>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- END TIMELINE SECTION -->
 
-    <!-- PRICES SECTION -->
+    <!-- AWARDS SECTION -->
     <section class="container mb-5" id="awards">
       <div class="row mb-5">
-        <div class="col text-center mt-5 pt-5"><h1 class="font-weight-bold text-warning" data-aos="fade-down">AWARDS</h1></div>
+        <div class="col text-center mt-5 pt-5"><h1 class="font-weight-bold text-warning aos-section" data-aos="zoom-in-up">AWARDS</h1></div>
       </div>
       <div class="row">
         <div class="col">
-          <div class="card-deck">
-            <div class="card" style="background-color: #000000;" data-aos="fade-right">
+          <div class="card-deck d-flex justify-content-around">
+            <div class="card aos-section" style="background-color: #000000;" data-aos="flip-right">
               <div class="card-header shadow-sm">
                 <img src="assets/img/famousWinner.png" class="img-center img-fluid">
               </div>
@@ -501,7 +514,7 @@
                 <h1 class="display-3">LKR. 15,000/=</h1>
               </div>
             </div>
-            <div class="card" style="background-color: #000000;" data-aos="zoom-in">
+            <div class="card aos-section" style="background-color: #000000;" data-aos="fade-up">
               <div class="card-header shadow-sm">
                 <img src="assets/img/famousWinner.png" class="img-center img-fluid">
               </div>
@@ -510,12 +523,12 @@
                 <h1 class="display-3">LKR. 20,000/=</h1>
               </div>
             </div>
-            <div class="card" style="background-color: #000000;" data-aos="fade-left">
+            <div class="card aos-section" style="background-color: #000000;" data-aos="flip-left">
               <div class="card-header shadow-sm">
                 <img src="assets/img/famousWinner.png" class="img-center img-fluid">
               </div>
               <div class="card-body text-center">
-                <h2 class="card-title text-center">Most Famous Idea</h2>
+                <h2 class="card-title text-center">Most Popular Idea</h2>
                 <h1 class="display-3">LKR. 10,000/=</h1>
               </div>
             </div>
@@ -523,7 +536,7 @@
         </div>
       </div>
     </section>
-    <!-- END PRICES SECTION -->
+    <!-- END AWARDS SECTION -->
 
     <!-- GALLERY SECTION -->
     <!-- <section class="container" id="gallery">
@@ -564,7 +577,7 @@
             </h3>
           </div>
           <div class="row text-left text-secondary">
-            <p class="pb-1">Association of Computer Engineering Students'</p>
+            <p class="pb-1">Association of Computer Engineering Students</p>
           </div>
           <div class="row text-left text-secondary">
             <p class="pb-1">Faculty of Engineering,<br>University Of Peradeniya,<br>Peradeniya,<br>Kandy</p>
@@ -577,9 +590,9 @@
             </h3>
           </div>
           <div class="row text-left text-secondary">
-            <p>Nirodha Suchinthana (President) <br><span>+94(0)71 123 4567</span></p>
-            <p>Chamin Jayasooriya (Secretary) <br><span>+94(0)71 123 4567</span></p>
-            <p>Shyaman Jayasundara (Vice President) <br><span>+94(0)71 123 4567</span></p>
+            <p>Nirodha Suchinthana (President) <br><span>+94(0)71 554 1513</span></p>
+            <p>Chamin Jayasooriya (Secretary) <br><span>+94(0)76 301 1726</span></p>
+            <p>Shyaman Jayasundara (Vice President) <br><span>+94(0)71 715 4023</span></p>
           </div>
           <div class="row text-left">
             <i class="fab fa-facebook-square mr-4"></i>
@@ -621,11 +634,11 @@
   <script src="./assets/vendor/countdowntime/moment-timezone.min.js"></script>
   <script src="./assets/vendor/countdowntime/moment-timezone-with-data.min.js"></script>
   <script src="./assets/vendor/countdowntime/countdowntime.js"></script>
-  <script src="preloader/js/demo.js"></script>
-  <script src="preloader/js/vendor/three.min.js"></script>
-  <script src="preloader/js/vendor/OrbitControls.js"></script>
-  <script src="preloader/js/vendor/fast-simplex-noise.js"></script>
-  <script src="preloader/dist/js/demo-1/index.bundle.js"></script>
+  <script src="./preloader/js/demo.js"></script>
+  <script src="./preloader/js/vendor/three.min.js"></script>
+  <script src="./preloader/js/vendor/OrbitControls.js"></script>
+  <script src="./preloader/js/vendor/fast-simplex-noise.js"></script>
+  <script src="./preloader/dist/js/demo-1/index.bundle.js"></script>
   <script>
     $('.cd100').countdown100({
       /*Set Endtime here*/
@@ -661,6 +674,7 @@
   </script>
   <script src="./assets/dist/aos.js"></script>
   <script>
+    // AOS.init({ disable: 'mobile' });
     AOS.init();
   </script>
 </body>
