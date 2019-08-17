@@ -15,6 +15,10 @@
     z-index: 1;
 }
 
+.section {
+  overflow: hidden;
+}
+
 .timeline-wrapper {
     position: relative;
     padding: 22px 0;
