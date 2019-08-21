@@ -98,6 +98,38 @@
          "fb":"https://www.facebook.com/sandushi.dileka",
          "linkedin":"",
          "email":"sandushidileka2@gmail.com"
+      },
+      "12":{
+         "position":"Committee Member",
+         "name":"Denuke Dhananja Dissanayake",
+         "img":"img/team/12.jpg",
+         "fb":"https://www.facebook.com/denukedissanayake",
+         "linkedin":"https://www.linkedin.com/in/denuke-dissanayake-b6ab6a8b",
+         "email":"ddnadhananja@gmail.com"
+      },
+      "13":{
+         "position":"Committee Member",
+         "name":"Madusha Shanaka",
+         "img":"img/team/13.jpg",
+         "fb":"https://www.facebook.com/mshanaka",
+         "linkedin":"",
+         "email":"tkmshanaka@gmail.com"
+      },
+      "14":{
+         "position":"Committee Member",
+         "name":"Thilini Deshika",
+         "img":"img/team/female.jpg",
+         "fb":"",
+         "linkedin":"https://www.linkedin.com/in/thilini-deshika-9b960618a",
+         "email":"thilinideshika1227@gmail.com"
+      },
+      "15":{
+         "position":"Committee Member",
+         "name":"Sudam Kalpage",
+         "img":"img/team/15.jpg",
+         "fb":"https://www.facebook.com/sudam.kalpage",
+         "linkedin":"https://www.linkedin.com/in/sudam-kalpage-a2415b186",
+         "email":"sudamkalpage4@gmail.com"
       }
    }
 }
