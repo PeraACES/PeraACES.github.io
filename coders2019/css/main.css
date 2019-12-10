@@ -19,7 +19,7 @@
 .textAbout{
 	font-family:Courier New;
 	color: white;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .containerAbout{
@@ -168,15 +168,15 @@
 .textAboutRule{
   color: white;
   display:inline;
-  font-family:Courier New;
-  font-size: 18px; 
+  font-family:Courier New; 
+  font-size: 17px;
 }
 
 .textPRule{
   color: #f6f027;
   font-family:Courier New;
   display: inline;
-  font-size: 18px;
+      font-size: 17px;
 }
 
 .ruleP{
@@ -277,3 +277,4 @@
   padding: 10px;
   margin-top: 30px;
 }
+
