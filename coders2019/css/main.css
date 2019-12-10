@@ -115,6 +115,14 @@
   opacity: 0.5;
 }
 
+.galleryPlaceDivAwards{
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
 .galleryPlaceDiv:hover{
   opacity: 1;
 }
@@ -153,6 +161,18 @@
 
 .g9{
   background-image: url("../img/g9.jpg");
+}
+
+.g10{
+  background-image: url("../img/secondPlace.png");
+}
+
+.g11{
+  background-image: url("../img/firstPlace.png");
+}
+
+.g12{
+  background-image: url("../img/thirdPlace.png");
 }
 
 .firstPlaceAward{
@@ -208,7 +228,7 @@
   .headerAwards{
     position: relative;
     background-color: black;
-    height: 143vh;
+    height: 166vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;    
