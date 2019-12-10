@@ -43,6 +43,11 @@
   margin-top: 50px;
 }
 
+.containerMarginListRule{
+  margin-top: 50px;
+  border-left: 2px solid white;
+}
+
 .firstPlaceDiv{
   background-size: cover;
   background-image: url("../img/firstPlace.jpg");
@@ -157,6 +162,24 @@
   border: 1px solid white;
   margin-bottom: 10px;
   border-radius: 10px;
+}
+
+.textAboutRule{
+  color: white;
+  display:inline;
+  font-family:Courier New; 
+}
+
+.textPRule{
+  color: #f6f027;
+  font-family:Courier New;
+  display: inline;
+}
+
+.ruleP{
+  color: #27f654;
+  font-family:Courier New;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 768px) {
