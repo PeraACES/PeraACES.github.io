@@ -167,14 +167,6 @@
   background-image: url("../img/secondPlace.png");
 }
 
-.g11{
-  background-image: url("../img/firstPlace.png");
-}
-
-.g12{
-  background-image: url("../img/thirdPlace.png");
-}
-
 .firstPlaceAward{
   border-radius: 50px;
 }
@@ -228,7 +220,7 @@
   .headerAwards{
     position: relative;
     background-color: black;
-    height: 166vh;
+    height: 143vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;    
