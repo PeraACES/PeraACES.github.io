@@ -214,6 +214,15 @@
     overflow: hidden;    
   }
 
+  .headerContact{
+    position: relative;
+    background-color: black;
+    height: 143vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;    
+  }
+
   header video {
     position: absolute;
     top: 50%;
@@ -271,6 +280,15 @@
     position: relative;
     background-color: black;
     height: 60vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;    
+  }
+
+  .headerContact{
+    position: relative;
+    background-color: black;
+    height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;    
