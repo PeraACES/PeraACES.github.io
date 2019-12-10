@@ -1,919 +1,349 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-    <head>
-    	<!-- meta charec set -->
-        <meta charset="utf-8">
-		<!-- Always force latest IE rendering engine or request Chrome Frame -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<!-- Page Title -->
-        <title>ACES | Association of Computer Engineering Students</title>		
-		<!-- Meta Description -->
-        <meta name="description" content="Association of Computer Engineering Students - official website">
-        <meta name="keywords" content="Engineering, Department of Computer, Department of Computer Engineering, Computer Engineering, Computer Engineer, University, University of Peradeniya, Faculty of Engineering, Students Society, Society, Association, Association of Students, Association of Engineering Students, Association of Computer Engineering Students">
-        <meta name="author" content="ACES">
-		<!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<!-- Google Font -->
-		
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--[if lt IE 7]>
+<html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-		<!-- CSS
-		================================================== -->
-		<!-- Fontawesome Icon font -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-		<!-- Twitter Bootstrap css -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- jquery.fancybox  -->
-        <link rel="stylesheet" href="css/jquery.fancybox.css">
-		<!-- animate -->
-        <link rel="stylesheet" href="css/animate.css">
-		<!-- Main Stylesheet -->
-        <link rel="stylesheet" href="css/main.css">
-		<!-- media-queries -->
-        <link rel="stylesheet" href="css/media-queries.css">
+    <title>ACES | Association of Computer Engineering Students</title>
 
-		<!-- Modernizer Script for old Browsers -->
-        <script src="js/modernizr-2.6.2.min.js"></script>
+    <meta name="description" content="Association of Computer Engineering Students - official website">
+    <meta name="keywords"
+          content="Engineering, Department of Computer, Department of Computer Engineering, Computer Engineering, Computer Engineer, University, University of Peradeniya, Faculty of Engineering, Students Society, Society, Association, Association of Students, Association of Engineering Students, Association of Computer Engineering Students">
+    <meta name="author" content="ACES">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    </head>
-	
-    <body id="body">
-	
-		<!-- preloader -->
-		<div id="preloader">
-			<img src="img/preloader.png" alt="Preloader">
-		</div>
-		<!-- end preloader -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-        <!-- 
-        Fixed Navigation
-        ==================================== -->
-        <header id="navigation" class="navbar-fixed-top navbar">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-bars fa-2x"></i>
-                    </button>
-					<!-- /responsive nav button -->
-					
-					<!-- logo -->
-                    <a class="navbar-brand" href="#body">
-						<h1 id="logo">
-							<img src="img/logo.png" alt="Brandi">
-						</h1>
-					</a>
-					<!-- /logo -->
-                </div>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media-queries.css">
 
-				<!-- main nav -->
-                <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                    <ul id="nav" class="nav navbar-nav">
-                        <li class="current"><a href="#body">News</a></li>
-                        <li><a href="#features">About</a></li>
-                        <li><a href="#works">Events</a></li>
-                        <li><a href="#team">Council</a></li>
-                        <li><a href="#contact">Contact</a></li>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body id="body">
+<div id="preloader">
+    <img src="img/preloader.png" alt="Preloader">
+</div>
+<header id="navigation" class="navbar-fixed-top navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <a class="navbar-brand" href="#body">
+                <h1 id="logo">
+                    <img src="img/logo.png" alt="Brandi">
+                </h1>
+            </a>
+        </div>
+        <nav class="collapse navbar-collapse navbar-right" role="navigation">
+            <ul id="nav" class="nav navbar-nav">
+                <li class="current"><a href="#features">About</a></li>
+                <li><a href="#works">Events</a></li>
+                <li><a href="#team">Council</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="slider" style="height:100vh">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:100vh">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox" style="height:100vh">
+
+            <div class="item active" style="background-image: url(img/banner1.jpg);height:100vh;">
+                <div class="carousel-caption">
+                    <h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">
+                        ACES<span></span></h2>
+
+                    <h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">Association of Computer Engineering Students</span>
+                    </h3>
+
+                    <p data-wow-duration="1000ms" class="wow slideInRight animated">- University of Peradeniya -</p>
+                    <ul class="social-links text-center">
+                        <li><a href="https://www.facebook.com/acespera/" target="_blank"><i
+                                class="fa fa-facebook fa-lg"></i></a></li>
+                        <li><a><i class="fa fa-google-plus fa-lg" target="_blank"></i></a></li>
                     </ul>
-                </nav>
-				<!-- /main nav -->
-				
+                </div>
             </div>
-        </header>
-        <!--
-        End Fixed Navigation
-        ==================================== -->
-		
-		
-		
-        <!--
-        Home Slider
-        ==================================== -->
-		
-		<section id="slider" style="height:100vh">
-			<!-- <div class="gradient"></div> -->
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:100vh">
-			
-				<!-- Indicators bullet -->
-				<ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-				</ol>
-				<!-- End Indicators bullet -->				
-				
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox"  style="height:100vh">
-					
-					<!-- single slide -->
-					<div class="item active" style="background-image: url(img/banner.jpg);height:100vh;">
-						<div class="carousel-caption">
-							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">ACES<span></span></h2>
-							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span class="color">Association of Computer Engineering Students</span></h3>
-							<p data-wow-duration="1000ms" class="wow slideInRight animated">- University of Peradeniya -</p>
-							
-							<ul class="social-links text-center">
-								<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								<li><a href=""><i class="fa fa-linkedin fa-lg"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end single slide -->
-					
-					<!-- single slide -->
-					<div class="item" style="background-image: url(img/banner2.jpg);height:100vh;">
-						<div class="carousel-caption" style="top:83%;text-align:left;left:0%;right:0%;background-color:rgba(0,0,0,0.5);padding:0px 0px 0px 10px;">
-							<!-- <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!</h2> -->
-							<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><a href="http://readme.lk/escape-15-symposium/" target=""><span class="color">ESCaPe 2015</span></a></h3>
-							<p data-wow-duration="500ms" class="wow slideInRight animated">ACES Project Symposium and Job Fair</p>
-							
-						</div>
-					</div>
-					<!-- end single slide -->
+            <div class="item" style="background-image: url(img/banner6.png);height:100vh;">
+                <div class="carousel-caption"
+                     style="top:83%;text-align:left;left:0%;right:0%;background-color:rgba(0,0,0,0.5);padding:0px 0px 0px 10px;">
+                    <!-- <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!</h2> -->
+                    <h3 data-wow-duration="500ms" class="wow slideInLeft animated"
+                        style="margin-bottom: 5px;margin-left: 15px;"><a href="hackathon2019/index.html"
+                                                                         target="_blank"><span
+                            class="color">Hackathon</span></a></h3>
 
-					<!-- single slide -->
-					<div class="item" style="background-image: url(img/banner3.jpg);height:100vh;">
-						<div class="carousel-caption" style="top:83%;text-align:left;left:0%;right:0%;background-color:rgba(0,0,0,0.5);padding:0px 0px 0px 10px;">
-							<!-- <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!</h2> -->
-							<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><a href="https://www.facebook.com/media/set/?set=a.1617444818521081.1073741830.1608813369384226&type=3" target=""><span class="color">IMMENSE 2015</span></a></h3>
-							<p data-wow-duration="500ms" class="wow slideInRight animated">Annual Get Together</p>
-							
-						</div>
-					</div>
-					<!-- end single slide -->
+                    <p data-wow-duration="500ms" class="wow slideInRight animated" style="margin-left: 15px;">ACES
+                        Hackathon</p>
 
-					<!-- single slide -->
-					<div class="item" style="background-image: url(img/banner4.jpg);height:100vh;">
-						<div class="carousel-caption" style="top:83%;text-align:left;left:0%;right:0%;background-color:rgba(0,0,0,0.5);padding:0px 0px 0px 10px;">
-							<!-- <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!</h2> -->
-							<h3 data-wow-duration="500ms" class="wow slideInLeft animated"><a href="https://www.facebook.com/media/set/?set=a.785640748212747.1073741830.773249526118536&type=3" target=""><span class="color">Warzone 2K15</span></a></h3>
-							<p data-wow-duration="500ms" class="wow slideInRight animated">ACES Gaming competetion</p>
-							
-						</div>
-					</div>
-					<!-- end single slide -->
-					
-				</div>
-				<!-- End Wrapper for slides -->
-				
-			</div>
-		</section>
-		
-        <!--
-        End Home SliderEnd
-        ==================================== -->
-		
-        <!--
-        About
-        ==================================== -->
-		
-		<section id="features" class="features">
-			<div class="container">
-				<div class="row">
-				
-					<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-						<h2>About</h2>
-						<div class="devider"><i class="fa fa-institution fa-lg"></i></div>
-					</div>
-					
-					<!-- service item -->
-					<div class="col-md-11 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-						<div class="service-item">
-							
-							<div class="service-desc text-justify">
-								<p>The Department of Computer Engineering was established in the Faculty of Engineering in Peradeniya in 1985 as the oldest Computer Engineering Department in the University system of the country. </p>
-                                <p>The Computer Engineering stream was introduced to the Faculty of Engineering in year 2000 as a separate discipline and thus the Peradeniya Electrical and Electronic Engineering Students society (PEEES) was renamed as Computer, Electrical and Electronic Engineering Students society (CEEES). But there was no distinct organization for computer engineering students to handle their own issues and problems; therefore, in August 2001 the Association of Computer Engineering Students (ACES) was established as the student body of the Computer Engineering undergraduates of Faculty of Engineering, University of Peradeniya.</p>
-                                <p>Every year ACES organizes various events and activities with the aid of highly qualified academic staff members to enlighten the undergraduates to serve the society.</p>
-							</div>
-						</div>
-					</div>
-					<!-- end service item -->
-					
-						
-				</div>
-			</div>
-		</section>
-		
-        <!--
-        End About
-        ==================================== -->
-		
-		<!--
-        Events
-        ==================================== -->
-		
-		<section id="works" class="features">
-			<div class="container">
-				<div class="row">
-				
-					<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
-						<h2>Events</h2>
-						<div class="devider"><i class="fa fa-laptop fa-lg"></i></div>
-					</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/banner3.jpg);height:100vh;">
+                <div class="carousel-caption"
+                     style="top:83%;text-align:left;left:0%;right:0%;background-color:rgba(0,0,0,0.5);padding:0px 0px 0px 10px;">
+                    <!-- <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!</h2> -->
+                    <h3 data-wow-duration="500ms" class="wow slideInLeft animated"
+                        style="margin-bottom: 5px;margin-left: 15px;"><a href="coders/" target="_blank"><span
+                            class="color">Coders</span></a></h3>
 
-					<!-- service item -->
-					<div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
-						<div class="service-item">
-<!--
-							<div class="service-icon">
-								<i class="fa fa-github fa-2x"></i>
-							</div>
--->
-							
-							<div class="service-desc">
-								<h3>Coders</h3>
-								<p>ACES Coders is a twelve hours coding competition which presents multiple problems to be solved using programming and mathematical knowledge. A number of institutions around the country take part in this event every year. It is a limited-time, rapid-coding competition which would improve the efficiency & accuracy of the participants.</p>
-                                <br>
-                                <p><a href="coders/" style="color:#6A737B">more <i class="fa fa-fighter-jet fa-sm"></i></a></p>
-							</div>
-						</div>
-					</div>
-					<!-- end service item -->
-					
-					<!-- service item -->
-					<div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-						<div class="service-item">
-<!--
-							<div class="service-icon">
-								<i class="fa fa-pencil fa-2x"></i>
-							</div>
--->
-							
-							<div class="service-desc">
-								<h3>Hackathon</h3>
-								<p>ACES Hackathon is a coding event that lasts three days, in which a large number of undergraduates meet to improve upon or build new software or services. This event is held every year and is successfully providing motivation and experience to a large number of participants.</p>
-                                <br>
-                                <p><a href="hackathon2017/index.html" style="color:#6A737B">more <i class="fa fa-fighter-jet fa-sm"></i></a></p>
-							</div>
-						</div>
-					</div>
-					<!-- end service item -->
-					
-					<!-- service item -->
-					<div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
-						<div class="service-item">
-<!--
-							<div class="service-icon">
-								<i class="fa fa-bullhorn fa-2x"></i>
-							</div>
--->
-							
-							<div class="service-desc">
-								<h3>Spark</h3>
-								<p>Inter School Quiz Competition is organized to provide experience and knowledge to the school community on computer engineering aspects. From 2015 it is named 'Spark', while taking this event to a new level.</p>
-                                <br>
-                                <p><a href="spark/" style="color:#6A737B">more <i class="fa fa-fighter-jet fa-sm"></i></a></p>
-							</div>
-						</div>
-					</div>
-					<!-- end service item -->
-						
-				</div>
-			</div>
-		</section>
-		
-        <!--
-        End Events
-        ==================================== -->
-        
-        <!--
-        Our Works
-        ==================================== -->
-		
-		<!-- <section id="works" class="works clearfix">
-			<div class="container">
-				<div class="row">
-									
-					<div class="sec-sub-title text-center">
-						<p>These are some other events</p>
-					</div>
-					
-					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
-						<ul class="text-center">
-							<li><a href="javascript:;" data-filter="all" class="active filter">All</a></li>
-							<li><a href="javascript:;" data-filter=".branding" class="filter">Branding</a></li>
-							<li><a href="javascript:;" data-filter=".web" class="filter">web</a></li>
-							<li><a href="javascript:;" data-filter=".logo-design" class="filter">logo design</a></li>
-							<li><a href="javascript:;" data-filter=".photography" class="filter">photography</a></li>
-						</ul>
-					</div>
-					
-				</div>
-			</div>
-			
-			<div class="project-wrapper">
-			
-				<figure class="mix work-item branding">
-					<img src="img/works/item-1.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item web">
-					<img src="img/works/item-2.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item logo-design">
-					<img src="img/works/item-3.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-3.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item photography">
-					<img src="img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-			
-				<figure class="mix work-item branding">
-					<img src="img/works/item-5.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-5.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item web">
-					<img src="img/works/item-6.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-6.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item logo-design">
-					<img src="img/works/item-7.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-7.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item photography">
-					<img src="img/works/item-8.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-8.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-			</div>
-		
+                    <p data-wow-duration="500ms" class="wow slideInRight animated" style="margin-left: 15px;">ACES
+                        Coders</p>
 
-		</section> -->
-		
-        <!--
-        End Our Works
-        ==================================== -->
-		
-        <!--
-        Meet Our Team
-        ==================================== -->		
-		
-		<section id="team" class="team">
-			<div class="container">
-				<div class="row">
-		
-					<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
-						<h2>Council 2015/2016</h2>
-						<div class="devider"><i class="fa fa-group fa-lg"></i></div>
-					</div>
-					
-					<div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
-						<!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p> -->
-					</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(img/banner4.jpg);height:100vh;">
+                <div class="carousel-caption"
+                     style="top:83%;text-align:left;left:0%;right:0%;background-color:rgba(0,0,0,0.5);padding:0px 0px 0px 10px;">
+                    <!-- <h2 data-wow-duration="500ms" data-wow-delay="500ms" class="wow bounceInDown animated">Meet<span> Team</span>!</h2> -->
+                    <h3 data-wow-duration="500ms" class="wow slideInLeft animated"
+                        style="margin-bottom: 5px;margin-left: 15px;"><a href="http://readme.lk/escape-15-symposium/"
+                                                                         target="_blank"><span
+                            class="color">ESCaPe</span></a></h3>
 
-					<!-- president -->
-					<figure class="team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated" data-wow-duration="500ms">
-						<div class="member-thumb">
-							<img src="img/team/president.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<!-- <h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p> -->
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-sm"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Supun Athukorala</h4>
-						<span>President</span>
-					</figure>
-					<!-- end president -->
-					
-					<!-- secretary -->
-					<figure class="team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="member-thumb">
-							<img src="img/team/secretary.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-sm"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Gihan Wijesinghe</h4>
-						<span>Secretary</span>
-					</figure>
-					<!-- end secretary -->
-					
-					<!-- treasurer -->
-					<figure class="team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="member-thumb">
-							<img src="img/team/treasurer.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-sm"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Dr. Suneth Namal</h4>
-						<span>Senior Treasurer</span>
-					</figure>
-					<!-- end treasurer -->
-					
-					<!-- vice president -->
-					<figure class="team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-						<div class="member-thumb">
-							<img src="img/team/vicePresident.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-sm"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Lahiru Srimal</h4>
-						<span>Vice preisdent</span>
-					</figure>
-					<!-- end vice president -->
+                    <p data-wow-duration="500ms" class="wow slideInRight animated" style="margin-left: 15px;">ACES
+                        Project Symposium and Job Fair</p>
 
-					<!-- single junior treasurer -->
-					<figure class="team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-						<div class="member-thumb">
-							<img src="img/team/treasurerJunior.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-sm"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Sasitha Iresh</h4>
-						<span>Junior Treasurer</span>
-					</figure>
-					<!-- end junior treasurer -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-					<!-- editor -->
-					<figure class="team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="1500ms">
-						<div class="member-thumb">
-							<img src="img/team/editor.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-sm"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Sachithra Sewwandi</h4>
-						<span>Editor</span>
-					</figure>
-					<!-- end editor -->
+<section id="features" class="features">
+    <div class="container">
+        <div class="row">
+            <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+                <h2>About</h2>
 
-					<!-- Committee 11 -->
-					<figure class="team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="0ms">
-						<div class="member-thumb">
-							<img src="img/team/comitee11_1.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-sm"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Prasanna Rodrigo</h4>
-						<span>Committee Member</span>
-					</figure>
-					<!-- end committee 11 -->
+                <div class="devider"><i class="fa fa-institution fa-lg"></i></div>
+            </div>
 
-					<!-- Committee 11 -->
-					<figure class="team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="member-thumb">
-							<img src="img/team/comitee11_3.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-sm"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Janitha Samarasinghe</h4>
-						<span>Committee Member</span>
-					</figure>
-					<!-- end committee 11 -->
+            <div class="col-md-11 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+                <div class="service-item">
+                    <div class="service-desc text-justify">
+                        <p>The Department of Computer Engineering was first established in the year 1985 in the Faculty
+                            of Engineering in University of Peradeniya as the oldest Computer Engineering Department in
+                            the University system of the country. The Computer Engineering stream was introduced as a
+                            separate discipline to the Faculty of Engineering in 2000. Since then, the Department of
+                            Computer Engineering has been targeting at producing fully qualified Computer Engineering
+                            undergraduates well equipped with knowledge, skills and attitudes required for the global
+                            industry, highly technical researches as well as for the field of academia. The department
+                            focuses on leveling up the competency levels of their undergraduates by providing them with
+                            deep insights about computational systems and related disciplines so that they would be able
+                            to build their own personal brand in the highly competitive field of Computer
+                            Engineering.</p>
+                        <br>
 
-					<!-- Committee 11 -->
-					<figure class="team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="member-thumb">
-							<img src="img/team/comitee11_2.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-sm"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Nadeesha Amarasinghe</h4>
-						<span>Committee Member</span>
-					</figure>
-					<!-- end committee 11 -->
+                        <p>On par with Department’s vision which is “To be a competitive entity in teaching and research
+                            in Computer Engineering in the country and the region and to produce graduates with
+                            international recognition for their knowledge and skills, capable of taking leadership
+                            positions in the science and technology of design, construction, implementation, and
+                            maintenance of software and hardware components of modern computing systems and
+                            computer-controlled equipment that constitute the discipline of Computer Engineering”, The
+                            Association of Computer Engineering Students (ACES) was formed in August, 2001 as the
+                            students’ body of Computer Engineering undergraduates of the Faculty of Engineering with the
+                            aim of maximising students’ potential by organizing different activities and events that
+                            would bring out the best within themselves and make them prepared for the next technological
+                            revolution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-					<!-- Committee 12 -->
-					<figure class="team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-						<div class="member-thumb">
-							<img src="img/team/comitee12_1.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-sm"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Vishvajith Ihalagama</h4>
-						<span>Committee Member</span>
-					</figure>
-					<!-- end committee 12 -->
+<section id="works" class="features">
+    <div class="container">
+        <div class="row">
 
-					<!-- Committee 12 -->
-					<figure class="team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-						<div class="member-thumb">
-							<img src="img/team/comitee12_2.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-sm"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Lahiru Wijewardana</h4>
-						<span>Committee Member</span>
-					</figure>
-					<!-- end committee 12 -->
-					
-					<!-- Committee 12 -->
-					<figure class="team-member col-md-2 col-sm-4 col-xs-8 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="1500ms">
-						<div class="member-thumb">
-							<img src="img/team/comitee12_3.jpg" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-sm"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-sm"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Udeni Priyangika</h4>
-						<span>Committee Member</span>
-					</figure>
-					<!-- end committee 12 -->
+            <div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+                <h2>Events</h2>
 
-				</div>
-			</div>
-		</section>
-		
-        <!--
-        End Meet Our Team
-        ==================================== -->
-		
-		<!--
-        Some fun facts
-        ==================================== -->		
-		
-		<!-- <section id="facts" class="facts">
-			<div class="parallax-overlay">
-				<div class="container">
-					<div class="row number-counters">
-						
-						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
-							<h2>Some Fun Facts</h2>
-							<div class="devider"><i class="fa fa-heart-o fa-lg"></i></div>
-						</div>
-						
-						first count item
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-							<div class="counters-item">
-								<i class="fa fa-clock-o fa-3x"></i>
-								<strong data-to="3200">0</strong>
-								Set Your Number here. i,e. data-to="56"
-								<p>Hours of Work</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-							<div class="counters-item">
-								<i class="fa fa-users fa-3x"></i>
-								<strong data-to="120">0</strong>
-								Set Your Number here. i,e. data-to="56"
-								<p>Satisfied Clients</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-							<div class="counters-item">
-								<i class="fa fa-rocket fa-3x"></i>
-								<strong data-to="360">0</strong>
-								Set Your Number here. i,e. data-to="56"
-								<p> Projects Delivered </p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-							<div class="counters-item">
-								<i class="fa fa-trophy fa-3x"></i>
-								<strong data-to="6454">0</strong>
-								Set Your Number here. i,e. data-to="56"
-								<p>Awards Won</p>
-							</div>
-						</div>
-						end first count item
-				
-					</div>
-				</div>
-			</div>
-		</section> -->
-		
-        <!--
-        End Some fun facts
-        ==================================== -->
-		
-		
-		<!--
-        Contact Us
-        ==================================== -->		
-		
-		<section id="contact" class="contact">
-			<div class="container">
-				<div class="row mb50">
-				
-					<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
-						<h2>Let’s Discuss</h2>
-						<div class="devider"><i class="fa fa-envelope-o fa-lg"></i></div>
-					</div>
-					
-					<div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
-						<p>aces@ce.pdn.ac.lk</p>
-					</div>
-					
-					<!-- contact address -->
-					<!-- <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
-						<div class="contact-address">
-							<h3>Cras at ultrices erat, sed vulputate!</h3>
-							<p>2345 Setwant natrer, 1234,</p>
-							<p>Washington. United States.</p>
-							<p>(401) 1234 567</p>
-						</div>
-					</div> -->
-					<!-- end contact address -->
-					
-					<!-- contact form -->
-					<!-- <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="contact-form">
-							<h3>Say hello!</h3>
-							<form action="#" id="contact-form">
-								<div class="input-group name-email">
-									<div class="input-field">
-										<input type="text" name="name" id="name" placeholder="Name" class="form-control">
-									</div>
-									<div class="input-field">
-										<input type="email" name="email" id="email" placeholder="Email" class="form-control">
-									</div>
-								</div>
-								<div class="input-group">
-									<textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
-								</div>
-								<div class="input-group">
-									<input type="submit" id="form-submit" class="pull-right" value="Send message">
-								</div>
-							</form>
-						</div>
-					</div> -->
-					<!-- end contact form -->
-					
-					<!-- footer social links -->
-					<!-- <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<ul class="footer-social">
-							<li><a href="https://www.behance.net/Themefisher"><i class="fa fa-behance fa-2x"></i></a></li>
-							<li><a href="https://www.twitter.com/Themefisher"><i class="fa fa-twitter fa-2x"></i></a></li>
-							<li><a href="https://dribbble.com/themefisher"><i class="fa fa-dribbble fa-2x"></i></a></li>
-							<li><a href="https://www.facebook.com/Themefisher"><i class="fa fa-facebook fa-2x"></i></a></li>
-						</ul>
-					</div> -->
-					<!-- end footer social links -->
-					
-				</div>
-			</div>
-			
-			<!-- Google map -->
-			<!-- <div id="map_canvas" class="wow bounceInDown animated" data-wow-duration="500ms"></div> -->
-			<!-- End Google map -->
-			
-		</section>
-		
-        <!--
-        End Contact Us
-        ==================================== -->
-		
-		
-		<footer id="footer" class="footer">
-			<div class="container">
-				<!-- <div class="row">
-				
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
-						<div class="footer-single">
-							<img src="img/footer-logo.png" alt="">
-							<p>eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-						</div>
-					</div>
-				
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="footer-single">
-							<h6>Subscribe </h6>
-							<form action="#" class="subscribe">
-								<input type="text" name="subscribe" id="subscribe">
-								<input type="submit" value="&#8594;" id="subs">
-							</form>
-							<p>eusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-						</div>
-					</div>
-				
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="footer-single">
-							<h6>Explore</h6>
-							<ul>
-								<li><a href="#">Inside Us</a></li>
-								<li><a href="#">Flickr</a></li>
-								<li><a href="#">Google</a></li>
-								<li><a href="#">Forum</a></li>
-							</ul>
-						</div>
-					</div>
-				
-					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-						<div class="footer-single">
-							<h6>Support</h6>
-							<ul>
-								<li><a href="#">Contact Us</a></li>
-								<li><a href="#">Market Blog</a></li>
-								<li><a href="#">Help Center</a></li>
-								<li><a href="#">Pressroom</a></li>
-							</ul>
-						</div>
-					</div>
-					
-				</div> -->
-				<div class="row">
-					<div class="col-md-12">
-						<p class="copyright text-center">
-							Copyright © 2016 <a href="http://ce.pdn.ac.lk/">ACES</a>, Association of Computer Engineering Students, University of Peradeniya. All rights reserved.
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-		
-		<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+                <div class="devider"><i class="fa fa-laptop fa-lg"></i></div>
+            </div>
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
+                <div class="service-item">
+                    <!--<div class="service-icon"><i class="fa fa-github fa-2x"></i></div>-->
+                    <div class="service-desc">
+                        <h3>Coders</h3>
 
-		<!-- Essential jQuery Plugins
-		================================================== -->
-		<!-- Main jQuery -->
-        <script src="js/jquery-1.11.1.min.js"></script>
-		<!-- Single Page Nav -->
-        <script src="js/jquery.singlePageNav.min.js"></script>
-		<!-- Twitter Bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
-		<!-- jquery.fancybox.pack -->
-        <script src="js/jquery.fancybox.pack.js"></script>
-		<!-- jquery.mixitup.min -->
-        <script src="js/jquery.mixitup.min.js"></script>
-		<!-- jquery.parallax -->
-        <script src="js/jquery.parallax-1.1.3.js"></script>
-		<!-- jquery.countTo -->
-        <script src="js/jquery-countTo.js"></script>
-		<!-- jquery.appear -->
-        <script src="js/jquery.appear.js"></script>
-		<!-- Contact form validation -->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-		<!-- Google Map -->
-        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-		<!-- jquery easing -->
-        <script src="js/jquery.easing.min.js"></script>
-		<!-- jquery easing -->
-        <script src="js/wow.min.js"></script>
-		<script>
-			var wow = new WOW ({
-				boxClass:     'wow',      // animated element css class (default is wow)
-				animateClass: 'animated', // animation css class (default is animated)
-				offset:       120,          // distance to the element when triggering the animation (default is 0)
-				mobile:       false,       // trigger animations on mobile devices (default is true)
-				live:         true        // act on asynchronously loaded content (default is true)
-			  }
-			);
-			wow.init();
-		</script> 
-		<!-- Custom Functions -->
-        <script src="js/custom.js"></script>
-		
-		<script type="text/javascript">
-			$(function(){
-				/* ========================================================================= */
-				/*	Contact Form
-				/* ========================================================================= */
-				
-				$('#contact-form').validate({
-					rules: {
-						name: {
-							required: true,
-							minlength: 2
-						},
-						email: {
-							required: true,
-							email: true
-						},
-						message: {
-							required: true
-						}
-					},
-					messages: {
-						name: {
-							required: "come on, you have a name don't you?",
-							minlength: "your name must consist of at least 2 characters"
-						},
-						email: {
-							required: "no email, no message"
-						},
-						message: {
-							required: "um...yea, you have to write something to send this form.",
-							minlength: "thats all? really?"
-						}
-					},
-					submitHandler: function(form) {
-						$(form).ajaxSubmit({
-							type:"POST",
-							data: $(form).serialize(),
-							url:"process.php",
-							success: function() {
-								$('#contact-form :input').attr('disabled', 'disabled');
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$(this).find(':input').attr('disabled', 'disabled');
-									$(this).find('label').css('cursor','default');
-									$('#success').fadeIn();
-								});
-							},
-							error: function() {
-								$('#contact-form').fadeTo( "slow", 0.15, function() {
-									$('#error').fadeIn();
-								});
-							}
-						});
-					}
-				});
-			});
-		</script>
-    </body>
+                        <p style="text-align:justify">ACES Coders is a twelve hours coding competition which presents
+                            multiple problems to be solved using programming and mathematical knowledge. A number of
+                            institutions around the country take part in this event every year. It is a limited-time,
+                            rapid-coding competition which would improve the efficiency & accuracy of the
+                            participants.</p>
+                        <br>
+
+                        <p><a href="./coders2018/" target="_blank" style="color:#6A737B">more <i
+                                class="fa fa-fighter-jet fa-sm"></i></a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- end service item -->
+
+            <!-- service item -->
+            <div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+                <div class="service-item">
+                    <!--<div class="service-icon"><i class="fa fa-pencil fa-2x"></i></div>-->
+                    <div class="service-desc">
+                        <h3>Hackathon</h3>
+
+                        <p style="text-align:justify">Aces Hackathon is one of the signature events that is organised
+                            annually by the Association of Computer Engineering Students. This event provides a platform
+                            for the competitors to come up with innovative ideas for a new product or to give a solution
+                            to a problem. This is one of the best opportunities the participants get to publicise their
+                            new ideas , to get an insight into the business world as well as to get an industrial
+                            exposure.</p>
+                        <br>
+
+                        <p><a href="hackathon2019/" target="_blank" style="color:#6A737B">more <i
+                                class="fa fa-fighter-jet fa-sm"></i></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
+                <div class="service-item">
+                    <!--<div class="service-icon"><i class="fa fa-bullhorn fa-2x"></i></div>-->
+
+                    <div class="service-desc">
+                        <h3>Spark</h3>
+
+                        <p style="text-align:justify">Inter School Quiz Competition is organized to provide experience
+                            and knowledge to the school community on computer engineering aspects. From 2015 it is named
+                            'Spark', while taking this event to a new level.</p>
+                        <br>
+
+                        <p><a href="spark/" target="_blank" style="color:#6A737B">more <i
+                                class="fa fa-fighter-jet fa-sm"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="team" class="team">
+    <div class="container">
+        <div class="row">
+
+            <div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+                <h2>Council 2019/2020</h2>
+
+                <div class="devider"><i class="fa fa-group fa-lg"></i></div>
+            </div>
+
+            <div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
+                &nbsp;
+            </div>
+            <div id="committee">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="row mb50">
+
+            <div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
+                <h2>Let’s Discuss</h2>
+
+                <div class="devider"><i class="fa fa-envelope-o fa-lg"></i></div>
+            </div>
+
+            <div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
+                <p>aces@eng.pdn.ac.lk</p>
+            </div>
+
+            <!-- contact address -->
+            <!-- <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
+            <div class="contact-address">
+            <h3>Cras at ultrices erat, sed vulputate!</h3>
+            <p>2345 Setwant natrer, 1234,</p>
+            <p>Washington. United States.</p>
+            <p>(401) 1234 567</p>
+         </div></div> -->
+
+
+            <!-- contact form -->
+            <!-- <div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
+            <div class="contact-form">
+            <h3>Say hello!</h3>
+            <form action="#" id="contact-form">
+            <div class="input-group name-email">
+            <div class="input-field">
+            <input type="text" name="name" id="name" placeholder="Name" class="form-control">
+         </div>
+         <div class="input-field">
+         <input type="email" name="email" id="email" placeholder="Email" class="form-control">
+      </div>
+   </div>
+   <div class="input-group">
+   <textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
+</div>
+<div class="input-group">
+<input type="submit" id="form-submit" class="pull-right" value="Send message">
+</div>
+</form>
+</div>
+</div> -->
+        </div>
+    </div>
+</section>
+
+<footer id="footer" class="footer">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class="copyright text-center">
+                    Copyright © 2019 <a href="http://ce.pdn.ac.lk/">ACES</a>, Association of Computer Engineering
+                    Students, University of Peradeniya. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.singlePageNav.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/jquery.parallax-1.1.3.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.appear.js"></script>
+
+<!--<script src="js/jquery-countTo.js"></script>-->
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>-->
+<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>-->
+<!--<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>-->
+
+<script src="js/custom.js"></script>
+
+</body>
 </html>
