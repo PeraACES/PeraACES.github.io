@@ -323,7 +323,30 @@
     background-color: #324968;
     opacity: 0.8;
     z-index: 1;
-  }  
+  } 
+
+
+  .homePHead{
+    color: white;
+    display:inline;
+    font-family:Courier New;
+    font-size: 25px;
+  }
+
+  .homePHeadShow{
+    color: #ffbe29;
+    display:inline;
+    font-family:Courier New;
+    font-size: 15px;
+  }
+
+  .homeresult{
+    color: #27f654;
+    display:inline;
+    font-family:Courier New;
+    font-size: 25px;
+  }   
+
 }
 
 .register{
