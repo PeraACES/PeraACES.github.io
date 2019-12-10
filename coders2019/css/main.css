@@ -187,13 +187,22 @@
 
 @media only screen and (max-width: 768px) {
 
-  header {
+  .headerAbout {
     position: relative;
     background-color: black;
     height: 150vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
+  }
+
+  .headerLastYear{
+    position: relative;
+    background-color: black;
+    height: 277vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;    
   }
 
   header video {
@@ -228,15 +237,25 @@
   }  
 }
 
+
 @media only screen and (min-width: 768px) {
 
-  header {
+  .headerAbout {
     position: relative;
     background-color: black;
     height: 90vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
+  }
+
+  .headerLastYear{
+    position: relative;
+    background-color: black;
+    height: 105vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;    
   }
 
   header video {
