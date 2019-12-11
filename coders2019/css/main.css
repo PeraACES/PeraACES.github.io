@@ -199,7 +199,7 @@
   .headerAbout {
     position: relative;
     background-color: black;
-    height: 160vh;
+    height: 168vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -217,7 +217,7 @@
   .headerAwards{
     position: relative;
     background-color: black;
-    height: 143vh;
+    height: 156vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;    
@@ -226,7 +226,7 @@
   .headerContact{
     position: relative;
     background-color: black;
-    height: 106vh;
+    height: 110vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;    
@@ -235,7 +235,7 @@
   .headerHome {
     position: relative;
     background-color: black;
-    height: 104vh;
+    height: 116vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
