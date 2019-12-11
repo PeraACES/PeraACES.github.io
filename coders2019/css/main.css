@@ -199,7 +199,7 @@
   .headerAbout {
     position: relative;
     background-color: black;
-    height: 150vh;
+    height: 160vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -226,7 +226,7 @@
   .headerContact{
     position: relative;
     background-color: black;
-    height: 104vh;
+    height: 106vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;    
