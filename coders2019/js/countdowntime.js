@@ -20,7 +20,7 @@
           var obj = $(this);
           var timeNow = new Date();
 
-          var tZ = options.timeZone; console.log(tZ);
+          var tZ = options.timeZone;
           var endYear = options.endtimeYear;
           var endMonth = options.endtimeMonth;
           var endDate = options.endtimeDate;
