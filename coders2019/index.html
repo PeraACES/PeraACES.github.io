@@ -177,10 +177,12 @@
 
 	    <div class="container containerMargin">
 	        <div class="row"> 
-                <div class="container">  	
-    	            <div class="col-lg-12" style="margin-bottom: 40px;">
-    	            	<p class="mainHeadp"><strong>~$what_is&nbsp;</strong></p><h1 class="mainHeadH pixelFont"><strong>ACES_Coders?</strong></h1>
-    	            </div>
+                <div class="container">
+                    <div class="row"> 	
+        	            <div class="col-sm-12" style="margin-bottom: 40px;">
+        	            	<p class="mainHeadp"><strong>~$what_is&nbsp;</strong></p><h1 class="mainHeadH pixelFont"><strong>ACES_Coders?</strong></h1>
+        	            </div>
+                    </div>
                 </div>
 	            <div class="container"  style="border-left: 5px solid #ffbe29;">
 	            	<div class="row containerAbout">
@@ -449,6 +451,7 @@
 
 <!-- Contact Section -->
 <section id="awards" class="awards-section">
+
     <header class="headerAwards">
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -517,7 +520,90 @@
 
 <!-- Contact Section -->
 <section id="contact" class="contact-section">
-    <header class="headerContact">
+
+    <div class="container containerMargin">
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-lg-12">
+                <p class="mainHeadp"><strong>~$&nbsp;</strong></p><h1 class="mainHeadH pixelFont"><strong>FaQ</strong></h1>
+            </div>
+        </div>          
+    </div>
+    <div class="container containerMargin">
+        <div class="row">
+            <div class="col-sm-12" style="margin-bottom: 40px;">
+                <button class="Show buttonfaq">+</button>
+                <button class="Hide buttonfaq">-</button>
+            </div>
+        </div>          
+    </div>    
+    <div id="target" class="container borderBox">
+        <div class="boardeBot paddingBot">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="qFaqP">
+                        <p>~WHAT IS DATATHON?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="aFaqP">
+                        <p>Datathon is a datathon competition that brings together the brightest minds in the data science world in Sri Lanka to showcase their data analytics capabilities by developing thought-provoking business solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="boardeBot paddingBot">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="qFaqP">
+                        <p>~HOW CAN I FORM A TEAM DURING REGISTRATION?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="aFaqP">
+                        <p>During registration, we only accept individual application. Once you are shortlisted, you will be given a list of all the shortlisted participants to form your own team of 5 members from that list.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="boardeBot paddingBot">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="qFaqP">
+                        <p>~CAN I FORM A TEAM OF MEMBERS AND JOIN DATATHON?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="aFaqP">
+                        <p>Datathon is a datathon competition that brings together the brightest minds in the data science world in Sri Lanka to showcase their data analytics capabilities by developing thought-provoking business solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>                
+        <div class="paddingBot">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="qFaqP">
+                        <p>~IS THERE ANY AGE LIMIT?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="aFaqP">
+                        <p>If all your friends are shortlisted for this competition after passing the online assessment, you can form your own team. Else, we will help you to form a team.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <header class="headerContact" style="margin-top: 30px;">
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
             <source src="video/contact.mp4" type="video/mp4">
@@ -570,12 +656,12 @@
         </div>
 
     </header>        
-</section>
+
 
 <center>
     <footer class="mainfooter" role="contentinfo">
       <div class="footer-middle">
-      <div class="container" style="margin-top: 100px;">
+      <div class="container">
         <div class="row copy">
           <div class="col-sm-12">
             <!--Column1-->
@@ -609,6 +695,8 @@
     </footer>
 </center>
 
+</section>
+
 </body>
 
 </html>
@@ -623,8 +711,18 @@
 <script src="js/scroll_.js"></script>
 <!--index.html main-->
 <script src="js/main.js"></script>
+<!--gallery main-->
+<script src="js/gallery.js"></script>
+<!--gallery main-->
+<script src="js/hideshow.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>
-    baguetteBox.run('.tz-gallery');
-</script>
+<style type="text/css">
+    #target {
+      display:none;
+    }
+
+    .Hide
+    {
+      display:none;
+    }
+</style>

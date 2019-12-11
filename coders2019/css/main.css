@@ -1,8 +1,3 @@
-.mainHeadp{
-  color: #ffbe29;
-  display:inline;
-  font-family:Courier New;
-}
 
 .mainHeadWinp{
   margin-top: 35px;
@@ -196,6 +191,11 @@
 
 @media only screen and (max-width: 768px) {
 
+  .mainHeadp{
+    color: #ffbe29;
+    font-family:Courier New;
+  }
+
   .headerAbout {
     position: relative;
     background-color: black;
@@ -293,10 +293,24 @@
     font-size: 15px;
   }  
 
+
+  .borderBox{
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
 }
 
 
 @media only screen and (min-width: 768px) {
+
+  .mainHeadp{
+    color: #ffbe29;
+    display:inline;
+    font-family:Courier New;
+  }
 
   .headerAbout {
     position: relative;
@@ -403,6 +417,11 @@
     margin-top: 30px;
   }
 
+
+  .borderBox{
+    border: 5px solid white;
+    border-radius: 10px;
+    }
 }
 
 .register{
@@ -412,3 +431,37 @@
   margin-top: 30px;
 }
 
+.qFaqP{
+  text-align: left;
+  color: #27f654;
+  font-family:Courier New;
+  font-size: 17px;  
+}
+
+.aFaqP{
+  text-align: left;
+  color: white;
+  font-family:Courier New;
+  font-size: 15px;   
+}
+
+.boardeBot{
+  border-bottom: 1px solid white;
+}
+
+.paddingBot{
+  padding: 15px;
+}
+
+.buttonfaq{
+  background-color: #314867;
+  border: 5px solid white;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
