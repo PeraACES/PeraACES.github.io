@@ -25,6 +25,11 @@
     <!--footer-->
     <link rel="stylesheet" type="text/css" href="css/footer_.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/fluid-gallery.css">
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <style type="text/css">
@@ -362,42 +367,84 @@
         	<div class="col-lg-12" style="margin-bottom: 40px;">
             	<p class="mainHeadWinp"><strong>~$show&nbsp;</strong></p><h1 class="mainHeadH pixelFont"><strong>Past_Memories</strong></h1>
         	</div>
-        	<div class="container">
-        		<div class="row">
-        			<div class="col-sm-4">
-        				<div class="galleryPlaceDiv g1"></div>
-        			</div>
-        			<div class="col-sm-4">
-        				<div class="galleryPlaceDiv g2"></div>
-        			</div>
-        			<div class="col-sm-4">
-        				<div class="galleryPlaceDiv g3"></div>
-        			</div>
-        		</div>
-        		<div class="row">
-        			<div class="col-sm-4">
-        				<div class="galleryPlaceDiv g4"></div>
-        			</div>
-        			<div class="col-sm-4">
-        				<div class="galleryPlaceDiv g5"></div>
-        			</div>
-        			<div class="col-sm-4">
-        				<div class="galleryPlaceDiv g6"></div>
-        			</div>
-        		</div>
-        		<div class="row">
-        			<div class="col-sm-4">
-        				<div class="galleryPlaceDiv g7"></div>
-        			</div>
-        			<div class="col-sm-4">
-        				<div class="galleryPlaceDiv g8"></div>
-        			</div>
-        			<div class="col-sm-4">
-        				<div class="galleryPlaceDiv g9"></div>
-        			</div>
-        		</div>
-        	</div>
-        </div>        
+        </div>    
+        <div class="container">
+            <div class="container gallery-container">
+                <div class="tz-gallery">
+                      <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="galleryPlaceDiv">
+                                        <a class="lightbox" href="img/g1.jpg">
+                                            <img src="img/g1.jpg" alt="Bridge">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="galleryPlaceDiv">
+                                        <a class="lightbox" href="img/g2.jpg">
+                                            <img src="img/g2.jpg" alt="Bridge">
+                                        </a>
+                                    </div>                                    
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="galleryPlaceDiv">
+                                        <a class="lightbox" href="img/g3.jpg">
+                                            <img src="img/g3.jpg" alt="Bridge">
+                                        </a>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="galleryPlaceDiv">
+                                        <a class="lightbox" href="img/g4.jpg">
+                                            <img src="img/g4.jpg" alt="Bridge">
+                                        </a>
+                                    </div>                                    
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="galleryPlaceDiv">
+                                        <a class="lightbox" href="img/g5.jpg">
+                                            <img src="img/g5.jpg" alt="Bridge">
+                                        </a>
+                                    </div>                                    
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="galleryPlaceDiv">
+                                        <a class="lightbox" href="img/g6.jpg">
+                                            <img src="img/g6.jpg" alt="Bridge">
+                                        </a>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="galleryPlaceDiv">
+                                        <a class="lightbox" href="img/g7.jpg">
+                                            <img src="img/g7.jpg" alt="Bridge">
+                                        </a>
+                                    </div>                                    
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="galleryPlaceDiv">
+                                        <a class="lightbox" href="img/g8.jpg">
+                                            <img src="img/g8.jpg" alt="Bridge">
+                                        </a>
+                                    </div>                                    
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="galleryPlaceDiv">
+                                        <a class="lightbox" href="img/g9.jpg">
+                                            <img src="img/g9.jpg" alt="Bridge">
+                                        </a>
+                                    </div>                                    
+                                </div>
+                            </div>
+                      </div>
+                </div>
+            </div>
+        </div>       
     </div>
 </section>
 
@@ -577,3 +624,8 @@
 <script src="js/scroll_.js"></script>
 <!--index.html main-->
 <script src="js/main.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
