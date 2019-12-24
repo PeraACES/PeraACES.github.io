@@ -1,4 +1,4 @@
-    $('.Show').click(function() {
+$('.Show').click(function() {
     $('#target').show(500);
     $('.Show').hide(0);
     $('.Hide').show(0);
