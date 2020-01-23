@@ -189,7 +189,7 @@
   font-size: 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 380px) {
 
   .event-content img{
      width:200px;   
@@ -203,7 +203,7 @@
   .headerAbout {
     position: relative;
     background-color: black;
-    height: 168vh;
+    height: 200vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -221,7 +221,7 @@
   .headerAwards{
     position: relative;
     background-color: black;
-    height: 156vh;
+    height: 175vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;    
@@ -314,6 +314,132 @@
     margin-top: 10px;
   }
 
+}
+
+@media only screen and (max-width: 768px) and (min-width: 380px) {
+
+  .event-content img{
+     width:200px;   
+  }
+
+  .mainHeadp{
+    color: #ffbe29;
+    font-family:Courier New;
+  }
+
+  .headerAbout {
+    position: relative;
+    background-color: black;
+    height: 135vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .headerLastYear{
+    position: relative;
+    background-color: black;
+    height: 250vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;    
+  }
+
+  .headerAwards{
+    position: relative;
+    background-color: black;
+    height: 130vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;    
+  }
+
+  .headerContact{
+    position: relative;
+    background-color: black;
+    height: 120vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;    
+  }
+
+  .headerHome {
+    position: relative;
+    background-color: black;
+    height: 135vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #324968;
+    opacity: 0.8;
+    z-index: 1;
+  }  
+
+  .homePHead{
+    color: white;
+    display:inline;
+    font-family:Courier New;
+    font-size: 15px;
+  }
+
+  .homePHeadShow{
+    color: #ffbe29;
+    display:inline;
+    font-family:Courier New;
+    font-size: 13px;
+  }
+
+  .homeresult{
+    color: #27f654;
+    display:inline;
+    font-family:Courier New;
+    font-size: 15px;
+  }  
+
+
+  .borderBox{
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .homePHeadTimer{
+    color: white;
+    display:inline;
+    font-family:Courier New;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
