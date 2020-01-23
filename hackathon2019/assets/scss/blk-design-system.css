@@ -12606,7 +12606,8 @@ hr {
 
 .section {
   padding: 70px 0;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .section .row + .category {
     margin-top: 15px; }
   .section .carousel {

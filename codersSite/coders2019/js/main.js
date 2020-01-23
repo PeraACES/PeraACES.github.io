@@ -1,0 +1,25 @@
+$(document).ready(function(){
+  $("#menuBarButton").click(function(){
+  	document.getElementById('cn-button').click()
+  });
+});
+$(document).ready(function(){
+  $("#menuBarButton1").click(function(){
+  	document.getElementById('cn-button').click()
+  });
+});
+$(document).ready(function(){
+  $("#menuBarButton2").click(function(){
+  	document.getElementById('cn-button').click()
+  });
+});
+$(document).ready(function(){
+  $("#menuBarButton3").click(function(){
+  	document.getElementById('cn-button').click()
+  });
+});	
+$(document).ready(function(){
+  $("#menuBarButton4").click(function(){
+  	document.getElementById('cn-button').click()
+  });
+});
