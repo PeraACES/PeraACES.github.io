@@ -191,6 +191,10 @@
 
 @media only screen and (max-width: 768px) {
 
+  .event-content img{
+     width:200px;   
+  }
+
   .mainHeadp{
     color: #ffbe29;
     font-family:Courier New;
@@ -235,7 +239,7 @@
   .headerHome {
     position: relative;
     background-color: black;
-    height: 140vh;
+    height: 170vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -315,6 +319,10 @@
 
 @media only screen and (min-width: 768px) {
 
+  .event-content img{
+     width:300px;   
+  }
+
   .mainHeadp{
     color: #ffbe29;
     display:inline;
@@ -360,7 +368,7 @@
   .headerHome {
     position: relative;
     background-color: black;
-    height: 95vh;
+    height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -431,7 +439,7 @@
   } 
 
   .marginStyle{
-    margin-top: 120px;
+
   }  
 
   .containerMarginResp{
@@ -446,7 +454,6 @@
 
   .marginSet{
     margin-bottom: 10px;
-    margin-top: 100px;
   }
 }
 
@@ -490,4 +497,19 @@
   font-size: 23px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+@keyframes swing {
+  0%, 100% { transform: rotate(-10deg); }
+  20% {transform:scale(.95);}
+  50% { transform: rotate(10deg); }
+  80% {transform:scale(.95);}
+}
+
+#sweetlandia {
+  animation: swing 2s infinite ease-in-out;
+}
+
+.event{
+  text-align:center;
 }
