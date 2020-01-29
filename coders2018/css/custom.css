@@ -44,31 +44,43 @@
 
 @keyframes slidy {
 0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
+4% { left: 0%; }
+8.5% { left: -100%; }
+16.5% { left: -100%; }
+21% { left: -200%; }
+29% { left: -200%; }
+33.5% { left: -300%; }
+41.5% { left: -300%; }
+46% { left: -400%; }
+54% { left: -400%; }
+58.5% { left: -500%; }
+66.5% { left: -500%; }
+71% { left: -600%; }
+78% { left: -600%; }
+81.5% { left: -700%; }
+89.5% { left: -700%; }
+93% { left: -800%; }
+95% { left: -800%; }
+99% { left: -900%; }
+100% { left: -900%; }
 }
+
 
 div#slider { 
     overflow: hidden; 
-    max-width: 600px;
-    max-height: 360px;
+    max-width: 1000px;
+    max-height: 430px;
     margin: 0 auto;
 }
 
-div#slider figure img { width: 20%; float: left; }
+div#slider figure img { width: 10%; float: left; }
 
 div#slider figure { 
   position: relative;
-  width: 500%;
+  width: 1000%;
   margin: 0;
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite; 
+  animation: 40s slidy infinite; 
 }
