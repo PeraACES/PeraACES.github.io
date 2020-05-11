@@ -20,8 +20,43 @@
 <link rel="stylesheet" href="preview/theme/plataforma/css/flaticon.css">
 <link rel="stylesheet" href="preview/theme/plataforma/css/icomoon.css">
 <link rel="stylesheet" href="preview/theme/plataforma/css/style.css">
+<link rel="stylesheet" type="text/css" href="preview/theme/plataforma/css/font-awesome.min.css">
+<link rel="stylesheet" href="preview/theme/plataforma/css/baguetteBox.css">
 
 </head>
+
+<style type="text/css">
+ 
+  .detail-info{
+    border: 2px solid #17a2b8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .quetion_icon_tag{
+    position: absolute;
+    left: 2px;
+    top: -14px;
+  }
+      
+  .icon_background{
+  	z-index: 1;
+    position: absolute;
+    left: 2px;    
+    width: 35px;
+    height: 20px;
+    background-color: white;
+  }
+
+  .blog-entry .meta > div a {
+    color: white;
+   }
+  .blog-entry .meta > div a:hover {
+    color: white;
+   }
+
+</style>
 
 <body>
 
@@ -61,7 +96,7 @@
 <div class="col-lg-6 col-md-6 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 
 	<h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-		<span>EscaPe’2020</span>
+		<span style="text-transform: unset;">EscaPe’2020</span>
 		<br>Engineering Students Conference at Peradeniya 2020
 	</h1>
 	<p class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="icon-calendar mr-2"></span>29 May 2020 - Zoom Webinar</p>
@@ -163,89 +198,110 @@
 
 	<div class="container">
 	<div class="row justify-content-center mb-5">
-	<div class="col-md-7 text-center heading-section ftco-animate">
-	<h2 class="mb-3">Conference Schedule</h2>
-	</div>
+		<div class="col-md-7 text-center heading-section ftco-animate">
+		<h2 class="mb-3">EscaPe’2020 Schedule</h2>
+		</div>
 	</div>
 	<div class="ftco-schedule">
 	<div class="row">
-	<div class="col-md-1 nav-link-wrap text-center text-md-right">
-<!-- 	<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-	<a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">First Day <span>21 July 2019</span></a>
-	<a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Second Day <span>22 July 2019</span></a>
-	<a class="nav-link ftco-animate" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Third Day <span>23 July 2019</span></a>
-	</div> -->
-	</div>
-	<div class="col-md-9 tab-wrap">
+	<div class="col-md-1 nav-link-wrap text-center text-md-right"></div>
+	<div class="col-md-10 tab-wrap">
 		<div class="tab-content" id="v-pills-tabContent">
 		<div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
-		<div class="speaker-wrap ftco-animate d-md-flex">
+		<div class="icon_background">
+            <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
+        </div>
+		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
 			<div class="text">
-			<h2><a href="#">Commencement of Escape'2020</a></h2>
-			<span class="time">08:30 am - 9:00 am</span>
+			<h2><a>Commencement of Escape'2020</a></h2>
+			<span class="time"><a href="#" class="badge badge-info">08:30 am - 9:00 am</a></span>
 			</div>
 		</div>
-		<div class="speaker-wrap ftco-animate d-md-flex">
+		<div class="icon_background">
+            <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
+        </div>
+		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
 			<div class="img speaker-img" style="background-image: url(preview/theme/plataforma/images/staff-1.jpg);"></div>
 			<div class="text">
 			<h2><a href="#">Project Presentations</a></h2>
 			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-			<span class="time">9:00 am - 10:00 am</span>
-			<p>project 1</p>
-			<p>project 1</p>
-			<p>project 1</p>
-			<p>project 1</p>
+			<span class="time"><a href="#" class="badge badge-info">9:00 am - 10:00 am</a></span>
+              <ul style="list-style-type: square; text-align: justify;">
+                <li><a href=""><b>01 : </b> Project name</a></li>
+                <li><a href=""><b>02 : </b> Project name</a></li>
+                <li><a href=""><b>03 : </b> Project name</a></li>
+                <li><a href=""><b>04 : </b> Project name</a></li>
+              </ul>
 			</div>
 		</div>
-		<div class="speaker-wrap ftco-animate d-md-flex">
+		<div class="icon_background">
+            <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
+        </div>
+		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
 			<div class="img speaker-img" style="background-image: url(preview/theme/plataforma/images/staff-2.jpg);"></div>
 			<div class="text">
 			<h2><a href="#">Introduction to Business Leaders</a></h2>
 			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-			<span class="time">10:30 am - 10:30 am</span>
+			<span class="time"><a href="#" class="badge badge-info">10:00 am - 10:30 am</a></span>
 			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>
 			</div>
 		</div>
-		<div class="speaker-wrap ftco-animate d-md-flex">
+		<div class="icon_background">
+            <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
+        </div>
+		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
 			<div class="img speaker-img" style="background-image: url(preview/theme/plataforma/images/staff-1.jpg);"></div>
 			<div class="text">
 			<h2><a href="#">Project Presentations</a></h2>
 			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-			<span class="time">10:30 am - 11:30 am</span>
-			<p>project 1</p>
-			<p>project 1</p>
-			<p>project 1</p>
-			<p>project 1</p>
+			<span class="time"><a href="#" class="badge badge-info">10:30 am - 11:30 am</a></span>
+              <ul style="list-style-type: square; text-align: justify;">
+                <li><a href=""><b>05 : </b> Project name</a></li>
+                <li><a href=""><b>06 : </b> Project name</a></li>
+                <li><a href=""><b>07 : </b> Project name</a></li>
+                <li><a href=""><b>08 : </b> Project name</a></li>
+              </ul>
 			</div>
 		</div>
-		<div class="speaker-wrap ftco-animate d-md-flex">
+		<div class="icon_background">
+            <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
+        </div>
+		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
 			<div class="img speaker-img" style="background-image: url(preview/theme/plataforma/images/staff-3.jpg);"></div>
 			<div class="text">
 			<h2><a href="#">Introduction to Business Leaders</a></h2>
 			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-			<span class="time">12:00 pm - 12:30 pm</span>
+			<span class="time"><a href="#" class="badge badge-info">12:00 pm - 12:30 pm</a></span>
 			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>
 			</div>
 		 </div>
 		</div>
-		<div class="speaker-wrap ftco-animate d-md-flex">
+		<div class="icon_background">
+            <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
+        </div>
+		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
 			<div class="img speaker-img" style="background-image: url(preview/theme/plataforma/images/staff-1.jpg);"></div>
 			<div class="text">
 			<h2><a href="#">Project Presentations</a></h2>
 			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-			<span class="time">12:30 pm - 1:30 pm</span>
-			<p>project 1</p>
-			<p>project 1</p>
-			<p>project 1</p>
-			<p>project 1</p>
+			<span class="time"><a href="#" class="badge badge-info">12:30 pm - 1:30 pm</a></span>
+              <ul style="list-style-type: square; text-align: justify;">
+                <li><a href=""><b>09 : </b> Project name</a></li>
+                <li><a href=""><b>10 : </b> Project name</a></li>
+                <li><a href=""><b>11 : </b> Project name</a></li>
+                <li><a href=""><b>12 : </b> Project name</a></li>
+              </ul>
 			</div>
 		</div>
-		<div class="speaker-wrap ftco-animate d-md-flex">
+		<div class="icon_background">
+            <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
+        </div>
+		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
 			<div class="text">
 			<h2><a href="#">Awards Ceremony and the Conclusion of Escape'2020</a></h2>
-			<span class="time">1:30 pm - 2:00 pm</span>
+			<span class="time"><a href="#" class="badge badge-info">1:30 pm - 2:00 pm</a></span>
 			</div>
 		</div>				
 		<div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
@@ -260,6 +316,9 @@
 		<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>
 		</div>
 		</div>
+		<div class="icon_background">
+            <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
+        </div>
 		<div class="speaker-wrap ftco-animate d-md-flex">
 		<div class="img speaker-img" style="background-image: url(preview/theme/plataforma/images/staff-1.jpg);"></div>
 		<div class="text">
@@ -271,6 +330,9 @@
 		<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>
 		</div>
 		</div>
+		<div class="icon_background">
+            <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
+        </div>
 		<div class="speaker-wrap ftco-animate d-md-flex">
 		<div class="img speaker-img" style="background-image: url(preview/theme/plataforma/images/staff-2.jpg);"></div>
 		<div class="text">
@@ -284,6 +346,9 @@
 		</div>
 		</div>
 		<div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-day-3-tab">
+		<div class="icon_background">
+            <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
+        </div>
 		<div class="speaker-wrap ftco-animate d-md-flex">
 		<div class="img speaker-img" style="background-image: url(preview/theme/plataforma/images/staff-3.jpg);"></div>
 		<div class="text">
@@ -295,6 +360,9 @@
 		<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>
 		</div>
 		</div>
+		<div class="icon_background">
+            <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
+        </div>
 		<div class="speaker-wrap ftco-animate d-md-flex">
 		<div class="img speaker-img" style="background-image: url(preview/theme/plataforma/images/staff-4.jpg);"></div>
 		<div class="text">
@@ -306,6 +374,9 @@
 		<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>
 		</div>
 		</div>
+		<div class="icon_background">
+            <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
+        </div>
 		<div class="speaker-wrap ftco-animate d-md-flex">
 		<div class="img speaker-img" style="background-image: url(preview/theme/plataforma/images/staff-1.jpg);"></div>
 		<div class="text">
@@ -320,7 +391,7 @@
 		</div>
 		</div>
 	</div>
-	<div class="col-md-2 nav-link-wrap text-center text-md-right"></div>
+	<div class="col-md-1 nav-link-wrap text-center text-md-right"></div>
 	</div>
 	</div>
 	</div>
@@ -439,6 +510,25 @@
 </div>
 </div>
 </section> -->
+<!-- <section id="about" class="ftco-section ftco-no-pt ftco-no-pb">
+
+	<div class="container">
+		<div class="row no-gutters">
+		<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(preview/theme/plataforma/images/about.jpg);">
+		</div>
+		<div class="col-md-7 wrap-about py-md-5 ftco-animate">
+		<div class="heading-section mb-5 pt-5 pl-md-5">
+		<div class="pr-md-5 mr-md-5">
+		<h2 class="mb-4">Overview</h2>
+		</div>
+		<p style="text-align: justify;">EscaPe is the annual project symposium of the Department of Computer Engineering, University of Peradeniya. It presents you with the research projects of the undergraduates of the Department of Computer Engineering. Escape’2020 is the 5th symposium that is organized by the department and this time the symposium is open for a broader audience and aims to build a platform for the undergraduates to present their research ideas to the industry and academic community.</p>
+
+		</div>
+		</div>
+		</div>
+	</div>
+
+</section> -->
 
 <!--speakers-->
 <section id="speakers" class="ftco-section ftco-no-pt ftco-no-pb">
@@ -448,92 +538,52 @@
 		<div class="col-md-7 text-center heading-section ftco-animate">
 			<h2 class="mb-1">Keynote Speakers</h2>
 		</div>
-	</div>
-	<div class="row">
-<!-- 	<div class="col-md-6 d-flex align-items-stretch">
-	<div class="speaker ftco-animate d-flex align-items-stretch">
-	<div class="img" style="background-image: url(preview/theme/plataforma/images/staff-3.jpg);">
-	<div class="text text-absolute">
-	<h3>Robert Bonner</h3>
-	<span class="position">Businessmen</span>
-	<ul class="ftco-social mt-3">
-	<li><a href="#"><span class="icon-twitter"></span></a></li>
-	<li><a href="#"><span class="icon-facebook"></span></a></li>
-	<li><a href="#"><span class="icon-instagram"></span></a></li>
-	</ul>
-	</div>
-	</div>
-	</div>
-	</div> -->
-	<div class="col-md-6">
-		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
-			<div class="img" style="background-image: url(preview/theme/plataforma/images/staff-1.jpg);"></div>
-			<div class="text pl-4">
-			<h3>Kyle Bochs</h3>
-			<span class="position">Businessman</span>
-			<p>A small river named Duden flows by their place and supplies</p>
-			<ul class="ftco-social">
-			<li><a href="#"><span class="icon-twitter"></span></a></li>
-			<li><a href="#"><span class="icon-facebook"></span></a></li>
-			<li><a href="#"><span class="icon-instagram"></span></a></li>
-			</ul>
-			</div>
-		</div>
-<!-- 		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
-			<div class="img" style="background-image: url(preview/theme/plataforma/images/staff-2.jpg);"></div>
-			<div class="text pl-4">
-			<h3>Arnold Thompson</h3>
-			<span class="position">Businessman</span>
-			<p>A small river named Duden flows by their place and supplies</p>
-			<ul class="ftco-social">
-			<li><a href="#"><span class="icon-twitter"></span></a></li>
-			<li><a href="#"><span class="icon-facebook"></span></a></li>
-			<li><a href="#"><span class="icon-instagram"></span></a></li>
-			</ul>
-			</div>
-		</div>
-		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
-			<div class="img" style="background-image: url(preview/theme/plataforma/images/staff-3.jpg);"></div>
-			<div class="text pl-4">
-			<h3>Ryan Sy</h3>
-			<span class="position">Businessman</span>
-			<p>A small river named Duden flows by their place and supplies</p>
-			<ul class="ftco-social">
-			<li><a href="#"><span class="icon-twitter"></span></a></li>
-			<li><a href="#"><span class="icon-facebook"></span></a></li>
-			<li><a href="#"><span class="icon-instagram"></span></a></li>
-			</ul>
-			</div>
-		</div>
-		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
-			<div class="img" style="background-image: url(preview/theme/plataforma/images/staff-4.jpg);"></div>
-			<div class="text pl-4">
-			<h3>Alysa Derick</h3>
-			<span class="position">Businesswoman</span>
-			<p>A small river named Duden flows by their place and supplies</p>
-			<ul class="ftco-social">
-			<li><a href="#"><span class="icon-twitter"></span></a></li>
-			<li><a href="#"><span class="icon-facebook"></span></a></li>
-			<li><a href="#"><span class="icon-instagram"></span></a></li>
-			</ul>
-			</div>
-		</div> -->
-	</div>
-	<div class="col-md-6">
-		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
-			<div class="img" style="background-image: url(preview/theme/plataforma/images/staff-1.jpg);"></div>
-			<div class="text pl-4">
-			<h3>Kyle Bochs</h3>
-			<span class="position">Businessman</span>
-			<p>A small river named Duden flows by their place and supplies</p>
-			<ul class="ftco-social">
-			<li><a href="#"><span class="icon-twitter"></span></a></li>
-			<li><a href="#"><span class="icon-facebook"></span></a></li>
-			<li><a href="#"><span class="icon-instagram"></span></a></li>
-			</ul>
-			</div>
-		</div>
 	</div>	
+	<div class="row no-gutters detail-info">
+		<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(preview/theme/plataforma/images/staff-3.jpg);">
+		</div>
+		<div class="col-md-7 wrap-about py-md-5 ftco-animate">
+			<div class="heading-section mb-5 pt-5 pl-md-5">
+				<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
+					<div class="text pl-4">
+						<h3>Kyle Bochs</h3>
+						<span class="position">Businessman</span>
+						<p>A small river named Duden flows by their place and supplies</p>
+						<ul class="ftco-social">
+							<li><a href="#"><span class="icon-twitter"></span></a></li>
+							<li><a href="#"><span class="icon-facebook"></span></a></li>
+							<li><a href="#"><span class="icon-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
+				<p style="text-align: justify;">EscaPe is the annual project symposium of the Department of Computer Engineering, University of Peradeniya. It presents you with the research projects of the undergraduates of the Department of Computer Engineering. Escape’2020 is the 5th symposium that is organized by the department and this time the symposium is open for a broader audience and aims to build a platform for the undergraduates to present their research ideas to the industry and academic community.</p>
+
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="row no-gutters detail-info">
+		<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(preview/theme/plataforma/images/staff-3.jpg);">
+		</div>
+		<div class="col-md-7 wrap-about py-md-5 ftco-animate">
+			<div class="heading-section mb-5 pt-5 pl-md-5">
+				<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
+					<div class="text pl-4">
+						<h3>Kyle Bochs</h3>
+						<span class="position">Businessman</span>
+						<p>A small river named Duden flows by their place and supplies</p>
+						<ul class="ftco-social">
+							<li><a href="#"><span class="icon-twitter"></span></a></li>
+							<li><a href="#"><span class="icon-facebook"></span></a></li>
+							<li><a href="#"><span class="icon-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
+				<p style="text-align: justify;">EscaPe is the annual project symposium of the Department of Computer Engineering, University of Peradeniya. It presents you with the research projects of the undergraduates of the Department of Computer Engineering. Escape’2020 is the 5th symposium that is organized by the department and this time the symposium is open for a broader audience and aims to build a platform for the undergraduates to present their research ideas to the industry and academic community.</p>
+
+			</div>
+		</div>
+	</div>
 	</div>
 	</div>
 
@@ -544,60 +594,270 @@
 
 	<div class="container">
 	<div class="row justify-content-center mb-5">
-	<div class="col-md-7 heading-section text-center ftco-animate">
-	<h2>Projects</h2>
+		<div class="col-md-7 heading-section text-center ftco-animate">
+		<h2>Projects</h2>
+		</div>
 	</div>
+	<div class="row d-flex d-flex_project_list">
+<!-- 	<div class="col-md-4 d-flex ftco-animate">
+		<div class="blog-entry justify-content-end">
+		<a href="preview/theme/plataforma/blog-single.html" class="block-20" style="background-image: url('preview/theme/plataforma/images/image_1.jpg');">
+		</a>
+		<div class="text pt-4">
+			<h3 class="heading mt-2"><a>Why Lead Generation is Key for Business Growth</a></h3>
+			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+			<div class="meta mb-3">
+				<div>
+					<button type="button" class="btn btn-info btn-sm">
+						<span class="time">
+							<a class="badge badge-info">
+								<i class="fa fa-caret-square-o-left" aria-hidden="true"></i> Presentaion
+							</a>
+						</span>
+					</button>
+				</div>
+				<div>
+					<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#abstract_div">
+						<span class="time">
+							<a class="badge badge-warning">
+								<i class="fa fa-file-text" aria-hidden="true"></i> Abstract
+							</a>
+						</span>
+					</button>
+				</div>
+				<div>
+					<button type="button" class="btn btn-danger btn-sm">
+						<span class="time">
+							<a href="#" class="badge badge-danger">
+								<i class="fa fa-link" aria-hidden="true"></i> Link
+							</a>
+						</span>
+					</button>					
+				</div>
+			</div>			
+		</div>
+		</div>
 	</div>
-	<div class="row d-flex">
 	<div class="col-md-4 d-flex ftco-animate">
-	<div class="blog-entry justify-content-end">
-	<a href="preview/theme/plataforma/blog-single.html" class="block-20" style="background-image: url('preview/theme/plataforma/images/image_1.jpg');">
-	</a>
-	<div class="text pt-4">
-	<div class="meta mb-3">
-	<div><a href="#">July. 14, 2019</a></div>
-	<div><a href="#">Admin</a></div>
-	<div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-	</div>
-	<h3 class="heading mt-2"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
-	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-	</div>
-	</div>
+		<div class="blog-entry justify-content-end">
+		<a href="preview/theme/plataforma/blog-single.html" class="block-20" style="background-image: url('preview/theme/plataforma/images/image_1.jpg');">
+		</a>
+		<div class="text pt-4">
+			<h3 class="heading mt-2"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+			<div class="meta mb-3">
+				<div>
+					<button type="button" class="btn btn-info btn-sm">
+						<span class="time">
+							<a class="badge badge-info">
+								<i class="fa fa-caret-square-o-left" aria-hidden="true"></i> Presentaion
+							</a>
+						</span>
+					</button>
+				</div>
+				<div>
+					<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#abstract_div">
+						<span class="time">
+							<a class="badge badge-warning">
+								<i class="fa fa-file-text" aria-hidden="true"></i> Abstract
+							</a>
+						</span>
+					</button>
+				</div>
+				<div>
+					<button type="button" class="btn btn-danger btn-sm">
+						<span class="time">
+							<a href="#" class="badge badge-danger">
+								<i class="fa fa-link" aria-hidden="true"></i> Link
+							</a>
+						</span>
+					</button>					
+				</div>
+			</div>			
+		</div>
+		</div>
 	</div>
 	<div class="col-md-4 d-flex ftco-animate">
-	<div class="blog-entry justify-content-end">
-	<a href="preview/theme/plataforma/blog-single.html" class="block-20" style="background-image: url('preview/theme/plataforma/images/image_2.jpg');">
-	</a>
-	<div class="text pt-4">
-	<div class="meta mb-3">
-	<div><a href="#">July. 14, 2019</a></div>
-	<div><a href="#">Admin</a></div>
-	<div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-	</div>
-	<h3 class="heading mt-2"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
-	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-	</div>
-	</div>
+		<div class="blog-entry justify-content-end">
+		<a href="preview/theme/plataforma/blog-single.html" class="block-20" style="background-image: url('preview/theme/plataforma/images/image_1.jpg');">
+		</a>
+		<div class="text pt-4">
+			<h3 class="heading mt-2"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+			<div class="meta mb-3">
+				<div>
+					<button type="button" class="btn btn-info btn-sm">
+						<span class="time">
+							<a class="badge badge-info">
+								<i class="fa fa-caret-square-o-left" aria-hidden="true"></i> Presentaion
+							</a>
+						</span>
+					</button>
+				</div>
+				<div>
+					<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#abstract_div">
+						<span class="time">
+							<a class="badge badge-warning">
+								<i class="fa fa-file-text" aria-hidden="true"></i> Abstract
+							</a>
+						</span>
+					</button>
+				</div>
+				<div>
+					<button type="button" class="btn btn-danger btn-sm">
+						<span class="time">
+							<a href="#" class="badge badge-danger">
+								<i class="fa fa-link" aria-hidden="true"></i> Link
+							</a>
+						</span>
+					</button>					
+				</div>
+			</div>			
+		</div>
+		</div>
 	</div>
 	<div class="col-md-4 d-flex ftco-animate">
-	<div class="blog-entry">
-	<a href="preview/theme/plataforma/blog-single.html" class="block-20" style="background-image: url('preview/theme/plataforma/images/image_3.jpg');">
-	</a>
-	<div class="text pt-4">
-	<div class="meta mb-3">
-	<div><a href="#">July. 14, 2019</a></div>
-	<div><a href="#">Admin</a></div>
-	<div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-	</div>
-	<h3 class="heading mt-2"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
-	<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-	</div>
-	</div>
-	</div>
+		<div class="blog-entry justify-content-end">
+		<a href="preview/theme/plataforma/blog-single.html" class="block-20" style="background-image: url('preview/theme/plataforma/images/image_1.jpg');">
+		</a>
+		<div class="text pt-4">
+			<h3 class="heading mt-2"><a href="#">Why Lead Generation is Key for Business Growth</a></h3>
+			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+			<div class="meta mb-3">
+				<div>
+					<button type="button" class="btn btn-info btn-sm">
+						<span class="time">
+							<a class="badge badge-info">
+								<i class="fa fa-caret-square-o-left" aria-hidden="true"></i> Presentaion
+							</a>
+						</span>
+					</button>
+				</div>
+				<div>
+					<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#abstract_div">
+						<span class="time">
+							<a class="badge badge-warning">
+								<i class="fa fa-file-text" aria-hidden="true"></i> Abstract
+							</a>
+						</span>
+					</button>
+				</div>
+				<div>
+					<button type="button" class="btn btn-danger btn-sm">
+						<span class="time">
+							<a href="#" class="badge badge-danger">
+								<i class="fa fa-link" aria-hidden="true"></i> Link
+							</a>
+						</span>
+					</button>					
+				</div>
+			</div>			
+		</div>
+		</div>
+	</div>	 -->
 	</div>
 	</div>
 
 </section>
+
+<!-- Modal -->
+<div class="modal fade" id="abstract_div" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+        	<h4 class="title_project"></h4>
+          <p class="abstract_set_div">Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="project_div" role="dialog">
+    <div class="modal-dialog modal-dialog-1">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+        	<h3 class="title_project_more"></h3>
+			<button type="button" class="btn btn-danger btn-sm">
+				<span class="time">
+					<a class="badge badge-danger project_more_link" target="_blank">
+						<i class="fa fa-link" aria-hidden="true"></i> Link for project</a>
+				</span>
+			</button>
+        </div>
+        <div class="modal-body">
+        	<div class="row">
+        		<div class="col-md-4">
+        			<img class="project_set_div_img_1" width="100%">
+        		</div>
+           		<div class="col-md-8">
+          			<p class="project_set_div_1" style="text-align: justify;">Some industry experts believe the term artificial intelligence is too closely linked to popular culture, and this has caused the general public to have improbable expectations about how AI will change the workplace and life in general. Some researchers and marketers hope the label augmented intelligence, which has a more neutral connotation, will help people understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity -- a future ruled by an artificial superintelligence that far surpasses the human brain's ability to understand it or how it is shaping our reality --  remains within the realm of science fiction.understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity -- a future ruled by an artificial superintelligence that far surpasses the human brain's ability to understand it or how it is shaping our reality --  remains within the realm of science fiction.</p>
+        		</div>
+        	</div>
+        </div> 
+        <div class="modal-body">
+        	<div class="row">
+           		<div class="col-md-8">
+          			<p class="project_set_div_2" style="text-align: justify;">Some industry experts believe the term artificial intelligence is too closely linked to popular culture, and this has caused the general public to have improbable expectations about how AI will change the workplace and life in general. Some researchers and marketers hope the label augmented intelligence, which has a more neutral connotation, will help people understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity -- a future ruled by an artificial superintelligence that far surpasses the human brain's ability to understand it or how it is shaping our reality --  remains within the realm of science fiction.understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity -- a future ruled by an artificial superintelligence that far surpasses the human brain's ability to understand it or how it is shaping our reality --  remains within the realm of science fiction.</p>
+        		</div>
+        		<div class="col-md-4">
+        			<img class="project_set_div_img_2" width="100%">
+        		</div>        		
+        	</div>
+        </div> 
+        <div class="modal-body">
+        	<div class="row">
+        		<div class="col-md-4">
+        			<img class="project_set_div_img_3" width="100%">
+        		</div>
+           		<div class="col-md-8">
+          			<p class="project_set_div_3" style="text-align: justify;">Some industry experts believe the term artificial intelligence is too closely linked to popular culture, and this has caused the general public to have improbable expectations about how AI will change the workplace and life in general. Some researchers and marketers hope the label augmented intelligence, which has a more neutral connotation, will help people understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity -- a future ruled by an artificial superintelligence that far surpasses the human brain's ability to understand it or how it is shaping our reality --  remains within the realm of science fiction.understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity -- a future ruled by an artificial superintelligence that far surpasses the human brain's ability to understand it or how it is shaping our reality --  remains within the realm of science fiction.</p>
+        		</div>
+        	</div>
+        </div>                       
+        <div class="modal-body authors_list_show">
+<!-- 			<button type="button" class="btn btn-dark btn-sm" style="margin-top: 10px;">
+				<span class="time">
+					<a class="badge badge-dark">
+						<i class="fa fa-user" aria-hidden="true"></i> FirstName LastName
+					</a>
+				</span>
+			</button>
+			<button type="button" class="btn btn-dark btn-sm" style="margin-top: 10px;">
+				<span class="time">
+					<a class="badge badge-dark">
+						<i class="fa fa-user" aria-hidden="true"></i> FirstName LastName
+					</a>
+				</span>
+			</button>
+			<button type="button" class="btn btn-dark btn-sm" style="margin-top: 10px;">
+				<span class="time">
+					<a class="badge badge-dark">
+						<i class="fa fa-user" aria-hidden="true"></i> FirstName LastName
+					</a>
+				</span>
+			</button> -->									
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+</div>
 
 <!-- <section class="ftco-section-parallax ftco-section ftco-no-pt">
 <div class="parallax-img d-flex align-items-center">
@@ -620,6 +880,51 @@
 </div>
 </div>
 </div>
+</section> -->
+
+<!--speakers-->
+<!-- <section id="speakers" class="ftco-section ftco-no-pt ftco-no-pb">
+
+	<div class="container">
+	<div class="row justify-content-center mb-5">
+	<div class="col-md-7 text-center heading-section ftco-animate">
+	<h2 class="mb-1">Conference Speakers</h2>
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-md-6 d-flex align-items-stretch">
+		<div class="speaker ftco-animate d-flex align-items-stretch">
+		<div class="img" style="background-image: url(preview/theme/plataforma/images/staff-3.jpg);">
+		<div class="text text-absolute">
+		<h3>Robert Bonner</h3>
+		<span class="position">Businessmen</span>
+		<ul class="ftco-social mt-3">
+		<li><a href="#"><span class="icon-twitter"></span></a></li>
+		<li><a href="#"><span class="icon-facebook"></span></a></li>
+		<li><a href="#"><span class="icon-instagram"></span></a></li>
+		</ul>
+		</div>
+		</div>
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
+			<div class="img" style="background-image: url(preview/theme/plataforma/images/staff-1.jpg);"></div>
+			<div class="text pl-4">
+			<h3>Kyle Bochs</h3>
+			<span class="position">Businessman</span>
+			<p>A small river named Duden flows by their place and supplies</p>
+			<ul class="ftco-social">
+			<li><a href="#"><span class="icon-twitter"></span></a></li>
+			<li><a href="#"><span class="icon-facebook"></span></a></li>
+			<li><a href="#"><span class="icon-instagram"></span></a></li>
+			</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+
 </section> -->
 
 <!--Comitee-->
@@ -692,65 +997,100 @@
 
 </section>
 
-<footer class="ftco-footer ftco-bg-dark ftco-section">
+<!--gallery-->
+<section class="ftco-section testimony-section ftco-no-pt" style="display: none;">
 
+	<div class="container">
+	    <div class="gallery_presentation gallery">
+	        <a href="img/project_1/presentation/1.jpg" class="image_first_slide_project_1">
+	            <img class="image_first_slide_project_1" alt="">
+	        </a>
+	        <a href="img/project_1/presentation/2.jpg"></a>	                   
+	    </div>
+	</div>
+
+	<div class="container">
+	    <div class="gallery_presentation gallery">
+	        <a href="img/project_2/presentation/1.jpg" class="image_first_slide_project_2">
+	            <img class="image_first_slide_project_2" alt="">
+	        </a>
+	        <a href="img/project_2/presentation/2.jpg"></a>	                   
+	    </div>
+	</div>
+
+</section>
+
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+<center>
 	<div class="container">
 	<div class="row mb-5">
 	<div class="col-md">
-	<div class="ftco-footer-widget mb-4">
-	<h2 class="ftco-heading-2">Digital Media Partner</h2>
-	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-	<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-	<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-	<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-	</ul>
-	</div>
-	</div>
-	<div class="col-md">
-	<div class="ftco-footer-widget mb-4 ml-md-5">
-	<h2 class="ftco-heading-2">Useful Links</h2>
-	<ul class="list-unstyled">
-	<li><a href="#" class="py-2 d-block">Speakers</a></li>
-	<li><a href="#" class="py-2 d-block">Shcedule</a></li>
-	<li><a href="#" class="py-2 d-block">Events</a></li>
-	<li><a href="#" class="py-2 d-block">Blog</a></li>
-	</ul>
-	</div>
+		<div class="ftco-footer-widget mb-4">
+			<h2 class="ftco-heading-2">Digital Media Partner</h2>
+	        <a class="navbar-brand" href="https://www.readme.lk/" target="_blank" style="background-color: white">
+	            <img src="img/logo/logo_1.png" alt="logo" style="width:115px; margin-top: -3px;">
+	        </a>
+	        <p></p>
+			<p></p>
+			<ul class="ftco-footer-social list-unstyled mt-5">
+				<!-- <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> -->
+				<li class="ftco-animate"><a href="https://www.facebook.com/aces.symposium/" target="_blank"><span class="icon-facebook"></span></a></li>
+				<!-- <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li> -->
+			</ul>
+		</div>
 	</div>
 	<div class="col-md">
-	<div class="ftco-footer-widget mb-4">
-	<h2 class="ftco-heading-2">Privacy</h2>
-	<ul class="list-unstyled">
-	<li><a href="#" class="py-2 d-block">Career</a></li>
-	<li><a href="#" class="py-2 d-block">About Us</a></li>
-	 <li><a href="#" class="py-2 d-block">Contact Us</a></li>
-	<li><a href="#" class="py-2 d-block">Services</a></li>
-	</ul>
-	</div>
+		<div class="ftco-footer-widget mb-4 ml-md-5">
+			<h2 class="ftco-heading-2">Useful Links</h2>
+			<ul class="list-unstyled">
+				<li><a href="#speakers" class="py-2 d-block">Speakers</a></li>
+				<li><a href="#schedule" class="py-2 d-block">Shcedule</a></li>
+				<li><a href="#projects" class="py-2 d-block">Projects</a></li>
+			</ul>
+		</div>
 	</div>
 	<div class="col-md">
-	<div class="ftco-footer-widget mb-4">
-	<h2 class="ftco-heading-2">Have a Questions?</h2>
-	<div class="block-23 mb-3">
-	<ul>
-	<li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	<li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	<li><a href="#"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="e78e898188a79e88929583888a868e89c984888a">[email&#160;protected]</span></span></a></li>
-	</ul>
+		<div class="ftco-footer-widget mb-4">
+			<h2 class="ftco-heading-2">More Links</h2>
+			<ul class="list-unstyled">
+				<li><a href="https://www.ce.pdn.ac.lk/" class="py-2 d-block" target="_blank">ce.pdn.ac.lk</a></li>
+				<li><a href="https://eng.pdn.ac.lk/" class="py-2 d-block" target="_blank">eng.pdn.ac.lk</a></li>
+			</ul>
+		</div>
 	</div>
-	</div>
+	<div class="col-md">
+		<div class="ftco-footer-widget mb-4">
+			<h2 class="ftco-heading-2">Have a Questions?</h2>
+			<div class="block-23 mb-3">
+				<ul>
+					<li>
+						<span class="icon icon-map-marker"></span>
+						<span class="text">Department of Computer Engineering, Faculty of Engineering, University of Peradeniya, Peradeniya, 20400, Sri Lanka</span>
+					</li>
+					<li>
+						<a><span class="icon icon-phone"></span>
+							<span class="text">+94 71 5541 513</span>
+						</a>
+					</li>
+					<li>
+						<a><span class="icon icon-envelope"></span>
+							<span class="text">aces@eng.pdn.ac.lk</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 	</div>
 	<div class="row">
 	<div class="col-md-12 text-center">
 	<p>
-		Copyright &copy; Association of Computer Engineering Students 2020 - All rights reserved
+		Copyright &copy; Department of Computer Engineering University of Peradeniya - All rights reserved
 	</p>
 	</div>
 	</div>
 	</div>
-
+</center>
 </footer>
 
 <div id="ftco-loader" class="show fullscreen">
@@ -824,4 +1164,131 @@
         });
     }
 
+</script>
+
+<script type="text/javascript">
+
+project_set = [
+  {
+    project_name: 'name1',
+    small_def: 'small def small def small def small def small def small def small def small def',
+    abstract: 'small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def small def',
+    ref_url: 'project1.html',
+    authors: [ 'first_name', '2nd_name', '3nd_name'],
+    details: [ 
+    	'1 Some industry experts believe the term artificial intelligence is too closely linked to popular culture, and this has caused the general public to have improbable expectations about how AI will change the workplace and life in general. Some researchers and marketers hope the label augmented intelligence, which has a more neutral connotation, will help people understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity a future ruled by an artificial superintelligence that far surpasses the human brain\'s ability to understand it or how it is shaping our reality remains within the realm of science fiction.understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity  a future ruled by an artificial superintelligence that far surpasses the human brain\'s ability to understand it or how it is shaping our reality remains within the realm of science fiction.', 
+    	'21 Some industry experts believe the term artificial intelligence is too closely linked to popular culture, and this has caused the general public to have improbable expectations about how AI will change the workplace and life in general. Some researchers and marketers hope the label augmented intelligence, which has a more neutral connotation, will help people understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity a future ruled by an artificial superintelligence that far surpasses the human brain\'s ability to understand it or how it is shaping our reality remains within the realm of science fiction.understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity  a future ruled by an artificial superintelligence that far surpasses the human brain\'s ability to understand it or how it is shaping our reality remains within the realm of science fiction.', 
+    	'31 Some industry experts believe the term artificial intelligence is too closely linked to popular culture, and this has caused the general public to have improbable expectations about how AI will change the workplace and life in general. Some researchers and marketers hope the label augmented intelligence, which has a more neutral connotation, will help people understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity a future ruled by an artificial superintelligence that far surpasses the human brain\'s ability to understand it or how it is shaping our reality remains within the realm of science fiction.understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity  a future ruled by an artificial superintelligence that far surpasses the human brain\'s ability to understand it or how it is shaping our reality remains within the realm of science fiction.']
+  },
+  {
+    project_name: 'name2',
+    small_def: 'small def small def small def small def small def small def small def small def',
+    abstract: 'wqw32322535 qdsd f small def small def small def small def small def small def small def small def small def small ds ds  fnfnng  gfnsdmall def small def small def small def small def small def small def small def small def small def small def small def small def small def',
+    ref_url: 'project2.html',
+    authors: [ '2first_name', '32nd_name', '53nd_name', '53n32d3_name'],
+    details: [ 
+    	'1 Some industry experts believe the term artificial intelligence is too closely linked to popular culture, and this has caused the general public to have improbable expectations about how AI will change the workplace and life in general. Some researchers and marketers hope the label augmented intelligence, which has a more neutral connotation, will help people understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity a future ruled by an artificial superintelligence that far surpasses the human brain\'s ability to understand it or how it is shaping our reality remains within the realm of science fiction.understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity  a future ruled by an artificial superintelligence that far surpasses the human brain\'s ability to understand it or how it is shaping our reality remains within the realm of science fiction.', 
+    	'21 Some industry experts believe the term artificial intelligence is too closely linked to popular culture, and this has caused the general public to have improbable expectations about how AI will change the workplace and life in general. Some researchers and marketers hope the label augmented intelligence, which has a more neutral connotation, will help people understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity a future ruled by an artificial superintelligence that far surpasses the human brain\'s ability to understand it or how it is shaping our reality remains within the realm of science fiction.understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity  a future ruled by an artificial superintelligence that far surpasses the human brain\'s ability to understand it or how it is shaping our reality remains within the realm of science fiction.', 
+    	'31 Some industry experts believe the term artificial intelligence is too closely linked to popular culture, and this has caused the general public to have improbable expectations about how AI will change the workplace and life in general. Some researchers and marketers hope the label augmented intelligence, which has a more neutral connotation, will help people understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity a future ruled by an artificial superintelligence that far surpasses the human brain\'s ability to understand it or how it is shaping our reality remains within the realm of science fiction.understand that most implementations of AI will be weak and simply improve products and services. The concept of the technological singularity  a future ruled by an artificial superintelligence that far surpasses the human brain\'s ability to understand it or how it is shaping our reality remains within the realm of science fiction.']      
+  }  
+];
+for(var i=1; i<=project_set.length; i++){  
+  $('.d-flex_project_list').append(
+	'<div class="col-md-4 d-flex">'+
+		'<div class="blog-entry justify-content-end">'+
+		'<a class="block-20" style="background-image: url(\'img/project_' + i + '/main.jpg\');">'+
+		'</a>'+
+		'<div class="text pt-4">'+
+			'<h3 class="heading mt-2"><a>' + project_set[i-1].project_name + '</a></h3>'+
+			'<p>' + project_set[i-1].small_def + '</p>'+
+			'<div class="meta mb-3">'+
+				'<div>'+
+					'<button type="button" class="btn btn-info btn-sm" style="margin-top:10px;">'+
+						'<span class="time">'+
+							'<a id="' + i + '" class="badge badge-info presentation_click">'+
+								'<i id="' + i + '" class="fa fa-caret-square-o-left presentation_click" aria-hidden="true"></i> Presentaion'+
+							'</a>'+
+						'</span>'+
+					'</button>'+
+				'</div>'+
+				'<div>'+
+					'<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#abstract_div" style="margin-top:10px;">'+
+						'<span class="time">'+
+							'<a id="' + i + '" class="badge badge-warning abstract_click">'+
+								'<i id="' + i + '" class="fa fa-file-text abstract_click" aria-hidden="true"></i> Abstract</a>'+
+						'</span>'+
+					'</button>'+
+				'</div>'+
+				'<div>'+
+					'<button type="button" class="btn btn-danger btn-sm" style="margin-top:10px;">'+
+						'<span class="time">'+
+							'<a id="' + i + '" class="badge badge-danger project_link_click" data-toggle="modal" data-target="#project_div">'+
+								'<i id="' + i + '" class="fa fa-info-circle project_link_click" aria-hidden="true"></i> more</a>'+
+						'</span>'+
+					'</button>'	+				
+				'</div>'+
+			'</div>'+		
+		'</div>'+
+		'</div>'+
+	'</div>'
+    );
+}
+
+$('.abstract_click').click(function(){
+  	$('.abstract_set_div').text(project_set[this.id-1].abstract);
+  	$('.title_project').text(project_set[this.id-1].project_name);
+});
+
+$('.project_link_click').click(function(){
+  	$('.title_project_more').text(project_set[this.id-1].project_name);
+  	$('.project_more_link').attr('href', project_set[this.id-1].ref_url);
+
+	$('.project_set_div_1').text(project_set[this.id-1].details[0]);
+	$('.project_set_div_2').text(project_set[this.id-1].details[1]);
+	$('.project_set_div_3').text(project_set[this.id-1].details[2]);
+
+  	$('.project_set_div_img_1').attr('src', 'img/project_' + this.id + '/p1.jpg');
+  	$('.project_set_div_img_2').attr('src', 'img/project_' + this.id + '/p2.jpg');
+  	$('.project_set_div_img_3').attr('src', 'img/project_' + this.id + '/p3.jpg');
+  	
+  	authors_list = project_set[this.id-1].authors;
+
+  	$('.authors_list_show').html("");
+
+	for(var i=1; i<=authors_list.length; i++){  
+	  $('.authors_list_show').append(
+			'<button type="button" class="btn btn-dark btn-sm" style="margin: 10px;">'+
+				'<span class="time">'+
+					'<a class="badge badge-dark">'+
+						'<i class="fa fa-user" aria-hidden="true"></i> ' + authors_list[i-1] + ''+
+					'</a>'+
+				'</span>'+
+			'</button>'
+	  	);
+	}
+
+});
+
+</script>
+
+<script src="preview/theme/plataforma/js/baguetteBox.js" async></script>
+<script src="preview/theme/plataforma/js/highlight.min.js" async></script>
+
+<script>
+
+$('.presentation_click').click(function(){
+	div = '.image_first_slide_project_' + this.id;
+	jQuery(function(){
+	   jQuery(div).click();
+	});
+});
+
+window.onload = function() {
+
+    baguetteBox.run('.gallery_presentation', {
+        animation: 'fadeIn',
+        noScrollbars: true
+    });
+
+};
 </script>
