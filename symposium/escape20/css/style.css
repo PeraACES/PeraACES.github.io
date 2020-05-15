@@ -8298,7 +8298,7 @@ h1, h2, h3, h4, h5,
     #timer .time span {
       font-size: 12px;
       display: block;
-      color: #000000;
+      color: white;
       text-transform: uppercase; }
 
 .request-form {
