@@ -71,6 +71,23 @@
     color: white;
    }
 
+   .time_box{
+   	color: white !important;
+   }
+
+   .author_name{
+   	display: inline !important;
+   }
+   .project_name{
+		transition: .3s all ease;
+    	color: #1162fb !important;
+    	display: block;
+    	text-align: initial;
+   }
+
+   .img_project_div{
+   		height: auto !important;
+   }
 </style>
 
 <body>
@@ -92,8 +109,8 @@
 		<li class="nav-item"><a href="#about" class="nav-link">Overview</a></li>
 		<li class="nav-item"><a href="#schedule" class="nav-link">Schedule</a></li>
 		<li class="nav-item"><a href="#speakers" class="nav-link">Speakers</a></li>
-		<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-		<li class="nav-item"><a href="#committee" class="nav-link">Chairs & Editors</a></li>
+		<!-- <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li> -->
+		<li class="nav-item"><a href="#committee" class="nav-link">Chairs</a></li>
 	</ul>
 
 	</div>
@@ -124,7 +141,7 @@
 				<div class="time pl-3" id="seconds"></div>
 
 			</div>
-			<br>		
+			<br>	
 			<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#call_for_paper_div" style="margin-top:10px;">
 				<span class="time">
 					<a class="badge badge-success">
@@ -157,7 +174,7 @@
 
 	<div class="container">
 		<div class="row no-gutters">
-		<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(img/home/about.jpg);">
+		<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(img/home/overview.jpg);">
 		</div>
 		<div class="col-md-7 wrap-about py-md-5 ftco-animate">
 		<div class="heading-section mb-5 pt-5 pl-md-5">
@@ -194,23 +211,67 @@
 		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
 			<div class="text">
 			<h2><a>Commencement of ESCaPe 2020</a></h2>
-			<span class="time"><a href="#" class="badge badge-info">08:30 am - 9:00 am</a></span>
+			<span class="time"><a class="badge badge-info time_box">08:30 am - 9:00 am</a></span>
 			</div>
 		</div>
 		<div class="icon_background">
             <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
         </div>
 		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
-			<div class="img speaker-img" style="background-image: url(img/home/staff-1.jpg);"></div>
+			<div class="img speaker-img img_project_div" style="background-image: url(img/home/projects_2.jpg);"></div>
 			<div class="text">
-			<h2><a href="#">Project Presentations</a></h2>
-			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-			<span class="time"><a href="#" class="badge badge-info">9:00 am - 10:00 am</a></span>
+			<h2><a>Presentations of the Research Articles</a></h2>
+			<!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
+			<span class="time"><a class="badge badge-info time_box">9:00 am - 10:00 am</a></span>
               <ul style="list-style-type: square; text-align: justify;">
-                <li><a href=""><b>01 : </b> Project name</a></li>
-                <li><a href=""><b>02 : </b> Project name</a></li>
-                <li><a href=""><b>03 : </b> Project name</a></li>
-                <li><a href=""><b>04 : </b> Project name</a></li>
+                <li>
+                	<a class="project_name"><b>01: </b> A Retinex based GAN Pipeline to Utilize Paired and Unpaired Datasets for Enhancing Low Light Images</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> G.C.Jayatilaka</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> S.Suren</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> W.G.H.S..Weligampola</a>
+                	</span>  -->               	                	
+                </li>
+                <li>
+                	<a class="project_name"><b>02: </b> Multi-Agent Reinforcement Learning in Sparsely Connected Cooperative Environments</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>  -->               	                	
+                </li>
+                <li>
+                	<a class="project_name"><b>03: </b> SwarmLib- Programming Framework for Robot Swarms</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> A.M.N.P.Adikari</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> D.M.N.T.Bandara</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> D.S.M.M.B.Dassanayaka</a>
+                	</span> -->                	                	
+                </li>
+                <li>
+                	<a class="project_name"><b>04: </b> Dynamic Difficulty Adjustment (DDA) in FPS games using Strategy Analysis</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> H.A.D.C.Hettiarachchi</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> R.C.Medawatte</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> D.W.M.M.P.Wijekoon</a>
+                	</span> -->                	                	
+                </li>                                
               </ul>
 			</div>
 		</div>
@@ -218,60 +279,160 @@
             <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
         </div>
 		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
-			<div class="img speaker-img" style="background-image: url(img/home/staff-2.jpg);"></div>
+			<div class="img speaker-img" style="background-image: url(img/home/key.jpg);"></div>
 			<div class="text">
-			<h2><a href="#">Introduction to Business Leaders</a></h2>
+			<h2><a>Keynote Speech by Mr. Mano Sekaram</a></h2>
 			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-			<span class="time"><a href="#" class="badge badge-info">10:00 am - 10:30 am</a></span>
-			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>
+			<span class="time"><a class="badge badge-info time_box">10:00 am - 10:30 am</a></span>
+			<p>Mano Sekaram is a regular representative of Sri Lanka’s IT/BPM industry nationally and globally. He is the Founder of StartupX Foundry, an organization dedicated to incubating and accelerating Lankan startups. Mano Sekaram is the Chairman Emeritus of the IT/BPM sector’s apex body, the Sri Lanka Association of Software and Service Companies (SLASSCOM), and sits on the boards of numerous Sri Lankan universities and higher education institutes.</p>
+			<h3 class="speaker-name">&mdash; <a href="https://www.linkedin.com/in/manosekaram/" target="_blank">Mr. Mano Sekaram</a> <span class="position">CEO and Co -Founder at 99X Technology</span></h3>
 			</div>
 		</div>
 		<div class="icon_background">
             <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
         </div>
 		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
-			<div class="img speaker-img" style="background-image: url(img/home/staff-1.jpg);"></div>
+			<div class="img speaker-img img_project_div" style="background-image: url(img/home/projects_1.jpg);"></div>
 			<div class="text">
-			<h2><a href="#">Project Presentations</a></h2>
+			<h2><a>Presentations of the Research Articles</a></h2>
 			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-			<span class="time"><a href="#" class="badge badge-info">10:30 am - 11:30 am</a></span>
+			<span class="time"><a class="badge badge-info time_box">10:30 am - 11:45 am</a></span>
               <ul style="list-style-type: square; text-align: justify;">
-                <li><a href=""><b>05 : </b> Project name</a></li>
-                <li><a href=""><b>06 : </b> Project name</a></li>
-                <li><a href=""><b>07 : </b> Project name</a></li>
-                <li><a href=""><b>08 : </b> Project name</a></li>
+                <li>
+                	<a class="project_name"><b>05: </b> Nanopore DNA Sequencing Data Processing on Android Smartphones</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> P.S.Punchihewa</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> S.M.H.M.Samarakoon</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> S.M.A.J.Senanayake</a>
+                	</span>  -->               	                	
+                </li>
+                <li>
+                	<a class="project_name"><b>06: </b> miRNAFinder: An accurate plant pre-microRNA classifier with an analysis of feature impact</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> I.P.S.B.Ihalagedara</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> J.M.S.M.Jayasundara</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> S.D.Lokuge</a>
+                	</span>  -->               	                	
+                </li>
+                <li>
+                	<a class="project_name"><b>07: </b> Data driven discovery of nucleotide sequences belonging to species in a metagenome</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> M.K.G.E.S.P.Bandara</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> K.V.V.Chamara</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> K.P.G.P.Wimalasiri</a>
+                	</span>  -->               	                	
+                </li>
+                <li>
+                	<a class="project_name"><b>08: </b> BAT: Bock Analytics Tool Integrated With Blockchain Based IoT Platform</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> E.Chathurangi</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> D.M.S.N.B.Dissanayaka</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> K.Vithanage</a>
+                	</span> -->                	                	
+                </li>
+                <li>
+                	<a class="project_name"><b>09: </b> House Price Prediction using Random Forest</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span> -->                	                	
+                </li>                                         
               </ul>
 			</div>
 		</div>
-		<div class="icon_background">
+<!-- 		<div class="icon_background">
             <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
         </div>
 		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
 			<div class="img speaker-img" style="background-image: url(img/home/staff-3.jpg);"></div>
 			<div class="text">
-			<h2><a href="#">Introduction to Business Leaders</a></h2>
+			<h2><a>Introduction to Business Leaders</a></h2>
 			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-			<span class="time"><a href="#" class="badge badge-info">12:00 pm - 12:30 pm</a></span>
+			<span class="time"><a class="badge badge-info time_box">12:00 pm - 12:30 pm</a></span>
 			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
 			<h3 class="speaker-name">&mdash; <a href="#">Ryan Thompson</a> <span class="position">Founder of Wordpress</span></h3>
 			</div>
-		 </div>
+		 </div> -->
 		</div>
 		<div class="icon_background">
             <i class="fa fa-clock-o fa-2x quetion_icon_tag" aria-hidden="true" style="color: #17a2b8;"></i>
         </div>
 		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
-			<div class="img speaker-img" style="background-image: url(img/home/staff-1.jpg);"></div>
+			<div class="img speaker-img img_project_div" style="background-image: url(img/home/projects_3.jpg);"></div>
 			<div class="text">
-			<h2><a href="#">Project Presentations</a></h2>
+			<h2><a>Presentations of the Research Articles</a></h2>
 			<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-			<span class="time"><a href="#" class="badge badge-info">12:30 pm - 1:30 pm</a></span>
+			<span class="time"><a class="badge badge-info time_box">1:00 pm - 2:00 pm</a></span>
               <ul style="list-style-type: square; text-align: justify;">
-                <li><a href=""><b>09 : </b> Project name</a></li>
-                <li><a href=""><b>10 : </b> Project name</a></li>
-                <li><a href=""><b>11 : </b> Project name</a></li>
-                <li><a href=""><b>12 : </b> Project name</a></li>
+                <li>
+                	<a class="project_name"><b>10: </b> Keystroke Dynamics Based Biometric for Remote User Authentication Schemes</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>  -->               	                	
+                </li>
+                <li>
+                	<a class="project_name"><b>11: </b> Exploiting univariate and multivariate LSTM models for stock price forecast: The case of  Colombo Stock Exchange</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span> -->                	                	
+                </li>
+                <li>
+                	<a class="project_name"><b>12: </b> Stock Market Prediction using SVM, LSTM and Linear Regression</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span> -->                	                	
+                </li>
+                <li>
+                	<a class="project_name"><b>13: </b> Real Time Dynamic Object Tracking with a Pan and Tilt Camera Setup</a>
+<!--                 	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span>
+                	<span class="time author_name">
+                		<a class="badge badge-dark time_box"><i class="fa fa-user" aria-hidden="true"></i> Chamara Gunarathne</a>
+                	</span> -->                	                	
+                </li>
               </ul>
 			</div>
 		</div>
@@ -280,8 +441,8 @@
         </div>
 		<div class="speaker-wrap ftco-animate d-md-flex detail-info">
 			<div class="text">
-			<h2><a href="#">Awards Ceremony and the Conclusion of ESCaPe 2020</a></h2>
-			<span class="time"><a href="#" class="badge badge-info">1:30 pm - 2:00 pm</a></span>
+			<h2><a>Awards Ceremony and the Conclusion of ESCaPe 2020</a></h2>
+			<span class="time"><a class="badge badge-info time_box">2:15 pm - 2:30 pm</a></span>
 			</div>
 		</div>				
 <!-- 		<div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
@@ -388,29 +549,33 @@
 		</div>
 	</div>	
 	<div class="row no-gutters detail-info">
-		<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(img/home/staff-3.jpg);">
+		<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(img/home/key.jpg);">
 		</div>
 		<div class="col-md-7 wrap-about py-md-5 ftco-animate">
 			<div class="heading-section mb-5 pt-5 pl-md-5">
 				<div class="speaker ftco-animate speaker-1 d-flex align-items-center mb-5">
 					<div class="text pl-4">
-						<h3>Kyle Bochs</h3>
-						<span class="position">Businessman</span>
-						<p>A small river named Duden flows by their place and supplies</p>
+						<h3>Mr. Mano Sekaram</h3>
+						<span class="position">CEO and Co -Founder at 99X Technology and Founder at Startup X Foundry</span>
+						<!-- <p>A small river named Duden flows by their place and supplies</p> -->
 						<ul class="ftco-social">
-							<li><a href="#"><span class="icon-twitter"></span></a></li>
-							<li><a href="#"><span class="icon-facebook"></span></a></li>
-							<li><a href="#"><span class="icon-instagram"></span></a></li>
+							<li><a href="https://www.linkedin.com/in/manosekaram/" target="_blank"><span class="icon-linkedin"></span></a></li>
+							<li><a href="https://twitter.com/manoseky" target="_blank"><span class="icon-twitter"></span></a></li>
+							<li><a href="https://www.facebook.com/mano.sekaram" target="_blank"><span class="icon-facebook"></span></a></li>
 						</ul>
 					</div>
 				</div>
-				<p style="text-align: justify;">EscaPe is the annual project symposium of the Department of Computer Engineering, University of Peradeniya. It presents you with the research projects of the undergraduates of the Department of Computer Engineering. ESCaPe 2020 is the 5th symposium that is organized by the department and this time the symposium is open for a broader audience and aims to build a platform for the undergraduates to present their research ideas to the industry and academic community.</p>
-
+				<p style="text-align: justify;">Mano Sekaram is a serial tech entrepreneur and is the Chief Executive Officer (CEO) and Co-Founder of 99X Technology Ltd., an award-winning, high-quality digital product engineering company that specialises in delivering digital services to European markets. This company, under his stewardship, has been listed among the top 25 ‘Best Companies To Work For’ in Sri Lanka for seven consecutive years and has also been ranked among ‘Asia’s Best Workplaces’ for 2019.</p>								
 			</div>
 		</div>
+
+		<p style="text-align: justify;margin-top: 15px;">He is also the founder of Startup X Foundry, one of Sri Lanka’s first tech start-up accelerators, which aims at taking Sri Lankan start-ups to the global stage by providing necessary guidance and support. He further influences Sri Lanka’s start-up ecosystem through the Lankan Angel Network (LAN), of which he is Chairman.</p>				
+		<p style="text-align: justify;">Mano was appointed recently to the Board of the Information and Communication Technology Agency (ICTA) of Sri Lanka, which drives Sri Lanka’s digital transformation strategy as a catalyst for economic growth. He is also the past Chairman of the IT/BPM sector’s apex body, the Sri Lanka Association of Software and Service Companies (SLASSCOM).</p>
+		<p style="text-align: justify;">He was listed on LMD’s 100 Club for 2019, the A-List of Sri Lankan businesspeople who continue to drive the nation’s engine of growth.</p>	
+		<p style="text-align: justify;">Considered to be an industry thought leader, Mano was awarded the ‘Lifetime Achievement Award’ at the National Best Quality Software Awards (NBQSA) 2014, by BCS, The Chartered Institute for IT, for his vast contributions to the ICT industry.</p>		
 	</div>
 	<br>
-	<div class="row no-gutters detail-info">
+<!-- 	<div class="row no-gutters detail-info">
 		<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(img/home/staff-3.jpg);">
 		</div>
 		<div class="col-md-7 wrap-about py-md-5 ftco-animate">
@@ -431,14 +596,14 @@
 
 			</div>
 		</div>
-	</div>
+	</div> -->
 	</div>
 	</div>
 
 </section>
 
 <!--Projects-->
-<section id="projects" class="ftco-section">
+<!-- <section id="projects" class="ftco-section">
 
 	<div class="container">
 		<div class="row justify-content-center mb-5">
@@ -449,7 +614,7 @@
 		<div class="row d-flex d-flex_project_list"></div>
 	</div>
 
-</section>
+</section> -->
 
 <!-- Modal -->
 <div class="modal fade" id="abstract_div" role="dialog">
@@ -563,31 +728,31 @@
 	</div>
 	<div class="row">
 		<div class="col-md-2"></div>
-		<div class="col-md-4">
+		<div class="col-md-8">
 			<div class="testimony-wrap text-center py-4 pb-5">
-				<div class="user-img mb-4" style="background-image: url(img/home/kamlanath.jpg)">
+				<div class="user-img mb-4" style="background-image: url(img/home/damayanthi.jpg)">
 				</div>
 				<div class="text pt-4">
-<!-- 				<p class="mb-4">He is the head of the Department of Computer Engineering, University of Peradeniya.</p> -->
-				<p class="name">Dr. Kamalanath Samarakoon</p>
-<!-- 				<span class="position">Computer Engineering, Department Head</span> -->
+				<p class="mb-4">She graduated with a B.Sc. (Hons) in Computer Engineering, University of Peradeniya  in the year 2012. She was a member of the Optimisation and Pattern Recognition Research Group of Melbourne School of Engineering, The University of Melbourne as a Ph.D. candidate from 2015-2018.</p>
+				<p class="name">Dr. Damayanthi Herath</p>
+				<span class="position">Lecturer at the Department of Computer Engineering, University of Peradeniya</span>
 				</div>
 			</div>
 		</div>		
-		<div class="col-md-4">
+<!-- 		<div class="col-md-4">
 			<div class="testimony-wrap text-center py-4 pb-5">
 				<div class="user-img mb-4" style="background-image: url(img/home/ragel.jpg)">
 				</div>
 				<div class="text pt-4">
-<!-- 				<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
+				<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 				<p class="name">Prof. Roshan G. Ragel</p>
-<!-- 				<span class="position">Marketing Manager</span> -->
+				<span class="position">Marketing Manager</span>
 				</div>
 			</div>
-		</div>	
+		</div> -->	
 		<div class="col-md-2"></div>			
 	</div>
-	<div class="row justify-content-center mb-5">
+<!-- 	<div class="row justify-content-center mb-5">
 		<div class="col-md-7 text-center heading-section ftco-animate">
 			<h2 class="mb-3">ESCaPe 2020 Editors</h2>
 		</div>
@@ -599,9 +764,9 @@
 				<div class="user-img mb-4" style="background-image: url(img/home/janaka.jpg)">
 				</div>
 				<div class="text pt-4">
-<!-- 				<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
+				<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 				<p class="name">Dr. Janaka Alwathugoda</p>
-<!-- 				<span class="position">Marketing Manager</span> -->
+				<span class="position">Marketing Manager</span>
 				</div>
 			</div>
 		</div>		
@@ -610,14 +775,14 @@
 				<div class="user-img mb-4" style="background-image: url(img/home/upul.jpg)">
 				</div>
 				<div class="text pt-4">
-<!-- 				<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
+				<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 				<p class="name">Dr. Upul Jayasinghe</p>
-<!-- 				<span class="position">Marketing Manager</span> -->
+				<span class="position">Marketing Manager</span>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-2"></div>				
-	</div>
+	</div> -->
 	</div>
 
 </section>
