@@ -30,7 +30,7 @@
       "3": {
         "position": "Senior Treasurer",
         "name": "Dr. Suneth Namal",
-        "img": "img/team/2021/3.jpg",
+        "img": "img/team/3.jpg",
         "fb": "https://www.facebook.com/suneth.namal",
         "linkedin": "https://www.linkedin.com/in/suneth-namal-b70b8688/",
         "email": "namal@ce.pdn.ac.lk"
@@ -55,7 +55,7 @@
         "position": "Assistant Secretary",
         "name": "Imesh Balasuriya",
         "img": "img/team/2021/6.jpg",
-        "fb": null,
+        "fb": "",
         "linkedin": "https://www.linkedin.com/in/imesh-balasuriya-53b740186",
         "email": "e17018@eng.pdn.ac.lk"
       },
@@ -80,7 +80,7 @@
         "name": "Madushanka s.d.w",
         "img": "img/team/2021/9.jpg",
         "fb": "https://www.facebook.com/profile.php?id=100006194913781",
-        "linkedin": null,
+        "linkedin": "",
         "email": "wishvasd1234@gmail.com"
       },
       "10": {
@@ -102,7 +102,7 @@
       "12": {
         "position": "Committee Member",
         "name": "MAHADURAGE MADUSH DILSHAN CHANDRASENA",
-        "img": "img/team/2021/12.jpg",
+        "img": "img/team/male.jpg",
         "fb": "",
         "linkedin": "",
         "email": "Madushchandrasenac98@gmail.com"
@@ -110,9 +110,9 @@
       "13": {
         "position": "Committee Member",
         "name": "Mallawaarachchige kanishka dilhan ",
-        "img": "img/team/2021/13.jpg",
+        "img": "img/team/male.jpg",
         "fb": "https://www.facebook.com/kanishka.dilhan",
-        "linkedin": null,
+        "linkedin": "",
         "email": "E17065@eng.pdn.ac.lk"
       },
       "14": {
@@ -120,7 +120,7 @@
         "name": "Ilandari Dewa Hashini Sharintha Dinendri Wijerathne ",
         "img": "img/team/2021/14.jpg",
         "fb": "https://www.facebook.com/hashini.wijerathne.7",
-        "linkedin": null,
+        "linkedin": "",
         "email": "hashini.sharintha@gmail.com"
       }
     }
