@@ -105,7 +105,8 @@ function initialize() {
 
 
 function loadMemberData() {
-    $.getJSON("data/committee_19_20.json", function (dataList) {
+//     change committee member json file
+    $.getJSON("data/committee_20_21.json", function (dataList) {
         //console.log(dataList);
         var i = 0;
         $("#committee").append("<div class='row'>");
