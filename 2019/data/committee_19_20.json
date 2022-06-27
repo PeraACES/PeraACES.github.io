@@ -1,0 +1,135 @@
+{
+   "year": "2019-2020",
+   "lastUpdate":"",
+   "membersPerRow":"6",
+   "members":{
+      "0":{
+         "position":"President",
+         "name":"Nirodha Suchinthana",
+         "img":"img/team/0.jpg",
+         "fb":"https://www.facebook.com/nirodha.suchinthana",
+         "linkedin":"https://www.linkedin.com/in/nirodha-suchinthana-77a294137/",
+         "email":"suchinthanaapn@gmail.com"
+      },
+      "1":{
+         "position":"Secretary",
+         "name":"Chamin Jayasooriya",
+         "img":"img/team/1.jpg",
+         "fb":"https://www.facebook.com/chameennayanashan.jayasuriya",
+         "linkedin":"https://www.linkedin.com/in/chamin-jayasooriya/",
+         "email":"cn96@live.com"
+      },
+      "2":{
+         "position":"Vice President",
+         "name":"Shyaman Jayasundara",
+         "img":"img/team/2.jpg",
+         "fb":"https://www.facebook.com/shyaman.madhawa",
+         "linkedin":"https://www.linkedin.com/in/shyaman-jayasundara/",
+         "email":"jmshyaman@eng.pdn.ac.lk"
+      },
+      "3":{
+         "position":"Senior Treasurer",
+         "name":"Dr. Suneth Namal",
+         "img":"img/team/3.jpg",
+         "fb":"https://www.facebook.com/suneth.namal",
+         "linkedin":"https://www.linkedin.com/in/suneth-namal-b70b8688/",
+         "email":"namal@ce.pdn.ac.lk"
+      },
+      "4":{
+         "position":"Junior Treasurer",
+         "name":"Hashan Maliththa",
+         "img":"img/team/4.jpg",
+         "fb":"https://www.facebook.com/hashanmaliththa.kh",
+         "linkedin":"https://www.linkedin.com/in/maliththa-k-h-h-b34ab9167/",
+         "email":"maliththamax3@gmail.com"
+      },
+      "5":{
+         "position":"Editor",
+         "name":"Kaveesha Dilshani",
+         "img":"img/team/5.jpg",
+         "fb":"https://www.facebook.com/profile.php?id=100008810613120",
+         "linkedin":"https://www.linkedin.com/in/kaveesha-dilshani-9b3b79125/",
+         "email":"kaveeshadilshani1@gmail.com"
+      },
+      "6":{
+         "position":"Committee Member",
+         "name":"Sathyanga Tharana",
+         "img":"img/team/6.jpg",
+         "fb":"https://www.facebook.com/sathyangat",
+         "linkedin":"https://www.linkedin.com/in/stharana/",
+         "email":"stharana2013@gmail.com"
+      },
+      "7":{
+         "position":"Committee Member",
+         "name":"Gayan Ranaweera",
+         "img":"img/team/7.jpg",
+         "fb":"https://www.facebook.com/profile.php?id=100005541467536",
+         "linkedin":"https://www.linkedin.com/in/gayan-ranaweera-295636172/",
+         "email":"gayantrr@gmail.com"
+      },
+      "8":{
+         "position":"Committee Member",
+         "name":"Chandima Samarasinghe",
+         "img":"img/team/8.jpg",
+         "fb":"https://facebook.com/chandima.b.samarasinghe",
+         "linkedin":"https://linkedin.com/in/chandimab",
+         "email":"chandima.edu@gmail.com"
+      },
+      "9":{
+         "position":"Committee Member",
+         "name":"Gayal Laksara",
+         "img":"img/team/9.jpg",
+         "fb":"https://www.facebook.com/gayal.laksara",
+         "linkedin":"https://www.linkedin.com/in/gayal-laksara-218aa415a/",
+         "email":"Gayallaksara1996@gmail.com"
+      },
+      "10":{
+         "position":"Committee Member",
+         "name":"Anjana Illankoon",
+         "img":"img/team/male.jpg",
+         "fb":"",
+         "linkedin":"",
+         "email":"&nbsp;"
+      },
+      "11":{
+         "position":"Committee Member",
+         "name":"Sandushi Dileka",
+         "img":"img/team/11.jpg",
+         "fb":"https://www.facebook.com/sandushi.dileka",
+         "linkedin":"",
+         "email":"sandushidileka2@gmail.com"
+      },
+      "12":{
+         "position":"Committee Member",
+         "name":"Denuke Dhananja Dissanayake",
+         "img":"img/team/12.jpg",
+         "fb":"https://www.facebook.com/denukedissanayake",
+         "linkedin":"https://www.linkedin.com/in/denuke-dissanayake-b6ab6a8b",
+         "email":"ddnadhananja@gmail.com"
+      },
+      "13":{
+         "position":"Committee Member",
+         "name":"Madusha Shanaka",
+         "img":"img/team/13.jpg",
+         "fb":"https://www.facebook.com/mshanaka",
+         "linkedin":"",
+         "email":"tkmshanaka@gmail.com"
+      },
+      "14":{
+         "position":"Committee Member",
+         "name":"Thilini Deshika",
+         "img":"img/team/female.jpg",
+         "fb":"",
+         "linkedin":"https://www.linkedin.com/in/thilini-deshika-9b960618a",
+         "email":"thilinideshika1227@gmail.com"
+      },
+      "15":{
+         "position":"Committee Member",
+         "name":"Sudam Kalpage",
+         "img":"img/team/15.jpg",
+         "fb":"https://www.facebook.com/sudam.kalpage",
+         "linkedin":"https://www.linkedin.com/in/sudam-kalpage-a2415b186",
+         "email":"sudamkalpage4@gmail.com"
+      }
+   }
+}

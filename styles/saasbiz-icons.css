@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'saasbiz';
+  src:  url('../fonts/saasbiz.eot?2bab3c');
+  src:  url('../fonts/saasbiz.eot?2bab3c#iefix') format('embedded-opentype'),
+    url('../fonts/saasbiz.ttf?2bab3c') format('truetype'),
+    url('../fonts/saasbiz.woff?2bab3c') format('woff'),
+    url('../fonts/saasbiz.svg?2bab3c#saasbiz') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.sb {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'saasbiz' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sb-hours:before {
+  content: "\e900";
+}
+.sb-call-center:before {
+  content: "\e901";
+}
+.sb-cash:before {
+  content: "\e902";
+}
+.sb-chart:before {
+  content: "\e903";
+}
+.sb-chat:before {
+  content: "\e904";
+}
+.sb-contract:before {
+  content: "\e905";
+}
+.sb-delivery-truck:before {
+  content: "\e906";
+}
+.sb-device:before {
+  content: "\e907";
+}
+.sb-information:before {
+  content: "\e908";
+}
+.sb-network:before {
+  content: "\e909";
+}
+.sb-quality:before {
+  content: "\e90a";
+}
+.sb-shop:before {
+  content: "\e90b";
+}
+.sb-stats:before {
+  content: "\e90c";
+}
+.sb-target:before {
+  content: "\e90d";
+}
+.sb-trophy:before {
+  content: "\e90e";
+}

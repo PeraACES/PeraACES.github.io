@@ -1,0 +1,24 @@
+{
+  "name": "aces-main-site",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.5",
+    "next": "^12.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.4"
+  }
+}
