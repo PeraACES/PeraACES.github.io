@@ -1,0 +1,56 @@
+.bg{
+  background-color: #F5F5F5;
+}
+
+.commitee{
+  margin-top: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.web{
+    padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.design{
+    padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.topic{
+  margin: 100px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: #ffffff;
+  transition: 0.3s;
+  padding: 0;
+  margin:10px 10px 10px 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: #5bc0de;
+  color: floralwhite;
+  text-shadow: 0.5px 0px black;
+}
+
+.card_container {
+  text-align: center;
+}
+
+.card .card_img{
+  margin: 20px 50px;
+  height: 100px;
+  height: 100px;
+}
+
+.card .card_img img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+}
