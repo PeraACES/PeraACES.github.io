@@ -4,6 +4,6 @@ module.exports = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/aces-2022-main-site",
-  assetPrefix: "/aces-2022-main-site",
+  basePath: "/aces.ce.pdn.ac.lk",
+  assetPrefix: "/aces.ce.pdn.ac.lk",
 }
