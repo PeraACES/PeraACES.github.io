@@ -16,7 +16,7 @@
 
 (0,x.jsxs)("div",{className:"".concat(h().card),children:[(0,x.jsx)("div",{className:h().card_img,children:(0,x.jsx)("img",{src:"/img/committee2024/Tharaka.jpg"})}),(0,x.jsx)("div",{className:h().card_container,children:(0,x.jsxs)("small",{children:["Assistant Secretary",(0,x.jsx)("br",{}),(0,x.jsx)("b",{children:"Tharaka Dilshan"})]})})]}),
 
-(0,x.jsxs)("div",{className:"".concat(h().card),children:[(0,x.jsx)("div",{className:h().card_img,children:(0,x.jsx)("img",{src:"/img/committee2024/Saadia.jpg"})}),(0,x.jsx)("div",{className:h().card_container,children:(0,x.jsxs)("small",{children:["Editor",(0,x.jsx)("br",{}),(0,x.jsx)("b",{children:"Saadia Jameel"})]})})]}),
+(0,x.jsxs)("div",{className:"".concat(h().card),children:[(0,x.jsx)("div",{className:h().card_img,children:(0,x.jsx)("img",{src:"/img/committee2024/Saadia.JPG"})}),(0,x.jsx)("div",{className:h().card_container,children:(0,x.jsxs)("small",{children:["Editor",(0,x.jsx)("br",{}),(0,x.jsx)("b",{children:"Saadia Jameel"})]})})]}),
 
 (0,x.jsxs)("div",{className:"".concat(h().card),children:[(0,x.jsx)("div",{className:h().card_img,children:(0,x.jsx)("img",{src:"/img/committee2024/Hashini.jpg"})}),(0,x.jsx)("div",{className:h().card_container,children:(0,x.jsxs)("small",{children:["Junior Editor",(0,x.jsx)("br",{}),(0,x.jsx)("b",{children:"Hashini Illangarathne"})]})})]}),
 
@@ -34,7 +34,7 @@
 
 (0,x.jsxs)("div",{className:"".concat(h().card),children:[(0,x.jsx)("div",{className:h().card_img,children:(0,x.jsx)("img",{src:"/img/committee2024/Eshan.jpg"})}),(0,x.jsx)("div",{className:h().card_container,children:(0,x.jsxs)("small",{children:["Member",(0,x.jsx)("br",{}),(0,x.jsx)("b",{children:"Eshan Jayasundara"})]})})]}),
 
-(0,x.jsxs)("div",{className:"".concat(h().card),children:[(0,x.jsx)("div",{className:h().card_img,children:(0,x.jsx)("img",{src:"/img/committee2024/Kavindu.jpg"})}),(0,x.jsx)("div",{className:h().card_container,children:(0,x.jsxs)("small",{children:["Member",(0,x.jsx)("br",{}),(0,x.jsx)("b",{children:"Kavindu Bambaragama"})]})})]}),
+(0,x.jsxs)("div",{className:"".concat(h().card),children:[(0,x.jsx)("div",{className:h().card_img,children:(0,x.jsx)("img",{src:"/img/committee2024/Kavindu.JPG"})}),(0,x.jsx)("div",{className:h().card_container,children:(0,x.jsxs)("small",{children:["Member",(0,x.jsx)("br",{}),(0,x.jsx)("b",{children:"Kavindu Bambaragama"})]})})]}),
 
 (0,x.jsxs)("div",{className:"".concat(h().card),children:[(0,x.jsx)("div",{className:h().card_img,children:(0,x.jsx)("img",{src:"/img/committee2024/Danujan.jpg"})}),(0,x.jsx)("div",{className:h().card_container,children:(0,x.jsxs)("small",{children:["Member",(0,x.jsx)("br",{}),(0,x.jsx)("b",{children:"Danujan S."})]})})]}),
 
@@ -50,7 +50,7 @@
 
 (0,x.jsxs)("div",{className:"".concat(h().card),children:[(0,x.jsx)("div",{className:h().card_img,children:(0,x.jsx)("img",{src:"/img/committee2024/Kamesh.jpg"})}),(0,x.jsx)("div",{className:h().card_container,children:(0,x.jsxs)("small",{children:["Member",(0,x.jsx)("br",{}),(0,x.jsx)("b",{children:"Kamesh Chanuka"})]})})]}),
 
-(0,x.jsxs)("div",{className:"".concat(h().card),children:[(0,x.jsx)("div",{className:h().card_img,children:(0,x.jsx)("img",{src:"/img/committee2024/Induwara.jpg"})}),(0,x.jsx)("div",{className:h().card_container,children:(0,x.jsxs)("small",{children:["Member",(0,x.jsx)("br",{}),(0,x.jsx)("b",{children:"Rusiru Bandara"})]})})]})
+(0,x.jsxs)("div",{className:"".concat(h().card),children:[(0,x.jsx)("div",{className:h().card_img,children:(0,x.jsx)("img",{src:"/img/committee2024/Induwara.JPG"})}),(0,x.jsx)("div",{className:h().card_container,children:(0,x.jsxs)("small",{children:["Member",(0,x.jsx)("br",{}),(0,x.jsx)("b",{children:"Rusiru Bandara"})]})})]})
 
 ]})]}),(0,x.jsxs)("div",{className:"container ".concat(h().web),children:[(0,x.jsx)("hr",{className:"bg-primary"}),(0,x.jsx)("h3",{className:"text-primary text-center",children:"WEB TEAM"}),(0,x.jsx)("hr",{className:"bg-primary"}),(0,x.jsxs)("div",{className:"row",style:{justifyContent:"center"},children:[
     
